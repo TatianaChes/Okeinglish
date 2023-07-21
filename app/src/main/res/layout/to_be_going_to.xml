@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <TextView
+        style="@style/title"
+        android:text="Конструкция To be going to"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\t Конструкция to be going to + базовая форма глагола употребляется для выражения намерений в будущем и прогнозов.\n\tВ вопросах глагол to be в соответствующей форме ставится на место перед подлежащим.\n\t В отрицательных предложениях отрицательная частица not ставится после to be."/>
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/cardView"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+            I am going to wait - Я собираюсь ждать\n
+            I am not going to wait - Я не собираюсь ждать\n
+            Are they going to wait? - Они собираются ждать?"
+            android:textColor="@color/custom_view_text_color"/>
+
+    </com.google.android.material.card.MaterialCardView>
+    <TextView
+        style="@style/title"
+        android:text="Образование"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        style="@style/title"
+        android:text="Утвердительная форма"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <LinearLayout
+            style="@style/linear"
+            >
+            <TextView
+                style="@style/corner"
+                android:text="Подлежащее"
+                android:backgroundTint="@color/blue"/>
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+            <TextView
+                style="@style/corner"
+                android:text="am/are/is"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+
+
+
+            <TextView
+                style="@style/corner"
+                android:text="going to"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            style="@style/linear"
+            >
+            <TextView
+                style="@style/corner"
+                android:text="Инфинитив"
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="="
+                />
+
+            <TextView
+                style="@style/corner"
+                android:text="Утверждение"
+                android:backgroundTint="@color/yellow"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Пример: She is going to write a book - Она собирается написать книгу"/>
+
+    <TextView
+         style="@style/title"
+        android:text="Отрицательная форма"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <LinearLayout
+            style="@style/linear"
+            >
+            <TextView
+                style="@style/corner"
+                android:text="Подлежащее"
+                android:backgroundTint="@color/blue"/>
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+            <TextView
+                style="@style/corner"
+                android:text="am/are/is"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+
+            <TextView
+                style="@style/corner"
+                android:text="not"
+                android:backgroundTint="@color/red"
+                />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            style="@style/linear"
+            >
+
+
+            <TextView
+                style="@style/corner"
+                android:text="going to"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+            <TextView
+                style="@style/corner"
+                android:text="Инфинитив"
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="="
+                />
+
+            <TextView
+                style="@style/corner"
+                android:text="Отрицание"
+                android:backgroundTint="@color/yellow"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Пример: She is not going to write a book - Она не собирается написать книгу"/>
+
+    <TextView
+        style="@style/title"
+        android:text="Вопросительная форма"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <LinearLayout
+            style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="Am/Are/Is"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+            <TextView
+                style="@style/corner"
+                android:text="Подлежащее"
+                android:backgroundTint="@color/blue"/>
+
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            style="@style/linear"
+            >
+
+
+            <TextView
+                style="@style/corner"
+                android:text="going to"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+            <TextView
+                style="@style/corner"
+                android:text="Инфинитив"
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="="
+                />
+
+            <TextView
+                style="@style/corner"
+                android:text="Вопрос"
+                android:backgroundTint="@color/yellow"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Пример: Is she going to write a book? - Она собирается писать книгу?"/>
+<TextView style="@style/title"
+    android:text="Употребление"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\t• Для выражения намерений в будущем:"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/custom_view_text_color"
+        android:text="\tMary isn't going to study art; she's going to be a nurse - Мэри не собирается изучать искусство, она собирается стать медсестрой."/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\t• Когда речь идет о уже решенных планах:"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/custom_view_text_color"
+        android:text="\tIs Jim going to leave his job? - Yes, he is - Джим собирается оставить работу? - Да."/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\t• Когда речь идет о возможных действиях в будущем, основанных на фактах в настоящем:"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/custom_view_text_color"
+        android:text="\tWatch the milk! It is going to boil over! - Следи за молоком, иначе оно убежит!"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\t• Конструкция употребляется и в прошедшем времени, выражая намерения, планы и прогнозы в прошлом:"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/custom_view_text_color"
+        android:text="\tJudy was going to meet me, but she was ill and couldn't come - Джуди собиралась встретить меня, но заболела и не смогла придти."/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\t• С обстоятельствами времени: tomorrow, tonight, next week / month / year, in two / three ... days, the day after tomorrow, soon, in a week / month / year... "
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\t• Конструкция to be going to употребляется для выражения намерений в будущем, will - для выражения решений, принятых в момент речи:"
+        />
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/custom_view_text_color"
+        android:text="\tI'm going to go to the pictures on Friday, would you like to come? - Я собираюсь пойти в кино в пятницу, хочешь пойти?\n\tYes, I'll go if Chris goes - Да, я пойду если Крис пойдет."/>
+</LinearLayout>
+
+</ScrollView>

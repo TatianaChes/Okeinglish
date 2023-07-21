@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Прямая и косвенная речь\n(Direct and Indirect Speech)"
+            />
+        <TableLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Прямая речь"
+
+                />
+
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Косвенная речь"
+                />
+        </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+             >
+
+                <TextView
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="He says, «I am clever»"
+
+                    />
+
+                <TextView
+                    android:textColor="@color/custom_view_text_color"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="He says that he is clever"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+           >
+
+                <TextView
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Он говорит: «Я умный»"
+                    />
+
+                <TextView
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Он говорит, что он умный"
+                    />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:textColor="@color/custom_view_text_color"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t1. Повествовательное предложение"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t При обращении повествовательного предложения из прямой речи в косвенную производится следующие изменения:\n\t - Кавычки опускаются. Косвенная речь вводится союзом that (или без него);\n\t - Личные и притяжательные местоимения прямой речи заменяются по смылсу, как и в русском языке;\n\t - Указательные местоимения и наречия времени заменяются в косвенной речи по смыслу другими словами, как и в русском языке, следующим образом:"/>
+
+        <TableLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="this, these"
+                android:textColor="@color/custom_view_text_color"
+                android:gravity="right"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@color/custom_view_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" -> "
+                />
+            <TextView
+                android:gravity="left"
+                android:textColor="@color/custom_view_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="that, those"
+                />
+        </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="now / today"
+                    android:textColor="@color/custom_view_text_color"
+                    android:gravity="right"
+                    />
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" -> "
+                    />
+                <TextView
+                    android:gravity="left"
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="than / that day"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="tomorrow"
+                    android:textColor="@color/custom_view_text_color"
+                    android:gravity="right"
+                    />
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" -> "
+                    />
+                <TextView
+                    android:gravity="left"
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="the next day"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="the day after tomorrow"
+                    android:textColor="@color/custom_view_text_color"
+                    android:gravity="right"
+                    />
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" -> "
+                    />
+                <TextView
+                    android:gravity="left"
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="two days later"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="yesterday"
+                    android:textColor="@color/custom_view_text_color"
+                    android:gravity="right"
+                    />
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" -> "
+                    />
+                <TextView
+                    android:gravity="left"
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="the day before"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="the day before yesterday"
+                    android:textColor="@color/custom_view_text_color"
+                    android:gravity="right"
+                    />
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" -> "
+                    />
+                <TextView
+                    android:gravity="left"
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="two days before"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="last week / year"
+                    android:textColor="@color/custom_view_text_color"
+                    android:gravity="right"
+                    />
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" -> "
+                    />
+                <TextView
+                    android:gravity="left"
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="the previous week / year"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ago"
+                    android:textColor="@color/custom_view_text_color"
+                    android:gravity="right"
+                    />
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" -> "
+                    />
+                <TextView
+                    android:gravity="left"
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="before"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="next year"
+                    android:textColor="@color/custom_view_text_color"
+                    android:gravity="right"
+                    />
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" -> "
+                    />
+                <TextView
+                    android:gravity="left"
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="the next year, the following year"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="here"
+                    android:textColor="@color/custom_view_text_color"
+                    android:gravity="right"
+                    />
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" -> "
+                    />
+                <TextView
+                    android:gravity="left"
+                    android:textColor="@color/custom_view_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="there"
+                    />
+            </TableRow>
+
+        </TableLayout>
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Если глагол в главном предложении стоит в прошедшем времени, то время глагола в прямой речи заменяется в косвенной речи следующим образом: "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/custom_view_text_color"
+        android:text="\tPresent Simple заменяется на Past Simple\n\tPresent Continuous заменяется на Past Continuous\n\tPresent Perfect заменяется за Past Perfect\n\tPresent Perfect Continuous заменяется на Past Perfect Continuous\n\tPast Simple заменяется на Past Perfect\n\tPast Continuous заменяется на Past Perfect Continuous\n\tFuture Simple, Future Continuous, Future Perfect заменяются на Future in the Past "/>
+
+        <TableLayout
+            android:shrinkColumns="0,1"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <TextView
+                style="@style/textTable"
+                android:text="I am ill"
+                />
+
+            <TextView
+                style="@style/textTable"
+                android:text="He was ill"
+                />
+        </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="I enjoy music"
+                    />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="He enjoyed music"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="I am watching TV"
+                    />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="He was watching TV"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="I went to Moscow in May"
+                    />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="He had gone to Moscow in May"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="I have never seen this film"
+                    />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="He had never seen that film"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="I was learning the poem"
+                    />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="He had been learning the poem"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="I shall call the doctor"
+                    />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="He would call the doctor"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="I can help you"
+                    />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="He could help me"
+                    />
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:textColor="@color/custom_view_text_color"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t2. Вопросительное предложение"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t - При обращении специальных вопросов в косвенные, вопросительный порядок слов прямого вопроса заменяется прямым порядком слов, т.е. сказуемое ставится после подлежащего. Далее производятся те же изменения, как и при обращении в косвенную речь повествовательных предложений;\n\t- При обращении общих вопросов в косвенные, косвенный вопрос присоединяется к главному предложению при помощи союзов whether или if, имеющих значение часлицы ли. Далее производятся те же изменения, как и при обращении в косвенную речь вопроса, начинающегося с вопросительного слова (т.е. последовательность времен, прямой порядок слов в косвенном вопросе и изменение указательных местоимений и наречий времени)."/>
+
+        <TableLayout
+            android:shrinkColumns="0,1"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Where is the shop"
+                    />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Where the shop was"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="When are you arriving"
+                    />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="When I was arriving"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="How do you feel yourself"
+                    />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="How I left myself"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Do you speak English"
+                    />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="If I spoke English"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Have you seen Fred?"
+                    />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="If I had seen Fred"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                android:text="Will you come to see me?"
+                    />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="If I would come to see her"
+                    />
+            </TableRow>
+
+        </TableLayout>
+        <TextView
+            android:textColor="@color/custom_view_text_color"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t3. Повелительное предложение"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Когда прямая речь представляет собой повелительное предложение, то при обращении ее в ковенную речь:\n\t- Глагол say (сказать) в словах, вводящих прямую речь, заменяется глаголами tell (велеть, сказать), ask (просить) или order (приказывать);\n\t- Повелительное наклонение заменяется в косвенной речи неопределенной формой глагола. Отрицательная форма повелительного наклонения заменяется инфинитивом с частицей not."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\t Stop smoking! - He told me to stop smoking\n\t Don't worry!  - He asked me not to worry"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Существительное\n(The Noun)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tИсчисляемые существительные обозначают предметы, которые можно посчитать. Они изменяются по числам:"
+           />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tone apple, two apples, three apples"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tНеисчисляемые существительные обозначают предметы, которые нельзя посчитать:"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\twater, salt, bread, tea, coffee, cheese"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tКак правило, они не имеют формы множественного числа. К ним относятся существительные, обозначающие:"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\t• еду: cheese, butter, meat, salt, pepper, bacon, bread, chocolate, honey, jam\n\t• жидкости: tea, coffee, milk, water, wine, lemonade, petrol, oil\n\t• материалы: silver, gold, wood, paper, iron\n\t• отвлеченные понятия: love, happiness, beauty\n\t• другое: news, snow, rain, money, hair, furniture, weather, advice"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tЧтобы обозначить количество, перед некоторыми неисчисляемыми существительными употребляются следующие слова: "
+            android:layout_marginTop="20dp"/>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+                a bottle of water - бутылка воды\n
+                a glass of milk - стакан молока\n
+                a carton of juice - пакет сока\n
+                a cup of tea - чашка чая\n
+                a packet of crisps - пакет чипсов\n
+                a slice of cake - кусок торта\n
+                a loaf of bread - батон хлеба\n
+                a kilo of potatoes - килограмм картофеля"
+                android:padding="10dp"
+                android:textColor="@color/custom_view_text_color"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            style="@style/title"
+            android:text="Способы образования множественного числа"
+            />
+
+       <LinearLayout
+          style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="Сущ. в ед.ч."
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+               />
+
+            <TextView
+               style="@style/corner"
+                android:text="s"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+               style="@style/arithmetic"
+                android:text="="
+                />
+            <TextView
+                style="@style/corner"
+                android:text="множественное\nчисло"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пример: book + s = books"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <LinearLayout
+           style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="Cущ, оканчиваю-\nщееся на гласн. + y"
+                android:backgroundTint="@color/green"/>
+
+
+            <TextView
+               style="@style/arithmetic"
+                android:text="+"
+               />
+            <TextView
+               style="@style/corner"
+                android:text="s"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+                style="@style/arithmetic"
+                android:text="="
+               />
+            <TextView
+                style="@style/corner"
+                android:text="множественное\nчисло"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пример: toy + s = toys"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+
+            />
+        <LinearLayout
+           style="@style/linear"
+            >
+
+
+            <TextView
+           style="@style/corner"
+                android:text="Cущ. на\nсогл. + y"
+                android:backgroundTint="@color/green"/>
+            <TextView
+               style="@style/arithmetic"
+                android:text="-"
+               />
+
+            <TextView
+                style="@style/corner"
+                android:text="y"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+              />
+
+            <TextView
+               style="@style/corner"
+                android:text="ies"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+               style="@style/arithmetic"
+                android:text="="
+             />
+            <TextView
+                style="@style/corner"
+                android:text="множественное\nчисло"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пример: factore - y + ies = factories"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+        <LinearLayout
+           style="@style/linear"
+            >
+
+            <TextView
+               style="@style/corner"
+                android:text="Сущ. на -s,-ss,\n-x,-sh,-ch"
+               android:backgroundTint="@color/green"/>
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+           />
+
+            <TextView
+              style="@style/corner"
+                android:text="es"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+               style="@style/arithmetic"
+                android:text="="
+             />
+            <TextView
+               style="@style/corner"
+                android:text="множественное\nчисло"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пример: box + es = boxes"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+        <LinearLayout
+            style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="Сущ.на -f,-fe"
+                android:backgroundTint="@color/green"/>
+            <TextView
+               style="@style/arithmetic"
+                android:text="-"
+              />
+
+            <TextView
+               style="@style/corner"
+                android:text="f/fe"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+               style="@style/arithmetic"
+                android:text="+"
+                />
+
+            <TextView
+                style="@style/corner"
+                android:text="ves"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+               style="@style/arithmetic"
+                android:text="="
+               />
+            <TextView
+               style="@style/corner"
+                android:text="множественное\nчисло"
+               android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пример: half - f + ves = halves"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+
+
+        <LinearLayout
+            style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="Сущ. на -о "
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+
+            <TextView
+                style="@style/corner"
+                android:text="еs"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+                style="@style/arithmetic"
+                android:text="="
+                />
+            <TextView
+                style="@style/corner"
+                android:text="множественное\nчисло"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Пример: tomato + es = tomatoes"
+        android:layout_marginTop="5dp"
+        />
+
+        <TextView
+            style="@style/title"
+            android:text="Исключения"
+            android:layout_marginBottom="10dp"/>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+                roof(крыша) + s = roofs(крыши)\n
+                giraffe(жираф) + s = giraffes(жирафы)\n
+                safe(сейф) + s = safes(сейфы)\n
+                cliff(утес) + s = cliffs(утесы)\n
+                proof(доказательство) + s = proofs(доказательства)\n
+                photo(фото) + s = photos(фотографии)\n
+                piano(пианино) +  s = pianos(пианино)\n
+                euro(евро) + s = euros(евро)"
+                android:padding="10dp"
+                android:textColor="@color/custom_view_text_color"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            style="@style/title"
+            android:text="Существительные с особыми формами множественного числа"
+            android:layout_marginBottom="10dp"/>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+               man(мужчина) - men(мужчины)\n
+               woman(женщина) - women(женщины)\n
+               child(ребенок) - children(дети)\n
+               person(человек) - people(люди)\n
+               foot(нога) - feet(ноги)\n
+               tooth(зуб) - teeth(зубы)\n
+               goose(гусь) = geese(гуси)\n
+               mouse(мышь) = mice(мыши)\n
+               ox(бык) - oxen(быки)\n
+               sheep(овца) - sheep(овцы)\n
+               deer(олень) - deer(олени)"
+            android:padding="10dp"
+            android:textColor="@color/custom_view_text_color"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_marginTop="20dp"
+                style="@style/corner"
+                android:text="Существительные"
+                />
+
+            <LinearLayout
+                style="@style/linear"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    style="@style/corner"
+                    android:text="В единственном\nчисле"/>
+
+
+                <TextView
+                    style="@style/corner"
+                    android:text="Во множественном\nчисле"
+                    android:layout_marginLeft="30dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    style="@style/corner"
+                    android:text="snow - снег\nmoney - деньги\nadvice - совет\ninformation - информация\nknowledge - знание"/>
+
+
+                <TextView
+                    style="@style/corner"
+                    android:text="scissors - ножницы\nscales - весы\ntrousers - брюки\nclothes - одежда"
+                    android:layout_marginLeft="30dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            style="@style/title"
+            android:text="Падежы существительных"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПритяжательный падеж используется для того, чтобы: \n\t• показать, что что-либо принадлежит кому-либо"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tAnn's bag - сумка Анны"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• указать, как связаны двое или более людей "
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tTom's aunt - тетя Тома"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• назвать место, где люди работают, живут и т.п."
+            />
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="180dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:text="She's at the baker's\nОна в булочной"
+                        style="@style/textTable"
+                        />
+
+                    <TextView
+                        android:text="They are at Bob's\nОни у Боба"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/bakery"/>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/bob_house"/>
+                </TableRow>
+            </TableLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Притяжательный падеж образуется с помощью 's. \n\t• Когда какой-то объект принадлежит двум или более людям, 's прибавляется только к последнему имени:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tJack and Jill's house - Дом Джека и Джилл."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Когда два или более объекта принадлежат двум или более людям и надо показать, что каждый человек имеет свой собственный объект, 's добавляется к каждому имени:"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tMary's and Sarah's roller skates - Роликовые коньки Мэри и Сары(у каждой девочки свои)"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Во множественном числе прибавляется только ':"/>
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tThe boys' computer - Компьютер мальчиков."/>
+    </LinearLayout>
+</ScrollView>

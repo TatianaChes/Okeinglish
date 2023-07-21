@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Причастие\n(The Participle)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПричастие в английском языке соответствует русскому причастию и деепричастию (деепричастие как часть речи в английском языке отсутствует). Поэтому причастие обладает свойствами как прилагательного, выполняя в предложении функцию определения, так и деепричастия, являясь в предложении обстоятельством."  />
+
+
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:text="PARTICIPLE I\nParticiple I (Present Participle Active)"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tВ функции определения Partisiple I соответствует русскому причастию с суффиксами:"
+            />
+        <TextView
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:text="  -ащ, - ящ, -ущ, -ющ, -вш.  "
+            android:layout_gravity="right"
+            style="@style/corner"
+            android:layout_marginBottom="20dp"
+          />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <TextView
+                style="@style/textTable"
+                android:text="The man reading a\nnewspaper was sitting\nat the window"
+                />
+
+            <TextView
+                style="@style/textTable"
+                android:text="Мужчина, читающий\nгазету, сидел у окна"
+
+                />
+
+
+        </TableRow>
+        </TableLayout>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tВ функции обстоятельства P I соответствует русскому деепричастию с окончаниями: "
+            />
+
+        <TextView
+            android:layout_marginRight="20dp"
+            style="@style/corner"
+            android:text="  -ая, -яя.  "
+            android:layout_gravity="right"
+          />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="и переводится на русский язык деепричастием или придаточным предложением времени (когда, в то время как ...), причины (так как ...) и др. Перед таким причастием могут стоять слова when, while."
+            />
+
+        <TableLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="When going home\nI met Mike"
+                     />
+
+                <TextView
+                   style="@style/textTable"
+                    android:text="Идя домой,\nя встретил Мишу"
+                 />
+
+            </TableRow>
+        </TableLayout>
+
+
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:text="PARTICIPLE I\nParticiple I (Present Participle Passive)"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tСоответствует русскому страдательному причастию на:"
+            />
+        <TextView
+            style="@style/corner"
+            android:layout_marginTop="5dp"
+            android:text="  -мый, -щийся.  "
+            android:layout_gravity="left"
+      />
+
+        <TableLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                   style="@style/textTable"
+                    android:text="Being built the new\nschool looked very\nbeautiful"
+                     />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Будучи построенной,\nновая школа\nвыглядела красиво"
+                  />
+
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:text="PARTICIPLE II\nPasticiple II (Past Participle Passive)"
+            />
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Participle II соответствует русскому страдательному причастию настоящего времени, оканчивающемуся на -емый, и причастию прошедшедшего времени на -анный, -енный, -тый, а также действительным причастиям со страдательным значением, оканчивающимся на -щийся, -вшийся."
+            />
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="60dp"
+          >
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tВ функции определения P II употребляется как\nперед существительным, так и после него"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TableLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="A broken cup lay\non the table"
+                    />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Разбитая чашка\nлежала на столе"
+                   />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Books published for\nchildren are usually\nwell illustrated"
+                     />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Книги, издаваемые для\nдетей,обычно хорошо\nиллюстрированы"
+                   />
+
+
+            </TableRow>
+        </TableLayout>
+
+        <com.google.android.material.card.MaterialCardView
+           style="@style/cardView"
+            android:layout_height="wrap_content"
+           >
+        <TextView
+            android:layout_gravity="center"
+            android:padding="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tВ функции обстоятельства P II употребляется в причастных оборотах для выражения обстоятельства причины, времени, условии и др. В этом случае перед причастием II иногда стоят союзы when, while, if, as, thought, although. Такие причастные обороты\nпереводятся на русский язык, как правило, придаточными предложениями (иногда сочетанием «будучи» + причастие)"
+            />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TableLayout
+            android:layout_marginTop="20dp"
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+               style="@style/textTable"
+                android:text="Ice melts when heated"
+                />
+
+            <TextView
+                style="@style/textTable"
+                android:text="Лед тает, будучи нагретым"
+
+                />
+
+
+        </TableRow>
+        </TableLayout>
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:text="PERFECT PARTICIPLE\nPerfect Participle Active"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tСоответствует в русском языке деепричастию совершенного вида, оканчивающемуся на:"
+            />
+        <TextView
+            android:layout_marginRight="20dp"
+            style="@style/corner"
+            android:text="  -в и -я  "
+            android:layout_gravity="right"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tPerfect Participle Active выражает действие, предшествующее действию, выраженному глаголом в личной форме и употребляется в функции обстоятельства в причастных оборотах для выражения обстоятельства времени и причины."
+            />
+        <TableLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                   style="@style/textTable"
+                    android:text="The desigher left the\noffice having looked\nthrought all the\ndocument"
+                   />
+
+                <TextView
+                   style="@style/textTable"
+                    android:text="Конструктор ушел из\nконторы, посмотрев\nвсе документы"
+                     />
+
+            </TableRow>
+        </TableLayout>
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:text="PERFECT PARTICIPLE\nPerfect Participle Passive"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tУпотребляется в функции обстоятельства в причастных оборотах, выражая действие, предшествующее действию, выраженному глаголом в личной форме. На русский язык такое причастие переводится придаточным предложением времени или причины (после того, как ..., так как ...)."
+            />
+
+        <TableLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Having been regulated\nproperly the equipment\noperated well"
+                     />
+
+                <TextView
+                   style="@style/textTable"
+                   android:text="После того, как оборудование\nкак следует отрегулировали,\nоно хорошо работало"
+
+                    />
+
+
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

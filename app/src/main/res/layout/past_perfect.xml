@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Прошедшее совершенное время\n(The Past Perfect Tense)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tPast Perfect употребляется для описания законченного действия, которое совершалось до определенного момента в прошлом или ранее другого действия в прошлом, выражаемого глаголом в Past Simple."/>
+
+        <TextView
+            style="@style/title"
+            android:text="Образование"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПрошедшее совершенное время образуется при помощи had + причастие прошедшего времени основного глагола.\n\tВ вопросах вспомогательный глагол had ставится перед подлежащим.\n\tВ отрицательных предложениях отрицательная частица not ставится после вспомогательного глагола had."/>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="wrap_content"
+           >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+            I had misheard - Я ослышался\n
+            He had finished - Он закончил\n
+            She had found her - Она нашла ee\n
+            They had found her - Они нашли ее\n
+            Had Mary arrived before Peter told you? - No, she hadn't - Мэри приехала до того, как Питер сказал тебе? - Нет\n
+            I hadn't realized how serious the problem was - Я не сознал, насколько серьезная была проблема"
+                android:padding="10dp"
+                android:textColor="@color/custom_view_text_color"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TableLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:text="утвердительная\nформа"
+                    android:background="@drawable/border"
+                    android:padding="3dp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:text="отрицательная\nформа"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:text="вопросительная\nформа"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textSize="12sp"
+                    android:gravity="left"
+                    android:text="I had finished\nyou had finished\nhe had finished\nshe had finished\nit had finished\nwe had finished\nthey had finished"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+                <TextView
+                    android:textSize="12sp"
+                    android:gravity="left"
+                    android:text="I had not finished\nyou had not finished\nhe had not finished\nshe had not finished\nit had not finished\nwe had not finished\nthey had not finished"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+                <TextView
+                    android:textSize="12sp"
+                    android:gravity="left"
+                    android:text="Had I finished?\nHad you finished?\nHad he finished?\nHad she finished?\nHad it finished?\nHad we finished?\nHad they finished?"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            style="@style/title"
+            android:text="Утвердительная форма"/>
+
+        <LinearLayout
+           style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="Подле-\nжащее"
+                android:backgroundTint="@color/blue"/>
+            <TextView
+                android:padding="4dp"
+              style="@style/arithmetic"
+                android:text="+"
+        />
+            <TextView
+                style="@style/corner"
+                android:text="had"
+                android:backgroundTint="@color/red"
+                     />
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="+"
+              />
+
+            <TextView
+                style="@style/corner"
+                android:text="Причастие\n(ed/V3)"
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+                android:padding="4dp"
+               style="@style/arithmetic"
+                android:text="="
+              />
+
+            <TextView
+                style="@style/corner"
+                android:text="Утвержде-\nние"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+           style="@style/cardView"
+            android:layout_height="200dp"
+          >
+            <TableLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:text="She had cooked dinner by two o'clock in the afternoon\nК двум часам дня она приготовила ужин"
+                        style="@style/textTable" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/dinner"/>
+
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TextView
+            style="@style/title"
+            android:text="Отрицательная форма"/>
+
+        <LinearLayout
+           style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="Подле-\nжащее"
+               android:backgroundTint="@color/blue"/>
+            <TextView
+                android:padding="4dp"
+               style="@style/arithmetic"
+                android:text="+"
+             />
+            <TextView
+              style="@style/corner"
+                android:text="had"
+                android:backgroundTint="@color/red"
+                />
+
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="+"
+               />
+            <TextView
+                style="@style/corner"
+                android:text="not"
+                android:backgroundTint="@color/red"
+                  />
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="+"
+                />
+
+            <TextView
+               style="@style/corner"
+                android:text="Причас-\nтие(ed/V3)"
+               android:backgroundTint="@color/green"/>
+
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="="
+               />
+
+            <TextView
+              style="@style/corner"
+                android:text="Отрица-\nние"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+           style="@style/cardView"
+            android:layout_height="210dp"
+            >
+            <TableLayout
+               android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:text="I hadn't finished my lunch when uncle Bill came\nКогда пришел дядя Бил, я еще обедал"
+                       style="@style/textTable" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/cake"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TextView
+            style="@style/title"
+            android:text="Вопросительная форма"/>
+
+        <LinearLayout
+        style="@style/linear"
+            >
+
+            <TextView
+               style="@style/corner"
+                android:text="Had"
+                android:backgroundTint="#ff4b4b"/>
+
+            <TextView
+               style="@style/arithmetic"
+                android:text="+"
+               />
+            <TextView
+                style="@style/corner"
+                android:text="Подлежа-\nщее"
+                android:backgroundTint="@color/blue"
+
+                />
+            <TextView
+             style="@style/arithmetic"
+                android:text="+"
+                />
+            <TextView
+                style="@style/corner"
+                android:text="Причастие\n(ed/V3)"
+                android:backgroundTint="@color/green"/>
+
+
+            <TextView
+               style="@style/arithmetic"
+                android:text="="
+               />
+
+            <TextView
+                style="@style/corner"
+                android:text="Вопрос"
+               android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="210dp"
+           >
+            <TableLayout
+               android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                       android:text="Had Lucie packed her suitcase by the time you called her?\nКогда ты позвонила Люси, она уже уложила чемодан?"                        android:background="@drawable/border"
+                       style="@style/textTable" />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/cuitcase"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            style="@style/title"
+            android:text="Употребление"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="\tПрошедшее совершенное время отсылает к более раннему времени в прошлом, чем настоящее совершенное.\n\tПрошедшее совершенное время употребляется:\n\t• Когда действие происходит в прошлом до указанного времени;\n\t• Когда действие происходит в прошлом до другого действия в прошлом;\n\t• Когда действие начинается раньше второго действия в прошлом и продолжается до начала второго действия или даже дольше;\n\t• Когда действие происходит в прошлом, и его результат был важен тоже в прошлом;\n\t• Прошедшее совершенное время часто употребляется в главном предложении сложноподчиненного предложения в отношении более ранних событий;\n\t• Прошедшее совершенное время часто употребляется с такими обстоятельствами времени, как always, for several days;\n\t• Прошедшее совершенное время употребляется с такими предлогами и наречиями времени: before, after, already, just, till/utill, when, by six o'clock/midnight, by the time, never и т.п. "
+            />
+
+
+    </LinearLayout>
+</ScrollView>

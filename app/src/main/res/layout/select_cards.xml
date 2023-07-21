@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".lessons.selectCard.SelectCardsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/default_light_grey_bg"
+        android:padding="16dp">
+
+        <include layout="@layout/tasks_progress_bar" />
+
+        <TextView
+            android:id="@+id/translate_this_sentence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_progress_bar"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:singleLine="false"
+            android:text="Tap the pairs"
+            android:textColor="#303030"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_below="@+id/translate_this_sentence"
+            android:layout_weight="1">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </FrameLayout>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/Check"
+        android:layout_width="wrap_content"
+        android:layout_height="155dp"
+        android:background="@color/red_check"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        >
+        <TextView
+            android:id="@+id/checked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginBottom="10sp"
+            android:drawableStart="@drawable/ic_baseline_cancel_24"
+            android:drawablePadding="15dp"
+            android:text="Неверно"
+            android:textColor="@color/white_text"
+            android:textSize="27sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/check_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_task_check"
+            android:text="check"
+            android:textColor="@color/button_task_check"
+            android:textSize="17sp" />
+    </RelativeLayout>
+</RelativeLayout>

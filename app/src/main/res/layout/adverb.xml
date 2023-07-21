@@ -1,0 +1,336 @@
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Наречие\n(The Adverb)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tКогда хотят дать дополнительную информацию о том, где, как, когда, до какой стпени, как часто совершается то или иное действие, употребляют наречие.\n\t Наречие - часть речи, отвечающая на вопрос как? каким образом? где? когда?"  />
+
+        <TextView
+            style="@style/title"
+            android:text="Классификация наречий по способу образования"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПо способу образования бывают простые и производные.\n\tПроизводные наречия образованы от других частей речи. Большинство наречий образованы от прилагательных при помощи суффикса."/>
+        <TextView
+            style="@style/title"
+            android:text="Образование"
+
+            />
+
+        <LinearLayout
+          style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="прилагательное"
+               />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+
+
+            <TextView
+               style="@style/corner"
+                android:text="ly"
+
+                />
+
+            <TextView
+               style="@style/arithmetic"
+                android:text="="
+                />
+
+            <TextView
+                style="@style/corner"
+                android:text="наречие"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:layout_marginTop="10dp"
+            android:text="\tПример:\tbeautuful + ly = beautifully"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t 1) Если прилагательное оканчивается на согласную + у, у меняется на i."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tПример:\t lucky - y + i + ly = luckily"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t 2) Если прилагательное оканчивается на le, -e опускается и присоединяется -у."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tПример:\t simple - e + y = simply"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t 3) Некоторые наречия имеют ту же форму, что и прилагательные."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tПример:\t fast = fast"/>
+        <TextView
+            style="@style/title"
+            android:layout_marginBottom="10dp"
+            android:text="Классификация наречий по значению"
+            />
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="wrap_content"
+           >
+
+        <TableLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="1"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+
+                    android:text="Наречия\nместа"
+                    style="@style/textTable" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="here - здесь, there - там, where - где(куда), somewhere/anywhere - где-то(где-нибудь), nowhere - нигде(никуда), elsewhere - где-нибудь(в другом месте), far/far away/far off - далеко, near - близко, inside - внутрь(внутри), outside - снаружи, below - внизу"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+
+                    android:text="Наречия\nвремени"
+                    style="@style/textTable" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="when - когда, now - сейчас, then - тогда/потом/затем, before - прежде, after - потом(после), ever - когда-либо, never - никогда, just - только что, always - всегда, often - часто, seldom - редко, usually - обычно, sometimes - иногда, already/yet - уже, yet - еще(пока еще), early - рано, late - поздно, soon - скоро, lately - (за) последнее время, recently - недавно, since - c тех пор, long - давно(долго), ago - тому назад, today - сегодня, tomorrow - завтра, yesterday - вчера, before now - раньше, before long - вскоре, by now - к настоящему времени, since then - с того времени, up to now - до настоящего времени, long ago - давно, long before - задолго до этого, just now - только что, how ling - как долго, long before - задолго до этого, later on - позже "
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+
+                    android:text="Наречия\nобраза\nдействия"
+                    style="@style/textTable" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="fast/quickly - быстро, slowly - медленно, quietly - спокойно(тихо), easily - легко, well - хорошо, attentively - внимательно, brightly - ярко, carefully - осторожно, deep - глубоко, distinctly - отчетливо, right - правильно, seriously - серьезно, straight - прямо, wrong - неправильно, hard - упорно, high - высоко, late - подно, long - долго, low - низко, near - близко"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+
+                    android:text="Наречия\nмеры и\nстепени"
+                    style="@style/textTable" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="much - много, little - мало, very - очень, too - слишком, so - так, rather - довольно, enough - достаточно, quite - совсем(вполне), not at all - совсем не, hardly(scarcely) - едва, nearly(almost) - почти"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+            </TableRow>
+
+        </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            style="@style/title"
+            android:text="Степени сравнения наречий"
+            />
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="5"
+            android:rowCount="2">
+
+                <TextView
+                    style="@style/corner"
+                    android:text="однослож-\nные наречия"
+                    android:layout_marginTop="20dp"
+                    android:layout_rowSpan="2"
+                />
+
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                   />
+
+
+                <TextView
+                   style="@style/corner"
+                    android:text="er"
+
+                    />
+
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="="
+                    />
+
+                <TextView
+                    style="@style/corner"
+                    android:text="сравнительная степень"
+                    />
+
+
+
+                <TextView
+                    style="@style/arithmetic"
+                 android:text="+"/>
+
+
+                <TextView
+                  style="@style/corner"
+                    android:text="est"
+
+                    />
+
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="="
+                    />
+
+                <TextView
+                    style="@style/corner"
+                    android:text="превосходная степень"
+                   />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="5"
+            android:rowCount="2">
+
+            <TextView
+
+                android:text="многослож-\nные наречия"
+              style="@style/corner"
+                android:layout_marginTop="20dp"
+                android:layout_rowSpan="2"
+            />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+
+
+            <TextView
+                style="@style/corner"
+                android:text="more"
+
+                />
+
+            <TextView
+               style="@style/arithmetic"
+                android:text="="
+              />
+
+            <TextView
+                style="@style/corner"
+                android:text="сравнительная степень"
+               />
+
+
+            <TextView
+               style="@style/arithmetic"
+                android:text="+"
+/>
+
+
+            <TextView
+               style="@style/corner"
+                android:text="most"
+
+                />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="="
+                />
+
+            <TextView
+                style="@style/corner"
+                android:text="превосходная степень"
+                />
+        </GridLayout>
+
+        <TextView
+            style="@style/title"
+            android:text="Исключения"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginBottom="20dp"
+            android:text="well - better - (the) best\nbadly - worse - (the) worst\nmuch - more - (the) most\nlittle - less - (the) least\nfat - farther(further) - (the) farthest(furthest)"/>
+    </LinearLayout>
+</ScrollView>

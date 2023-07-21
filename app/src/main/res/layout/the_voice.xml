@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Залог\n(The Voice)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tВ английском языке глаголы имеют два залога: действительный и страдательный.\n\tДействительный залог употребляется, когда хотят показать, что действие выполняется лицом или предметом, обозначенным подлежащим."/>
+
+        <com.google.android.material.card.MaterialCardView
+
+            style="@style/cardView"
+            android:layout_height="200dp"
+            >
+        <TableLayout
+            android:shrinkColumns="0,1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="He hid the money under the bed\nОн спрятал деньги под кровать"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="I'm sending the book by express delivery\nЯ посылаю книгу экспресс-доставкой"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="150dp"
+                    android:background="@drawable/money_hidde"/>
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="150dp"
+                    android:background="@drawable/delivery"/>
+            </TableRow>
+        </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tВ пассивном залоге подлежащее не выполняет действие, а подвергается действию, выраженному глаголом."
+            android:layout_marginTop="20dp"/>
+
+        <com.google.android.material.card.MaterialCardView
+
+            style="@style/cardView"
+            android:layout_height="190dp"
+            >
+        <TableLayout
+            android:shrinkColumns="0,1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="  The injured man was helped by a passer-by\nРаненому мужчине помог прохожий"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="The man was being questioned by the police\nМужчину допросили в полиции"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="150dp"
+                    android:background="@drawable/helping"/>
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="150dp"
+                    android:background="@drawable/police"/>
+            </TableRow>
+        </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            style="@style/title"
+            android:text="Страдательный залог"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            style="@style/title"
+            android:text="Образование"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tСтрадательный залог образуется при помощи соответствующей формы глагола to be + причастие прошедшего времени смыслового глагола."/>
+        <TextView style="@style/title"
+            android:text="Утвердительная форма"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <TextView
+                style="@style/textTable"
+                android:text="Время"
+                />
+            <TextView
+                style="@style/textTable"
+                android:text="Подлежащее"
+                />
+            <TextView
+                style="@style/textTable"
+                android:text="Вспомогате-\nльный глагол"
+                />
+
+            <TextView
+                style="@style/textTable"
+                android:text="Смысловой\nглагол"
+                />
+        </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="настоящее"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="I"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="am"
+                    />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="invited"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="прошедшее"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="I"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="was"
+                    />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="invited"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="будущее"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="I"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="will be"
+                    />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="invited"
+                    />
+            </TableRow>
+        </TableLayout>
+        <TextView style="@style/title"
+            android:text="Отрицательная форма"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Время"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="Подлежа-\nщее"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="Вспом.\nглагол"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="Частица"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="Смысловой\nглагол"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="настоящее"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="I"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="am"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="not"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="invited"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="прошедшее"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="I"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="was"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="not"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="invited"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="будущее"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="I"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="will"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="not"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="be invited"
+                    />
+            </TableRow>
+        </TableLayout>
+
+        <TextView style="@style/title"
+            android:text="Вопросительная форма"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Время"
+                    />
+                <TextView
+                style="@style/textTable"
+                android:text="Вспомогате-\nльный глагол"
+                />
+                <TextView
+                    style="@style/textTable"
+                    android:text="Подлежащее"
+                    />
+
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Смысловой\nглагол"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="настоящее"
+                    />
+                <TextView
+                style="@style/textTable"
+                android:text="Аm"
+                />
+                <TextView
+                    style="@style/textTable"
+                    android:text="I"
+                    />
+
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="invited?"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="прошедшее"
+                    />
+                <TextView
+                style="@style/textTable"
+                android:text="Was"
+                />
+                <TextView
+                    style="@style/textTable"
+                    android:text="I"
+                    />
+
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="invited?"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="будущее"
+                    />
+                <TextView
+                style="@style/textTable"
+                android:text="Will"
+                />
+                <TextView
+                    style="@style/textTable"
+                    android:text="I"
+                    />
+
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="be invited?"
+                    />
+            </TableRow>
+        </TableLayout>
+        <TextView style="@style/title"
+            android:text="Образование страдательного залога в Simple"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tto be invited - быть приглашенным."/>
+
+        <TableLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"/>
+
+            <TextView
+                android:textColor="@color/colorPrimary"
+                style="@style/textTable"
+                android:text="Present Simple"
+                />
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Утвердительная\nформа"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="Отрицательная\nформа"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="Вопросительная\nформа"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+            <TextView
+                android:textSize="12sp"
+                android:gravity="left"
+                android:text="I am invited\nyou are invited\nhe is invited\nshe is invited\nit is invited\nwe are invited\nthey are invited"
+                android:padding="3dp"
+                android:background="@drawable/border"/>
+
+            <TextView
+                android:textSize="12sp"
+                android:gravity="left"
+                android:text="I am not invited\nyou are not invited\nhe is not invited\nshe is not invited\nit is not invited\nwe are not invited\nthey are not invited"
+                android:padding="3dp"
+                android:background="@drawable/border"/>
+            <TextView
+                android:textSize="12sp"
+                android:gravity="left"
+                android:text="Am I invited?\nAre you invited?\nIs he invited?\nIs she invited?\nIs it invited?\nAre we invited?\nAre they invited?"
+                android:padding="3dp"
+                android:background="@drawable/border"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"/>
+
+            <TextView
+                android:textColor="@color/colorPrimary"
+                style="@style/textTable"
+                android:text="Past Simple"
+                />
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+                <TextView
+                    android:textSize="12sp"
+                    android:gravity="left"
+                    android:text="I was invited\nyou were invited\nhe was invited\nshe was invited\nit was invited\nwe were invited\nthey were invited"
+                    android:padding="3dp"
+                    android:background="@drawable/border"/>
+
+                <TextView
+                    android:textSize="12sp"
+                    android:gravity="left"
+                    android:text="I was not invited\nyou were not invited\nhe was not invited\nshe was not invited\nit was not invited\nwe were not invited\nthey were not invited"
+                    android:padding="3dp"
+                    android:background="@drawable/border"/>
+                <TextView
+                    android:textSize="12sp"
+                    android:gravity="left"
+                    android:text="Was I invited?\nWere you invited?\nWas he invited?\nWas she invited?\nWas it invited?\nWere we invited?\nWere they invited?"
+                    android:padding="3dp"
+                    android:background="@drawable/border"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"/>
+            <TextView
+                android:textColor="@color/colorPrimary"
+                style="@style/textTable"
+                android:text="Future Simple"
+                />
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+                <TextView
+                    android:textSize="12sp"
+                    android:gravity="left"
+                    android:text="I was invited\nyou were invited\nhe was invited\nshe was invited\nit was invited\nwe were invited\nthey were invited"
+                    android:padding="3dp"
+                    android:background="@drawable/border"/>
+
+                <TextView
+                    android:textSize="12sp"
+                    android:gravity="left"
+                    android:text="I will not be invited\nyou will not be invited\nhe will not be invited\nshe will not be invited\nit will not be invited\nwe will not be invited\nthey will not be invited"
+                    android:padding="3dp"
+                    android:background="@drawable/border"/>
+                <TextView
+                    android:textSize="12sp"
+                    android:gravity="left"
+                    android:text="Will I  be invited?\nWill you be invited?\nWill he be invited?\nWill she be invited?\nWill it be invited?\nWill we be invited?\nWill they be invited?"
+                    android:padding="3dp"
+                    android:background="@drawable/border"/>
+            </TableRow>
+        </TableLayout>
+<TextView style="@style/title"
+    android:text="Переход из действительного залога в страдательный"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="\t• Дополнение из предложения в действительном залоге становится дополнением в страдательном.\n\t• Глагол становится в форму страдательного залога.\n\t• Подлежащее предложения в действительном залоге становится дополнением в страдательном."/>
+         <LinearLayout
+             android:layout_marginTop="10dp"
+            style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="The decoration"
+               android:backgroundTint="@color/blue"/>
+
+            <TextView
+               style="@style/corner"
+                android:text="paints"
+                android:backgroundTint="@color/green"
+                />
+            <TextView
+                style="@style/corner"
+                android:text="the house"
+              />
+
+             <TextView
+                 style="@style/arithmetic"
+                 android:text="->"
+                 />
+         </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="The house"
+               />
+
+            <TextView
+                style="@style/corner"
+                android:text="is paints"
+                android:backgroundTint="@color/green"
+                />
+            <TextView
+                style="@style/corner"
+                android:text="by the decoration"
+                android:backgroundTint="@color/blue"
+                />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Когда подлежащее предложения в действительном залоге выражено словами люди, кто-то, они, он и т.п., то в страдательном залоге оно опускается:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tPeople speak English in most parts of the world -> English is spoken in most parts of the world."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tПочти во всем мире люди говорят по-английски -> По-английски говорят почти во всем мире."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Косвенные личные местоимения в действительном залоге становятся прямыми в страдательном:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI asked her to read the book -> She was asked to read the book."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tЯ попросил ее прочитать книгу -> Ее попросили прочитать книгу."/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Если за глаголом в действительном залоге следует послелог, в страдательном залоге он сохраняется:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI put him up for the night -> He was put up for the night.\n\tЯ оставил его на ночь у себя -> Его оставили на ночь."/>
+
+    <TextView style="@style/title"
+        android:text="Особенности"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t1) В страдательном залоге употребляются только переходные глаголы:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tJohn drives the car -> The car is driven by John. "/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t2) При помощи предлога by указывается исполнитель действия:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tThese pancakes were made by my mother - Эти оладьи испекла моя мама."/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t3) При помощи предлога with указывается инструмент действия, материал, состав и т.д.:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tThese pancakes were made with flour, eggs and milk - Эти оладьи сделаны из муки, яиц и молока."/>
+
+        <TextView style="@style/title"
+            android:text="Образование страдательного залога в Continuous"/>
+
+
+        <TableLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border"/>
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            style="@style/textTable"
+            android:text="Present Continuous"
+            />
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <TextView
+                style="@style/textTable"
+                android:text="Утвердительная\nформа"
+                />
+            <TextView
+                style="@style/textTable"
+                android:text="Отрицательная\nформа"
+                />
+            <TextView
+                style="@style/textTable"
+                android:text="Вопросительная\nформа"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+            <TextView
+                android:textSize="10sp"
+                android:gravity="left"
+                android:text="I am being invited\nyou are being invited\nhe is being invited\nshe is being invited\nit is being invited\nwe are being invited\nthey are being invited"
+                android:padding="3dp"
+                android:background="@drawable/border"/>
+
+            <TextView
+                android:textSize="10sp"
+                android:gravity="left"
+                android:text="I am not being invited\nyou are being not invited\nhe is not being invited\nshe is not being invited\nit is not being invited\nwe are not being invited\nthey are not being invited"
+                android:padding="3dp"
+                android:background="@drawable/border"/>
+            <TextView
+                android:textSize="10sp"
+                android:gravity="left"
+                android:text="Am I being invited?\nAre you being invited?\nIs he being invited?\nIs she being invited?\nIs it being invited?\nAre we being invited?\nAre they being invited?"
+                android:padding="3dp"
+                android:background="@drawable/border"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border"/>
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            style="@style/textTable"
+            android:text="Past Continuous"
+            />
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+            <TextView
+                android:textSize="10sp"
+                android:gravity="left"
+                android:text="I was being invited\nyou were being invited\nhe was being invited\nshe was being invited\nit was being invited\nwe were being invited\nthey were being invited"
+                android:padding="3dp"
+                android:background="@drawable/border"/>
+
+            <TextView
+                android:textSize="10sp"
+                android:gravity="left"
+                android:text="I was not being invited\nyou were not being invited\nhe was not being invited\nshe was not being invited\nit was not being invited\nwe were not being invited\nthey were not being invited"
+                android:padding="3dp"
+                android:background="@drawable/border"/>
+            <TextView
+                android:textSize="10sp"
+                android:gravity="left"
+                android:text="Was I being invited?\nWere you being invited?\nWas he being invited?\nWas she being invited?\nWas it being invited?\nWere we being invited?\nWere they being invited?"
+                android:padding="3dp"
+                android:background="@drawable/border"/>
+        </TableRow>
+        </TableLayout>
+
+        <TextView style="@style/title"
+            android:text="Образование страдательного залога в Perfect"/>
+
+
+        <TableLayout
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"/>
+
+            <TextView
+                android:textColor="@color/colorPrimary"
+                style="@style/textTable"
+                android:text="Present Perfect"
+                />
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Утвердительная\nформа"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="Отрицательная\nформа"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="Вопросительная\nформа"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+                <TextView
+                    android:textSize="10sp"
+                    android:gravity="left"
+                    android:text="I have been invited\nyou have been invited\nhe has been invited\nshe has been invited\nit has been invited\nwe have been invited\nthey have been invited"
+                    android:padding="3dp"
+                    android:background="@drawable/border"/>
+
+                <TextView
+                    android:textSize="10sp"
+                    android:gravity="left"
+                    android:text="I have not been invited\nyou have not been invited\nhe has not been invited\nshe has not been invited\nit has not been invited\nwe have not been invited\nthey have not been invited"
+                    android:padding="3dp"
+                    android:background="@drawable/border"/>
+                <TextView
+                    android:textSize="10sp"
+                    android:gravity="left"
+                    android:text="Have I been invited?\nHave you been invited?\nHas he been invited?\nHas she been invited?\nHas it been invited?\nHave we been invited?\nHave they been invited?"
+                    android:padding="3dp"
+                    android:background="@drawable/border"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"/>
+
+            <TextView
+                android:textColor="@color/colorPrimary"
+                style="@style/textTable"
+                android:text="Past Perfect"
+                />
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+                <TextView
+                    android:textSize="10sp"
+                    android:gravity="left"
+                    android:text="I had been invited\nyou had been invited\nhe had been invited\nshe had been invited\nit had been invited\nwe had been invited\nthey had been invited"
+                    android:padding="3dp"
+                    android:background="@drawable/border"/>
+
+                <TextView
+                    android:textSize="10sp"
+                    android:gravity="left"
+                    android:text="I had not been invited\nyou had not been invited\nhe had not been invited\nshe had not been invited\nit had not been invited\nwe had not been invited\nthey had not been invited"
+                    android:padding="3dp"
+                    android:background="@drawable/border"/>
+                <TextView
+                    android:textSize="10sp"
+                    android:gravity="left"
+                    android:text="Had I been invited?\nHad you been invited?\nHad he been invited?\nHad she been invited?\nHad it been invited?\nHad we been invited?\nHad they been invited?"
+                    android:padding="3dp"
+                    android:background="@drawable/border"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,2296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_light_grey_bg"
+    android:id="@+id/parent">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:padding="16dp"
+        android:background="@drawable/gray_bottom_border">
+
+        <ImageView
+            android:id="@+id/USA"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/usa"/>
+        <TextView
+            android:id="@+id/current_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/USA"
+            android:layout_marginLeft="10dp"
+            android:text="English"
+            android:textColor="@color/custom_view_text_color"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/overall_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="Overall Progress: __%"
+            android:textColor="@color/custom_view_text_color"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/cyan">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unit 1. Mechanics"
+                        android:textColor="@color/white_text"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson1_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson1_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 1" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson2_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson2_bar"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 2" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson3_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson3_bar"
+                            android:layout_alignParentStart="true"
+                            android:paddingStart="5dp"
+                            android:text="Lesson 3" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson4_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson4_bar"
+
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 4" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson5_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson5_bar"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="12dp"
+                            android:text="Lesson 5" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="20dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson6_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson6_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 6"
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/green">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unit 2. Mechanical Engineering"
+                        android:textColor="@color/white_text"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson7_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson7_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 7" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson8_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson8_bar"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 8" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson9_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson9_bar"
+                            android:layout_alignParentStart="true"
+                            android:paddingStart="5dp"
+                            android:text="Lesson 9" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson10_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson10_bar"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 10" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson11_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson11_bar"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="12dp"
+                            android:text="Lesson 11" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="20dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson12_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson12_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 12" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/yellow">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unit 3. Electric Engineering"
+                        android:textColor="@color/white_text"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson13_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson13_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 13" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson14_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson14_bar"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 14" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson15_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson15_bar"
+                            android:layout_alignParentStart="true"
+                            android:paddingStart="5dp"
+                            android:text="Lesson 15" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson16_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson16_bar"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 16" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson17_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson17_bar"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="12dp"
+                            android:text="Lesson 17" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="20dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson18_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson18_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 18" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/orange">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unit 4. Electronics"
+                        android:textColor="@color/white_text"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson19_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson19_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 19" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson20_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson20_bar"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 20" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson21_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson21_bar"
+                            android:layout_alignParentStart="true"
+                            android:paddingStart="5dp"
+                            android:text="Lesson 21" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson22_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson22_bar"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 22" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson23_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson23_bar"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="12dp"
+                            android:text="Lesson 23" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="20dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson24_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson24_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 24" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/red">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unit 5. Nuclear Power Engineering"
+                        android:textColor="@color/white_text"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson25_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson25_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 25" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson26_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson26_bar"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 26" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson27_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson27_bar"
+                            android:layout_alignParentStart="true"
+                            android:paddingStart="5dp"
+                            android:text="Lesson 27" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson28_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson28_bar"
+
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 28" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson29_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson29_bar"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="12dp"
+                            android:text="Lesson 29" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="20dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson30_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson30_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 30"
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/purple">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unit 6. Astronautics"
+                        android:textColor="@color/white_text"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson31_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson31_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 31" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson32_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson32_bar"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 32" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson33_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson33_bar"
+                            android:layout_alignParentStart="true"
+                            android:paddingStart="5dp"
+                            android:text="Lesson 33" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson34_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson34_bar"
+
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 34" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson35_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson35_bar"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="12dp"
+                            android:text="Lesson 35" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="20dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson36_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson36_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 36"
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/lightgreen">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unit 7. Computers and their Application"
+                        android:textColor="@color/white_text"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson37_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson37_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 37" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson38_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson38_bar"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 38" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson39_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson39_bar"
+                            android:layout_alignParentStart="true"
+                            android:paddingStart="5dp"
+                            android:text="Lesson 39" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson40_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson40_bar"
+
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 40" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson41_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson41_bar"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="12dp"
+                            android:text="Lesson 41" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="20dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson42_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson42_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 42"
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/darkpurple">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unit 8. Functional Organization of the Computer"
+                        android:textColor="@color/white_text"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson43_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson43_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 43" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson44_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson44_bar"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 44" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson45_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson45_bar"
+                            android:layout_alignParentStart="true"
+                            android:paddingStart="5dp"
+                            android:text="Lesson 45" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson46_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson46_bar"
+
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 46" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson47_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson47_bar"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="12dp"
+                            android:text="Lesson 47" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="20dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson48_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson48_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 48"
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/lightbrown">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unit 9. Communication System"
+                        android:textColor="@color/white_text"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson49_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson49_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 49" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson50_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson50_bar"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 50" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson51_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson51_bar"
+                            android:layout_alignParentStart="true"
+                            android:paddingStart="5dp"
+                            android:text="Lesson 51" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson52_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson52_bar"
+
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 52" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson53_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson53_bar"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="12dp"
+                            android:text="Lesson 53" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="20dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson54_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson54_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 54"
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/blue">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unit 10. Information-Communication Technologies"
+                        android:textColor="@color/white_text"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson55_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson55_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 55" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson56_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson56_bar"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 56" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson57_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson57_bar"
+                            android:layout_alignParentStart="true"
+                            android:paddingStart="5dp"
+                            android:text="Lesson 57" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson58_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson58_bar"
+
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 58" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson59_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson59_bar"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="12dp"
+                            android:text="Lesson 59" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="20dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson60_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson60_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 60"
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/fon">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unit 11. Automatic Control Systems"
+                        android:textColor="@color/white_text"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson61_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson61_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 61" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson62_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson62_bar"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 62" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson63_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson63_bar"
+                            android:layout_alignParentStart="true"
+                            android:paddingStart="5dp"
+                            android:text="Lesson 63" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson64_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson64_bar"
+
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 64" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson65_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson65_bar"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="12dp"
+                            android:text="Lesson 65" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="20dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson66_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson66_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 66"
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/gray">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unit 12. Cybernetics"
+                        android:textColor="@color/white_text"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson67_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson67_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 67" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson68_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson68_bar"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 68" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson69_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson69_bar"
+                            android:layout_alignParentStart="true"
+                            android:paddingStart="5dp"
+                            android:text="Lesson 69" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson70_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson70_bar"
+
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 70" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson71_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson71_bar"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="12dp"
+                            android:text="Lesson 71" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="20dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson72_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson72_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 72"
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/blue_background">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unit 13. Laser Technology"
+                        android:textColor="@color/white_text"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson73_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson73_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 73" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson74_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson74_bar"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 74" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson75_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson75_bar"
+                            android:layout_alignParentStart="true"
+                            android:paddingStart="5dp"
+                            android:text="Lesson 75" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson76_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson76_bar"
+
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 76" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson77_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson77_bar"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="12dp"
+                            android:text="Lesson 77" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="20dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson78_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson78_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 78"
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/darkgreen">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unit 14. Nanotechnologies"
+                        android:textColor="@color/white_text"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson79_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson79_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 79" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson80_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson80_bar"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 80" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson81_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@id/lesson81_bar"
+                            android:layout_alignParentStart="true"
+                            android:paddingStart="5dp"
+                            android:text="Lesson 81" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson82_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson82_bar"
+
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Lesson 82" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1">
+
+                        <com.example.myapplicationtest.customElements.CustomProgressBar
+                            android:id="@+id/lesson83_bar"
+                            style="@style/lesson_bar"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            style="@style/lesson_bar_text"
+                            android:layout_below="@+id/lesson83_bar"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="12dp"
+                            android:text="Lesson 83" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="65dp">
+
+                    <com.example.myapplicationtest.customElements.CustomProgressBar
+                        android:id="@+id/lesson84_bar"
+                        style="@style/lesson_bar"
+                        android:layout_centerInParent="true" />
+
+                    <TextView
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/lesson84_bar"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lesson 84"
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

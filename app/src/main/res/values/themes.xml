@@ -1,0 +1,131 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.MyApplicationTest" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/fon_l</item>
+    </style>
+
+    <style name="split_line_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+    <style name="week_bars">
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="week_progress_bars">
+        <item name="background_progress_color">@color/default_bar_background_color</item>
+        <item name="foreground_progress_gradient_colors">@array/gradient_colors</item>
+        <item name="foreground_progress_thickness">8</item>
+        <item name="background_progress_thickness">8</item>
+        <item name="rounded_corner">true</item>
+    </style>
+
+    <style name="lesson_bar">
+        <item name="foreground_progress_thickness">20</item>
+        <item name="background_progress_thickness">20</item>
+        <item name="background_progress_color">#bdbdbd</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="lesson_bar_text">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="title">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="cardView">
+        <item name="android:layout_width">match_parent</item>
+         <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/colorPrimary</item>
+        <item name="cardElevation">6dp</item>
+        <item name="cardCornerRadius">22dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="textTable">
+        <item name="android:background">@drawable/border</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/custom_view_text_color</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="studentText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textColor">@color/custom_view_text_color</item>
+        <item name="android:layout_width">match_parent</item>
+   <item name="android:layout_height">wrap_content</item>
+</style>
+
+    <style name="corner">
+    <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/rounded_corner</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:textColor">@color/white_text</item>
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+    </style>
+
+    <style name="arithmetic">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+     </style>
+
+    <style name="linear">
+        <item name="android:layout_width">match_parent</item>
+   <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    <item name="android:gravity">center</item>
+    </style>
+
+    <style name="table_verbs">
+    <item name="android:gravity">left</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:background">@drawable/border</item>
+    </style>
+
+ <style name="Card">
+    <item name="android:layout_width">150dp</item>
+    <item name="android:layout_height">150dp</item>
+    <item name="android:layout_margin">25dp</item>
+    <item name="cardCornerRadius">28dp</item>
+    <item name="cardElevation">6dp</item>
+    <item name="android:layout_gravity">left</item>
+    </style>
+
+    <style name="textCard">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:textColor">@color/white_text</item>
+    <item name="android:textAlignment">center</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textSize">25sp</item>
+    <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>

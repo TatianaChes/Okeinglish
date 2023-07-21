@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Числительное\n(The Numeral)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tСуществует два класса числительных - количественные числительные и порядковые.\n\t Количественные числительные используются при всех видах счета, подразумевающих итог."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\tone chair - один стул; two chairs - два стула\n\ta hundred people - сто людей; ten thousand pounds - десять тысяч фунтов"
+        android:textColor="@color/custom_view_text_color"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПорядковые числительные используются, когда говорят о месте предмета в ряду аналогичных."/>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="200dp">
+
+            <TableLayout
+                android:shrinkColumns="0,1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:text="The first horse in was disqualified\nЛошадь, победившая в скачках, была дисквалифицирована"
+                        style="@style/textTable"
+                           android:layout_width="290dp"
+                        />
+
+                    <TextView
+                        android:text="He's celebrating his fifty-first birthday in November\nОн празднует свое пятидесятиоднолетие в ноябре"
+                        style="@style/textTable"
+
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/horse" />
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/grandfather"/>
+                </TableRow>
+            </TableLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            style="@style/title"
+            android:text="Количественные числительные"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t1) Числительные от 13 до 19 образуются при помощи суффикса -teen, который прибавляется к названиям единиц."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tПример: six(шесть) + teen = sixteen(шестнадцать)"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t2) Числительные, образующие десятки, образуют при помощи суффикса -ty, который прибавляется к названиям единиц. "/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tПример: six(шесть) + ty = sixty(шестьдесят)"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t3) Десятки с единицами сочетаются так же как по-русски."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tПример: 29 - twenty-nine(двадцать девять)"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t4) Числительные 100, 1000, 1 000 000 употребляеются с неопределенным артиклем 'a' или с числительным one."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\t a hundred - one handred(сто)"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t5) Между сотнями, тысячами и миллионами и следующими за ними десятками и единицами ставится союз and."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\t210 - two hundred and ten(двести девять)"/>
+
+        <TextView
+            style="@style/title"
+            android:text="Порядковые числительные"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t1) Порядковые числительные образуются путем прибавления к основе количественых числительных суффикса -th. Перед порядковым числительным ставится определенный артикль."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tsix(шесть) + th = sixth(шестой)"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t2) Если основа количественного числительного оканчивается на -ty, конечная -у меняется на -ie."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\ttwenty(двадцать) - y + ie + th = twentieth(двадцатый)"/>
+    <TextView style="@style/title"
+        android:text="Исключения"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/custom_view_text_color"
+            android:text="the first - первый\nthe second - второй\nthe third - третий\nthe fifth - пятый\nthe eight - восьмой\nthe ninth - девятый\nthe twelfth - двенадцатый"/>
+  <TextView style="@style/title"
+      android:text="Дроби"/>
+        <TextView
+            android:layout_gravity="center"
+            style="@style/corner"
+            android:text="Дроби"
+            />
+
+        <LinearLayout
+            style="@style/linear"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                style="@style/corner"
+                android:text="простые"/>
+
+
+            <TextView
+                style="@style/corner"
+                android:text="десятичные"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/linear"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                style="@style/corner"
+                android:text="числитель обознача-\nется количественным\nчислительным, знамена-\nтель - порядковым"/>
+
+
+            <TextView
+                style="@style/corner"
+                android:text="в англиском вместо\nзапятой ставится\nточка - point"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <TextView
+
+                android:text="Дробь"
+                style="@style/textTable" />
+
+            <TextView
+
+                style="@style/textTable"
+                android:text="Как читается"
+                />
+        </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    android:text="1/2"
+                    style="@style/textTable" />
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    style="@style/textTable"
+                    android:text="a (one) half"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    android:text="1/3"
+                    style="@style/textTable" />
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    style="@style/textTable"
+                    android:text="a (one) third"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    android:text="1/4"
+                    style="@style/textTable" />
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    style="@style/textTable"
+                    android:text="a (one) quarter"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    android:text="1/5"
+                    style="@style/textTable" />
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    style="@style/textTable"
+                    android:text="a (one) fifth"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    android:text="1/10"
+                    style="@style/textTable" />
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    style="@style/textTable"
+                    android:text="a (one) tenth"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    android:text="2/3"
+                    style="@style/textTable" />
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    style="@style/textTable"
+                    android:text="two thirds"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    android:text="3/4"
+                    style="@style/textTable" />
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    style="@style/textTable"
+                    android:text="three quarter"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    android:text="7/18"
+                    style="@style/textTable" />
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    style="@style/textTable"
+                    android:text="seven eighteenths"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    android:text="0.2"
+                    style="@style/textTable" />
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    style="@style/textTable"
+                    android:text="(zero) point two"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    android:text="0.5"
+                    style="@style/textTable" />
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    style="@style/textTable"
+                    android:text="(zero) point five"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    android:text="3.4"
+                    style="@style/textTable" />
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    style="@style/textTable"
+                    android:text="three point four"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    android:text="34.75"
+                    style="@style/textTable" />
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    style="@style/textTable"
+                    android:text="thirty-four point seventy-five"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>

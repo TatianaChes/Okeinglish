@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Союз\n(The Conjuction)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:text="\tСоюзы - это служебные слова, которые употребляются для соединения членов предложения и предложений.\n\tПо своей функции в речи союзы бывают сочинительные и подчинительные."  />
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:text="Сочинительные союзы"
+            />
+          <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Сочинительные союзы: and - и, а; but - но, а; or - или, иначе; while - в то время как, тогда как; whereas - тогда как, а; both... and - и ... и, как ... так и; as well as - так же как (и); not only ... but also - не только ... но и; either ... or - или ...или; neither ... nor - ни ...ни"/>
+
+        <com.google.android.material.card.MaterialCardView
+
+            style="@style/cardView"
+            android:layout_height="210dp"
+            >
+            <TableLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shrinkColumns="0,1"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:text="We have received your telegram as well as your letter\nМы получили вашу телеграмму, так же как и ваше письмо"
+                        style="@style/textTable" />
+
+                    <TextView
+
+                        android:text="Ann has been neither in Moscow nor in St.Petersburg\nАня не была ни в Москве, ни в Санкт-Петербурге"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+                    <ImageView
+                        android:layout_height="wrap_content"
+                        android:layout_width="290dp"
+                        android:background="@drawable/letter"/>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="250dp"
+
+                        android:background="@drawable/moscow_piter"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            style="@style/title"
+            android:text="Подчинительные союзы"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t1) Союзы (союзные слова), вводящие придаточные предложения подлежащие, сказуемые, дополнительные, определительные: that - что, который; if, whether - ли; who (whom), which - который; whose - чей"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI know the man whom you mean - Я знаю человека, которого вы имеете в виду"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t2) Союзы (союзные слова), вводящие обстоятельственные придаточные предложения\n\t• времени: when - когда; while - в то время как; after - после того как; before - прежде чем, до того как; as - в то время как, когда, по мере того как; as soon as - как только; as long as - пока, до тех пор пока; since - с тех пор как; until(till) - до тех пор пока(не); no sooner ... than - едва только ... как, не успел ... как; hardly(scarcely) ... when - едва только ... как" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI shall stay until I have finished my work - Я останусь здесь до тех пор, пока закончу свою работу"/>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• причины: as - так как; because - потому что, так как; for - ибо, так как; since - так как, поскольку; now that - теперь когда"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tHe walked quickly for (because) he was in a great hurry - Он шел быстро, так как очень спешил"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• образа действия: as - как; as, if, as though - как будто, как если бы; so ... that - так (такой) что; such ... that - такой ... что, а также сравнения: as ... as - так (такой) же ... как; not so ... as - не так (такой) ... как; than - чем"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tThe sea was so stormy that the boat couldn't leave the port - Море было такое бурное, что пароход не мог выйти из порта"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• следствия: so, so that - так"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tHe sat far away so that I couldn't see him - Он сидел далеко, так что я не мог его видеть"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• условия: if - если; in case - в случае, если; provided (that), on condition (that) - при условии, если; unless - если только ... не, разве только"/>
+
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tIn case you see him ask him about it - Если вы его увидите, спросите его об этом"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Content">
+
+    <GridLayout
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:layout_width="match_parent">
+
+        <androidx.cardview.widget.CardView
+           style="@style/Card"
+          >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/PresentSimple"
+                style="@style/textCard"
+                android:text="Present\nSimple "
+               />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+           >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/PastSimple"
+                style="@style/textCard"
+                android:text="Past\nSimple "
+              />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+
+             >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/FutureSimple"
+                style="@style/textCard"
+                android:text="Future\nSimple "
+               />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/PresentContinuous"
+                style="@style/textCard"
+                android:text="Present\nContinuous"
+             />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+
+             >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/PastContinuous"
+                style="@style/textCard"
+                android:text="Past\nContinuous"
+                />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+
+             >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/FutureContinuous"
+                style="@style/textCard"
+                android:text="Future\nContinuous"
+               />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/PresentPerfect"
+                style="@style/textCard"
+                android:text="Present\nPerfect"
+                />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/PastPerfect"
+                style="@style/textCard"
+                android:text="Past\nPerfect"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+
+           >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/FuturePerfect"
+                style="@style/textCard"
+                android:text="Future\nPerfect"
+             />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/PresentPerfectContinuous"
+                style="@style/textCard"
+                android:text="Present\nPerfect\nContinuous"
+               />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/PastandFuture"
+                style="@style/textCard"
+                android:text="Past and Future Perfect Continuous"
+               />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+
+          >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/FuturePast"
+                android:text="Future in\nthe Past"
+                style="@style/textCard"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+           >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/GoingTo"
+                style="@style/textCard"
+                android:text="To be\ngoing to"
+               />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+             >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/Sequence"
+                style="@style/textCard"
+                android:text="The Sequence\nof Tenses"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/Mood"
+                style="@style/textCard"
+                android:text="The\nMood"
+                />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/Voice"
+                style="@style/textCard"
+                android:text="The\nVoice"
+               />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+             >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/Noun"
+                style="@style/textCard"
+                android:text="The\nNoun"
+              />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+             >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/Adjective"
+                style="@style/textCard"
+                android:text="The\nAdjective"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+              >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/Pronoun"
+                style="@style/textCard"
+                android:text="The\nPronoun"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+              >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/Numeral"
+                style="@style/textCard"
+                android:text="The\nNumeral"
+                />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+                  >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/Adverb"
+                style="@style/textCard"
+                android:text="The\nAdverb"
+              />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+             >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/Verb"
+                style="@style/textCard"
+                android:text="The\nVerb"
+                />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+             >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/Preposition"
+                style="@style/textCard"
+                android:text="The\nPreposition"
+                />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+             >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/There"
+                style="@style/textCard"
+                android:text="There is\nThere are"
+            />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+           >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/Infinitive"
+                style="@style/textCard"
+                android:text="The\nInfinitive"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+             >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/Gerund"
+                style="@style/textCard"
+                android:text="The\nGerund"
+              />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+             >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/Participle"
+                style="@style/textCard"
+                android:text="The\nParticiple"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+           >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/Speech"
+                style="@style/textCard"
+                android:text="Direct and\nIndirect\nSpeech"
+               />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+              >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/Interrogative"
+                style="@style/textCard"
+                android:text="Questions\nType"
+             />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/Abbreviations"
+                style="@style/textCard"
+                android:text="The\nAcronym"
+               />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+              >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/IrregularVerbs"
+                style="@style/textCard"
+                android:text="Irregular\nVerbs"
+                />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            style="@style/Card"
+              >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/all_elements_gradient"
+                />
+            <TextView
+                android:id="@+id/HelpTable"
+                style="@style/textCard"
+                android:text="Help\nTable"
+                />
+
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+</ScrollView>

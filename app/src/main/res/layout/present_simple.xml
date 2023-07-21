@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <TextView
+        style="@style/title"
+        android:text="Настоящее простое время\n(The Present Simple Tense)"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\tPresent Simple описывает обычное действие, которое происходит вообще и соответствует в русском языке настоящему времени глагола. В простом настоящем времени глагол стоит в своей базовой форме. В 3-м лице ед. ч. прибавляется окончание -s. Вопросы и отрицания образуются при помощи вспомогательного глагола to do."/>
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/cardView"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+            I know her - Я знаю ее\n
+            He knows her - Он знает ее\n
+            Do I know her? - Я знаю ее?\n
+            Does she know you? - Она знает тебя?\n
+            I don't know her - Я не знаю ее\n
+            She doesn't know you - Она не знает тебя"
+            android:padding="10dp"
+            android:textColor="@color/custom_view_text_color"/>
+
+    </com.google.android.material.card.MaterialCardView>
+    <TextView
+       style="@style/title"
+        android:text="Образование"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/border">
+
+        <TextView
+            android:gravity="center"
+            android:text="утвердительная\nформа"
+            android:background="@drawable/border"
+            android:padding="3dp" />
+
+        <TextView
+            android:gravity="center"
+            android:text="отрицательная\nформа"
+            android:padding="3dp"
+            android:background="@drawable/border" />
+        <TextView
+            android:gravity="center"
+            android:text="вопросительная\nформа"
+            android:padding="3dp"
+            android:background="@drawable/border"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/border">
+
+        <TextView
+            android:gravity="left"
+            android:text="I like\nyou like\nhe likes\nshe likes\nit likes\nwe like\nthey like"
+            android:padding="3dp"
+            android:background="@drawable/border"/>
+
+        <TextView
+            android:gravity="left"
+            android:text="I do not like\nyou do not like\nhe does not like\nshe does not like\nit does not like\nwe do not like\nthey do not like"
+            android:padding="3dp"
+            android:background="@drawable/border"/>
+        <TextView
+            android:gravity="left"
+            android:text="Do I like?\nDo you like?\nDoes he like?\nDoes she like?\nDoes it like?\nDo we like?\nDo they like?"
+            android:padding="3dp"
+            android:background="@drawable/border"/>
+    </TableRow>
+    </TableLayout>
+
+    <TextView
+        style="@style/title"
+        android:text="Утвердительная форма"/>
+
+    <LinearLayout
+        style="@style/linear">
+
+        <TextView
+            style="@style/corner"
+            android:text="Подлежащее"
+            android:backgroundTint="@color/blue"/>
+
+        <TextView
+            style="@style/arithmetic"
+            android:text="+"
+            />
+
+        <TextView
+            style="@style/corner"
+            android:text="Смысловой\nглагол"
+            android:backgroundTint="@color/green"/>
+
+        <TextView
+            style="@style/arithmetic"
+            android:text="="
+            />
+
+        <TextView
+            style="@style/corner"
+            android:text="Утверждение"
+            android:backgroundTint="@color/yellow"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="\tУ глаголов в 3-м лице единственного числа присоединяется окончание -s."/>
+
+    <LinearLayout
+        style="@style/linear">
+
+        <TextView
+            style="@style/corner"
+            android:text="He\nShe\nIt"
+            android:backgroundTint="@color/blue"/>
+
+        <TextView
+            style="@style/arithmetic"
+            android:text="+"
+            />
+
+        <TextView
+            style="@style/corner"
+            android:text="Смысловой\nглагол"
+            android:backgroundTint="@color/green"/>
+
+        <TextView
+            style="@style/arithmetic"
+            android:text="+"
+           />
+        <TextView
+           style="@style/corner"
+            android:text="s"
+            android:backgroundTint="@color/red"
+                    />
+        <TextView
+            style="@style/arithmetic"
+            android:text="="
+            />
+
+        <TextView
+            style="@style/corner"
+            android:text="Утверждение"
+            android:backgroundTint="@color/yellow"/>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.card.MaterialCardView
+
+        style="@style/cardView"
+        android:layout_height="180dp"
+       >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+        <TextView
+            style="@style/textTable"
+            android:text="I play football\nЯ играю в футбол"
+            />
+
+        <TextView
+            android:text="He reads and writes\nОн читает и пишет"
+            style="@style/textTable"
+            />
+        </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="150dp"
+                    android:background="@drawable/football"/>
+
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="150dp"
+                    android:background="@drawable/read_write"/>
+            </TableRow>
+        </TableLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        style="@style/title"
+        android:text="Особенности образования\nформы 3-го лица ед. ч."/>
+
+    <LinearLayout
+       style="@style/linear">
+
+        <TextView
+            style="@style/corner"
+            android:text="Глагол на -s,\n-ss, -sh, -ch,\n-x, -o"
+            android:backgroundTint="@color/green"/>
+
+        <TextView
+            style="@style/arithmetic"
+            android:text="+"
+           />
+
+        <TextView
+          style="@style/corner"
+            android:text="es"
+            android:backgroundTint="@color/red"
+
+            />
+        <TextView
+            style="@style/arithmetic"
+            android:text="="
+           />
+        <TextView
+            style="@style/corner"
+            android:text="Утверждение"
+            android:backgroundTint="@color/yellow"/>
+
+    </LinearLayout>
+    <com.google.android.material.card.MaterialCardView
+        style="@style/cardView"
+        android:layout_height="180dp" >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="He brushes his teeth\nОн чистит зубы"
+                    style="@style/textTable" />
+
+                <TextView
+                   android:text="She watches TV\nОна смотрит телевизор"
+                   style="@style/textTable"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="150dp"
+                    android:background="@drawable/teeth"/>
+
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="150dp"
+                    android:background="@drawable/tv"/>
+            </TableRow>
+        </TableLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+      style="@style/linear">
+
+        <TextView
+            style="@style/corner"
+            android:text="Глагол на\nсогласную + y"
+            android:backgroundTint="@color/green"/>
+
+        <TextView
+            style="@style/arithmetic"
+            android:text="-"
+            />
+
+        <TextView
+            style="@style/corner"
+            android:text="y"
+            android:backgroundTint="@color/red"
+                />
+        <TextView
+            style="@style/arithmetic"
+            android:text="+"
+           />
+        <TextView
+            style="@style/corner"
+            android:text="ies"
+            android:backgroundTint="@color/red"
+
+            />
+        <TextView
+            style="@style/arithmetic"
+            android:text="="
+           />
+        <TextView
+            style="@style/corner"
+            android:text="Утверждение"
+            android:backgroundTint="@color/yellow"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+      style="@style/linear"
+        >
+
+        <TextView
+          style="@style/corner"
+            android:text="Глагол на\nгласную + y"
+            android:backgroundTint="@color/green"/>
+
+        <TextView
+           style="@style/arithmetic"
+            android:text="+"
+            />
+
+        <TextView
+           style="@style/corner"
+            android:text="s"
+            android:backgroundTint="@color/red"
+
+            />
+        <TextView
+           style="@style/arithmetic"
+            android:text="="
+            />
+        <TextView
+            style="@style/corner"
+            android:text="Утверждение"
+            android:backgroundTint="@color/yellow"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/cardView"
+        android:layout_height="180dp"
+        >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                   android:text="My brother sometimes cries\nМой брат иногда плачет"
+                   style="@style/textTable" />
+
+                <TextView
+                  android:text="She plays tennis\nОна играет в теннис"
+                  style="@style/textTable"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="150dp"
+                    android:background="@drawable/cry"/>
+
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="150dp"
+                    android:background="@drawable/tennis"/>
+            </TableRow>
+        </TableLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        style="@style/title"
+        android:text="Отрицательная форма"/>
+
+    <LinearLayout
+        style="@style/linear"
+        >
+
+        <TextView
+           style="@style/corner"
+            android:text="Подле-\nжащее"
+            android:backgroundTint="@color/blue"/>
+
+        <TextView
+            style="@style/arithmetic"
+            android:text="+"
+            />
+        <TextView
+          style="@style/corner"
+            android:text="do not/\ndoes not"
+            android:backgroundTint="@color/red"
+
+            />
+        <TextView
+            style="@style/arithmetic"
+            android:text="+"
+            />
+        <TextView
+            style="@style/corner"
+            android:text="Глагол"
+            android:backgroundTint="@color/green"/>
+
+        <TextView
+            style="@style/arithmetic"
+            android:text="="
+            />
+
+        <TextView
+            style="@style/corner"
+            android:text="Отрицание"
+            android:backgroundTint="@color/yellow"/>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/cardView"
+        android:layout_height="180dp"
+       >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="We don't read\nМы не читаем"
+                    style="@style/textTable" />
+
+                <TextView
+                  android:text="She doesn't play tennis\nОна не играет в теннис"
+                  style="@style/textTable"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="150dp"
+                    android:background="@drawable/books"/>
+
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="150dp"
+                    android:background="@drawable/flower"/>
+            </TableRow>
+        </TableLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        style="@style/title"
+        android:text="Вопросительная форма"/>
+
+    <LinearLayout
+        style="@style/linear" >
+
+        <TextView
+            style="@style/corner"
+            android:text="Do/\nDoes"
+            android:backgroundTint="@color/red"/>
+
+        <TextView
+            style="@style/arithmetic"
+            android:text="+"
+           />
+        <TextView
+            style="@style/corner"
+            android:text="Подлежащее"
+            android:backgroundTint="@color/blue"
+            />
+        <TextView
+           style="@style/arithmetic"
+            android:text="+"
+           />
+        <TextView
+            style="@style/corner"
+            android:text="Глагол"
+            android:backgroundTint="@color/green"/>
+
+
+        <TextView
+            style="@style/arithmetic"
+            android:text="="
+          />
+
+        <TextView
+            style="@style/corner"
+            android:text="Вопрос"
+            android:backgroundTint="@color/yellow"/>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/cardView"
+        android:layout_height="180dp"
+       >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                   android:text="Do you hear me?\nТы слышишь меня?"
+                   style="@style/textTable" />
+
+                <TextView
+                   android:text="Does he work?\nОн работает?"
+                   style="@style/textTable"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="150dp"
+                    android:background="@drawable/hear"/>
+
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="150dp"
+                    android:background="@drawable/work"/>
+            </TableRow>
+        </TableLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        style="@style/title"
+        android:text="Употребление"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\t• Когда речь идет о привычном действии, о том, что нравится и не нравится, о том, что происходит регулярно;\n\t• Когда речь идет об истинах, научных фактах или постоянном состоянии;\n\t• В утверждениях, в которых высказывается мнение, представления говорящего;\n\t• В спортивных комментариях и репортажах;\n\t• В отношении будущего, когда речь идет о запланированных действиях;\n\t• С обстоятельствами времени: usually, always, rarely, seldom, sometimes, often, never, every day, every week, every month, on Mondays / Tuesdays..., in the morning / afternoon / evening, at night / the weekend. "
+        android:layout_marginBottom="20dp"/>
+
+
+</LinearLayout>
+</ScrollView>

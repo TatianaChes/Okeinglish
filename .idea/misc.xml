@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable-hdpi/all_elements_gradient.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable-v24/button_task_check.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable-v24/button_task_continue.xml" value="0.1328125" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable-v24/custom_word_border.xml" value="0.1" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable-v24/get_started_button.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable-v24/gray_bottom_border.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable-v24/ic_baseline_search_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable-v24/sign_in_button_bg.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable-v24/sign_in_edit_text.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/border.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/circle.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/connection.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/custom_word_selected.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/gradient.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_baseline_article_24.xml" value="0.175" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_baseline_cached_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_baseline_expand_more_24.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_baseline_insert_drive_file_24.xml" value="0.1" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_baseline_person_off_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_baseline_play_circle_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_baseline_play_circle_outline_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_baseline_visibility_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_baseline_visibility_off_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_baseline_volume_up_24.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_camera.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_dashboard_24dp.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.16197916666666667" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/menu_selector.xml" value="0.1484375" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/profile_textview.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/rounded_corner.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/spinner_background.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/toast.xml" value="0.1" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/drawable/tooltip_bg.xml" value="0.175" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_abbreviation.xml" value="0.13073133762788935" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_current_student.xml" value="0.15291992775436483" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_lesson_completed.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_lesson_list.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_menu.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_picture_translate.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_profile.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_registration.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_rules.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_setting.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_splash.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_study.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_table_verds.xml" value="0.1" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_tap_pair.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_text_itself.xml" value="0.20474777448071216" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_texts.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_translate_sentence.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/activity_welcome.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/adjective.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/adverb.xml" value="0.19516728624535315" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/anverb.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/conjunction.xml" value="0.23837700760777683" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/continuous_day.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/custom_dialog.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/custom_notification_layout.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/custom_toast.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/enter_audio.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/forgot_password.xml" value="0.1796875" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/fragment_dashboard.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/fragment_home.xml" value="0.13269927536231885" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/fragment_notifications.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/fragment_profile.xml" value="0.13994565217391305" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/future_continuous.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/future_in_the_past.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/future_perfect.xml" value="0.17566728739913098" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/future_simple.xml" value="0.20444763271162122" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/gerund.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/help_table.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/infinitive.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/interragative_sentences.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/item_layout.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/item_layout_study.xml" value="0.14114583333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/noun.xml" value="0.18494484101232966" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/numeral.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/participle.xml" value="0.18215417106652587" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/past_and_future.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/past_continuous.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/past_perfect.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/past_simple.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/preposition.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/present_continuous.xml" value="0.16507177033492823" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/present_perfect.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/present_perfect_continuous.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/present_simple.xml" value="0.18201284796573874" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/promoun.xml" value="0.1796875" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/pronoun.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/recyclerview_row_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/select_cards.xml" value="0.1796875" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/sequence.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/speech.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/task_default_body.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/tasks_progress_bar.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/the_mood.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/the_voice.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/there.xml" value="0.3147942157953281" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/to_be_going_to.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/verb.xml" value="0.15952503871966958" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/wait_model_dowload.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/layout/week_progress_bar.xml" value="0.13451086956521738" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/menu/bottom_nav_menu.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/menu/menu.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApplicationTest/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.19583333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

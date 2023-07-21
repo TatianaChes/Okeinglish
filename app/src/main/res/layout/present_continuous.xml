@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Настоящее продолженное время\n(The Present Continuous Tense)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:text="\tPresent Continuous употребляется для описания действия, которое происходит в данный момент."/>
+
+        <TextView
+            style="@style/title"
+            android:text="Образование"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tНастоящее продолженное время образуется при помощи вспомогательного глагола to be + причастие настоящего времени смыслового глагола.\n\tВ вопросах вспомогательный глагол ставится перед подлежащим, в отрицательных предложениях отрицательная частица not ставится после вспомогательного глагола."/>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="wrap_content"
+          >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+            I am winning - Я выигрываю\n
+            You are winning - Ты выигрываешь\n
+            Is he winning? - Он выигрывает?\n
+            They aren't winning - Они не выигрывают"
+                android:padding="10dp"
+                android:textColor="@color/custom_view_text_color"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="\tНе все основные глаголы употребляются в продолженном времени. Это касается глаголов, обозначающих состояние, а не действие."/>
+        <TableLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:text="утвердительная\nформа"
+                    android:background="@drawable/border"
+                    android:padding="3dp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:text="отрицательная\nформа"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:text="вопросительная\nформа"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    android:gravity="left"
+                    android:text="I am eating\nyou are eating\nhe is eating\nshe is eating\nit is eating\nwe are eating\nthey are eating"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="I am not eating\nyou are not eating\nhe is not eating\nshe is not eating\nit is not eating\nwe are not eating\nthey are not eating"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+                <TextView
+                    android:gravity="left"
+                    android:text="Am I eating?\nAre you eating?\nIs he eating?\nIs she eating?\nIs it eating?\nAre we eating?\nAre they eating?"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            style="@style/title"
+            android:text="Утвердительная форма"/>
+
+        <LinearLayout
+        style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="Подле-\nжащее"
+                android:backgroundTint="@color/blue"/>
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="+"
+               />
+            <TextView
+                style="@style/corner"
+                android:text="am/\nare/\nis"
+                android:backgroundTint="@color/red"
+                />
+            <TextView
+                android:padding="4dp"
+               style="@style/arithmetic"
+                android:text="+"
+             />
+
+            <TextView
+                style="@style/corner"
+                android:text="Причастие\n(ing)"
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+                android:padding="4dp"
+               style="@style/arithmetic"
+                android:text="="
+               />
+
+            <TextView
+               style="@style/corner"
+                android:text="Утверждение"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="180dp"
+           >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                       android:text="I am reading a book\nСейчас я читаю книгу"
+                        style="@style/textTable" />
+
+                    <TextView
+                        android:text="The birds are singing\nПтицы поют"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/reading"/>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/sing"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TextView
+            style="@style/title"
+            android:text="Отрицательная форма"/>
+
+        <LinearLayout
+          style="@style/linear"
+            >
+
+            <TextView
+               style="@style/corner"
+                android:text="Подле-\nжащее"
+                android:backgroundTint="@color/blue"/>
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="+"
+              />
+            <TextView
+                style="@style/corner"
+                android:text="am/\nare/\nis"
+                android:backgroundTint="@color/red"
+               />
+
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="+"
+              />
+            <TextView
+              style="@style/corner"
+                android:text="not"
+                android:backgroundTint="@color/red"
+                />
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="+"
+               />
+
+            <TextView
+               style="@style/corner"
+                android:text="Причас-\nтие (ing)"
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="="
+               />
+
+            <TextView
+               style="@style/corner"
+               android:text="Отрица-\nние"
+               android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="190dp"
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                       android:text="They are not playing chess at the moment\nОни сейчас не играют в шахматы"
+                       style="@style/textTable"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/chess"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+        <TextView
+            style="@style/title"
+            android:text="Вопросительная форма"/>
+
+        <LinearLayout
+        style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="Am/\nare/\nis"
+                android:backgroundTint="@color/red"/>
+
+            <TextView
+               style="@style/arithmetic"
+                android:text="+"
+           />
+            <TextView
+                style="@style/corner"
+                android:text="Подле-\nжащее"
+                android:backgroundTint="@color/blue"
+                />
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+            />
+            <TextView
+               style="@style/corner"
+                android:text="Причастие\n(ing)"
+                android:backgroundTint="@color/green"/>
+
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="="
+               />
+
+            <TextView
+                style="@style/corner"
+                android:text="Вопрос"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="190dp"
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                       android:text="Is she using the computer at the moment?\nОна сейчас за компьютером?"
+                        style="@style/textTable" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/computer"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            style="@style/title"
+            android:text="Употребление"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Когда речь идет о действиях, происходящих в момент речи;\n\t• Когда речь идет о временной деятельности, которая протекает даже не в момент речи (I am studying);\n\t• Когда речь идет о временной ситуации;\n\t• Когда речь идет о меняющейся ситуации или состоянии;\n\t• Когда речь идет об обстоятельствах, при которых что-либо происходит;\n\t• Когда речь идет о планах на ближайщее будущее;\n\t• Для выражения недовольства, раздражения по поводу каких-либо повторяющихся действий, с такими наречиями как always, forever, constantly, continually;\n\t• С обстоятельствами времени: now, at the moment, these days, at present, always, tonight, still."
+           />
+
+        <TextView
+            style="@style/title"
+            android:layout_marginBottom="10dp"
+            android:text="Глаголы не имеющие форм Continuous"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_marginBottom="20dp"
+            style="@style/cardView"
+            android:layout_height="wrap_content"
+            >
+        <TableLayout
+            android:shrinkColumns="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+               android:background="@drawable/border">
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    android:text="\tГлаголы описывающие\n чувства"
+                    style="@style/textTable" />
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    android:gravity="left"
+                    android:text="see, hear, smell, feel, taste"
+                    style="@style/textTable"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    android:text="\tГлаголы описывающие\n понимание, восприятие"
+                    style="@style/textTable" />
+
+                <TextView
+                  android:textColor="@color/empty_view"
+                  android:gravity="left"
+                  android:text="agree, believe, consider, know, forget, notice, realize, recognize, remember, seem, sound, think, understand"
+                  style="@style/textTable"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    android:text="\tГлаголы описывающие\n эмоции"
+                    style="@style/textTable" />
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                    android:gravity="left"
+                    android:text="feel, forgive, hate, like, love, enjoy"
+                    style="@style/textTable"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textColor="@color/empty_view"
+                  android:text="\tДругие глаголы"
+                   style="@style/textTable" />
+
+                <TextView
+                    android:gravity="left"
+                    android:textColor="@color/empty_view"
+                   android:text="appear(в значении казаться), be, belong, cost, fit(по размеру), have, include, look, mean, need, own, prefer, require, want, weigh, wish"
+                    style="@style/textTable"
+                    />
+            </TableRow>
+
+        </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+</ScrollView>

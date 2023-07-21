@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Okeinglish</string>
+
+    <string name="blankEditText">You must fill out all fields</string>
+    <string name="auth_failed">Wrong password!</string>
+    <string name="invalid_password">Your password needs to have at least 6 characters</string>
+    <string name="invalid_email">Email not valid!</string>
+    <string name="account_creation_fail">Failed to create an account with this email. Try again later!</string>
+    <string name="account_creation_success">Registration completed successfully!</string>
+    <string name="current_name"> Check your current name</string>
+    <string name="email_not_verified"> You account is not verified.\n Check your email to verify it!</string>
+    <string name="update_profile">Data changed successfully!</string>
+    <string name="change_passport">The password has been successfully changed!</string>
+    <string name="error_change_passport">Authentication error, incorrect password?</string>
+    <string name="exit_content">Do you really want to log out of your account?</string>
+    <string name="exit_title">Notification</string>
+    <string name="exit_positive">EXIT</string>
+    <string name="send_message">Email sent successfully</string>
+    <string name="change_settings">Data changed</string>
+    <string name="check_email">Check your email!</string>
+    <string name="check_daily">The daily goal can not be less than 10</string>
+    <string name="check_time">Check the time of sending</string>
+    <string name="question"> Are you sure about that?</string>
+    <string name="question_exit">All progress in this lesson will be lost.</string>
+    <string name="button_positive">QUIT</string>
+    <string name="exit_negative">CANCEL</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="planet_message">
+        <item>I am proud of you!</item>
+        <item>Great!</item>
+        <item>Wow, cool!</item>
+        <item>Stunningly!</item>
+    </string-array>
+</resources>

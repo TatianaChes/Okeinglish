@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Прошедшее продолженное время\n(The Past Continuous Tense)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tPast Continuous употребляется для описания незаконченного действия, которое совершилось в какой-то указанный момент или период времени в прошлом. Может быть точно указан час или часы (отрезок времени). На русский язык глагол в Past Continuous всегда переводится глаголом прошедшего времени несовершенного вида."/>
+
+        <TextView
+            style="@style/title"
+            android:text="Образование"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПрошедшее продолженное время образуется при помощи вспомогательного глагола to be в прошедшем времени и причастия настоящего времени смыслового глагола.\n\tВ вопросах вспомогательный глагол ставится перед подлежащим, в отрицательных предложениях отрицательная частица not ставится после вспомогательного глагола."/>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="wrap_content"
+           >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="
+            I was reading - Я читал\n
+            Were they watching? - Они наблюдали?\n
+            He wasn't listening - Он не слушал"
+                android:textColor="@color/custom_view_text_color" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="\tНе все глаголы употребляются в продолженном времени. Это касается глаголов, обозначающих состояние, а не действие."/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:text="утвердительная\nформа"
+                    android:background="@drawable/border"
+                    android:padding="3dp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:text="отрицательная\nформа"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:text="вопросительная\nформа"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    android:textSize="13sp"
+                    android:gravity="left"
+                    android:text="I was standing\nyou were standing\nhe was standing\nshe was standing\nit was standing\nwe were standing\nthey were standing"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+                <TextView
+                    android:textSize="13sp"
+                    android:gravity="left"
+                    android:text="I wasn't standing\nyou weren't standing\nhe wasn't standing\nshe wasn't standing\nit wasn't standing\nwe weren't standing\nthey weren't standing"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+                <TextView
+                    android:textSize="13sp"
+                    android:gravity="left"
+                    android:text="Was I standing?\nWere you standing?\nWas he standing?\nWas she standing?\nWas it standing?\nWere we standing?\nWere they standing?"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            style="@style/title"
+            android:text="Утвердительная форма"/>
+
+        <LinearLayout
+        style="@style/linear"
+            >
+
+            <TextView
+               style="@style/corner"
+                android:text="Подле-\nжащее"
+                android:backgroundTint="@color/blue"/>
+            <TextView
+                android:padding="4dp"
+               style="@style/arithmetic"
+                android:text="+"
+              />
+            <TextView
+                style="@style/corner"
+                android:text="was/\nwere"
+                android:backgroundTint="@color/red"
+                 />
+            <TextView
+                android:padding="4dp"
+                android:text="+"
+                style="@style/arithmetic"/>
+
+            <TextView
+                style="@style/corner"
+                android:text="Причастие\n(ing)"
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+                android:padding="4dp"
+               style="@style/arithmetic"
+                android:text="="
+              />
+
+            <TextView
+               style="@style/corner"
+                android:text="Утверждение"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+           style="@style/cardView"
+            android:layout_height="180dp"
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:text="I was having breakfast\nЯ завтракал"
+                        style="@style/textTable" />
+
+                    <TextView
+                        android:text="He was looking for you\nОн вас искал"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/food"/>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/find"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TextView
+            style="@style/title"
+            android:text="Отрицательная форма"/>
+
+        <LinearLayout
+            style="@style/linear"
+            >
+
+            <TextView
+              style="@style/corner"
+                android:text="Подле-\nжащее"
+                android:backgroundTint="@color/blue"/>
+            <TextView
+                android:padding="4dp"
+               style="@style/arithmetic"
+                android:text="+"
+            />
+            <TextView
+                style="@style/corner"
+                android:text="was/\nwere"
+                android:backgroundTint="@color/red"
+                  />
+
+            <TextView
+                android:padding="4dp"
+               style="@style/arithmetic"
+                android:text="+"
+               />
+            <TextView
+                style="@style/corner"
+                android:text="not"
+                android:backgroundTint="@color/red"
+               />
+            <TextView
+                android:padding="4dp"
+               style="@style/arithmetic"
+                android:text="+"
+            />
+
+            <TextView
+               style="@style/corner"
+                android:text="Причас-\nтие(ing)"
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+                android:padding="4dp"
+               style="@style/arithmetic"
+                android:text="="
+             />
+
+            <TextView
+                style="@style/corner"
+                android:text="Отрица-\nние"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="190dp"
+           >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                      android:text="His money was not being kept in a bank\nЕго деньги не хранились в банке"
+                      style="@style/textTable" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/money"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TextView
+            style="@style/title"
+            android:text="Вопросительная форма"/>
+
+        <LinearLayout
+          style="@style/linear"
+            >
+
+            <TextView
+                android:text="Was/\nWere"
+                style="@style/corner"
+                android:backgroundTint="@color/red"/>
+
+            <TextView
+               style="@style/arithmetic"
+                android:text="+"
+              />
+            <TextView
+             style="@style/corner"
+                android:text="Подлежа-\nщее"
+                android:backgroundTint="@color/blue"
+
+                />
+            <TextView
+             style="@style/arithmetic"
+                android:text="+"
+             />
+            <TextView
+                style="@style/corner"
+                android:text="Причастие\n(ing)"
+                android:backgroundTint="@color/green"/>
+
+
+            <TextView
+               style="@style/arithmetic"
+                android:text="="
+               />
+
+            <TextView
+               style="@style/corner"
+                android:text="Вопрос"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="200dp"
+            >
+            <TableLayout
+                android:id="@+id/table9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+
+                        android:text="Were you sleeping at eleven o'clock last night?\nВчера в одиннадцать ты спал?"
+                        style="@style/textTable" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/time"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            style="@style/title"
+            android:text="Употребление"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="\t• С обстоятельством времени, когда речь идет о действии, которое началось до указанного времени и продолжилось после;\n\t• Когда одно действие в прошлом прерывает другое. То действие, которое прерывает, выражается в простом прошедшем времени;\n\t• Когда речь идет о действии, которое происходит во время другого, более длительного действия;\n\t• При описании какой-либо сцены в прошлом, особенно в повествовании;\n\t• С обстоятельствами времени: while, when, as, all day / night / morning, yesterday."
+            />
+
+
+    </LinearLayout>
+</ScrollView>

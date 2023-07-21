@@ -1,0 +1,1756 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <TextView
+          style="@style/title"
+            android:text="Сокращения и условные обозначения"  />
+
+        <TableLayout
+            android:shrinkColumns="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:stretchColumns="*">
+
+            <TableRow
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            <TextView
+                android:layout_gravity="center"
+                android:text="ASC"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/custom_view_text_color"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="automatic control system\nавтоматическая система управления"
+                android:textSize="16sp" />
+        </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="AFM"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="automatic force microscope\nатомно-силовой микроскоп"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="ALD"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="automatic layer deposition\nосаждение атомного слоя"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="ALU"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="arithmetic-logical unit\nарифметико-логическое устройство"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="APL"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="A Programmable language\nвысокоуровневый язык программирования"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="AU"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="arithmetic unit\nарифметическое устройство"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="BASIC"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="Beginner’s All-purpose Symbolic Instruction Code\nязык программирования"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="CD"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="compact-disk\nкомпакт-диск"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="СDD"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="compact-disk drive\nдисковод для компакт-дисков"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="CD-ROM"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="compact disk, read only memory\nнеперезаписываемый компакт-диск"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="CMOS"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="complementary metal-oxide-semiconductor\nкомплементарная структура металлоксид-полупроводник"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="COBOL"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="Common Business Oriented Language\nбизнес-ориентированный язык"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="CPU"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="central processing unit\nцентральный процессор"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="CTR"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="cathode-ray tube\nэлектронно-лучевая трубка"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="CU"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="control unit\nустройство управления"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="DB"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="database\nбаза данных"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="DEL"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="delete\nсимвол удаления"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="DNA"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="deoxyribonucleic acid\nдезоксирибонуклеиновая кислота"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="DOS"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="disk operating system\nдисковая операционная система"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="DVD"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="digital video disk\nцифровой видеодиск"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="ECC"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="error-correction code\nкод с исправлением ошибок"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="EDI"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="electronic data interchange\nэлектронный обмен данными"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="EDP"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="electronic data processing\nэлектронная обработка данных"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="ENIAC"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="Electronic Numerical Integrator and Calculator\nэлектронно-числовой интегратор и калькулятор"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="EPROM"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="erasable programmable read-only memory\nстираемое программируемое постоянное запоминающее устройство"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="FDD"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="floppy-disk drive\nдисковод для гибких дисков"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="FORTRAN"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="formular translation\nФортран(язык программирования)"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="GB"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="gigabyte\nгигабайт"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="Gc"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="gigacycle\nгигацикл"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="GP"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="general purpose\nобщего назначения"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="HD"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="high density\nвысокая плотность"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="HDD"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="hard-disk drive\nдисковод для жесткого диска"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="Hi-Fi"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="high fidelity\nвысоконадежный"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="HF"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="high frequency\nвысокочастотный"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="HW"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="hardware\nаппаратура"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="IAB"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="Internet Activities Board\nУправляющий совет по вопросам деятельности Internet"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="IBM"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="Internal Business Machine\nфирма по выпуску компьютеров"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="IC"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="integrated circuit\nинтегральная схема"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="IC"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="integrated circuit\nинтегральная схема"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="I/O"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="input/output\nустройство ввода-вывода"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="Intel"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="Корпорация по производству микропроцессоров"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="IP"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="Internet Protocol\nпротокол маршрутизации"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="ISOC"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="Internet Society\nОбщество Internet"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="IT"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="information technology\nинформационная технология"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+               android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="KB"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="Kbyte\nкилобайт"
+                    android:textSize="16sp" />
+            </TableRow>
+        <TableRow
+            android:layout_marginTop="10dp"
+               android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="К/B"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="keyboard\nклавиатура"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="Kc"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="kilocycle\nкилоцикл"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="KHz"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="kilohertz\nкилогерц"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="LAN"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="local-area network\nлокальная сеть"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="LCD"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="liquid-crystal display\nжидкокристаллический дисплей"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="LSI"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="large-scale integration\nвысокий уровень интеграции"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="MB"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="megabyte\nмегабайт"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="M/B"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="motherboard\nматеринская плата"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="MBE"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="molecular beam epitaxy\nустройство молекулярного луча"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="MCB"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="memory control block\nблок управления памятью"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="MEMS"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="microelectro-mechanical system\nмикроэлектромеханическая система"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="MIS"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="management information system\nуправленческая информационная система"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="MMCD"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="Multimedia Compact Disk\nмультимедийный компакт-диск"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="MP"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="microprocessor\nмикропроцессор"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="MPU"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="microprocessor unit\nмикропроцессорное устройство"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="MS DOS"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="Microsoft Disk Operational System\nстандартная операционная система для IBM"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="MSI"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="medium-scale integrated circuit\nсредняя интегральная схема"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="NEMS"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="nanoelectro-mechanical system\nнаноэлектромеханическая система"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+               android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="NEMS"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="nanoelectro-mechanical system\nнаноэлектромеханическая система"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="NetBIOS"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="Network Basic Input/Output System\nбазовая система ввода-вывода сети"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="OCR"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="optical character reader\nоптическое устройство считывания знаков"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="OR"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="(ИЛИ) логическая операция\nоптическое устройство считывания знаков"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="OS"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="operating system\nоперационная система"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="PC"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="personal computer\nперсональный компьютер"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="PFM"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="pulse-frequency modulation\nчастотно-импульсивная модуляция"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="PIF"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="program information file\nинформационный файл программы"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="PILOT"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="Programmed Inquiry Or Teaching\nавтоматизированный язык для машинного обучения"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="PL"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="Programming Language\nязык программирования"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="PROLOG"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="Programming in LOGic\nвысокоуровневый язык программирования"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="PROM"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="programmable read-only memory\nпрограммированное постоянное запоминающее устройство"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="RAM"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="random-access memory\nоперативно запоминающее устройство"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="r.c."
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="remote control\nдистанционное управление"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="r.mt."
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="reverse motion\nобратное движение"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="ROM"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="read-only memory\nпостоянное запоминающее устройство"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="RTG"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="Radioisotop Thermoelectric Generator\nрадиоизотопный термо-электрический генератор"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="R/W"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="read/write\nчтение-запись"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="SATAN"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="Security Administrator Tool for Analysing Networks\nпрограмма оценки безопасности"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="SNOBOL"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="String-Oriented Symbolic Language\nязык программирования для обработки символьных последовательностей"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="SOM"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="start of message\nначало сообщения"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="SP"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="space character\nсимвол пробела"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="SSI"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="small-scale integration\nинтеграция малого уровня"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="STM"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="scanning tunneling microscope\nсканирующий туннельный микроскоп"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="TCP"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="Transmission Control Protocol\nтранспортный протокол"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="TF"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="time factor\nкоэффициент времени"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="Turbo\nPascal"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="компилятор для Pascal"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="ULSI"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="ultralarge-scale integration\nинтеграция ультравысокого уровня"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="UNIX"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="операционная система"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="UPS"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="uninterrupted power supply\nбесперебойный источник питания"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="VDT"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="visual display terminal\nвидеотерминал"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="v.f."
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="video frequency\nвидеочастота"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="v.f."
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="velocity factor\nкоэффициент скорости"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="VLSI"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="very large-scale integration\nинтеграция сверхвысокого уровня"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="VR"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="virtual reality\nвиртуальная реальность"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="v.r."
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="voltage regulator\nрегулятор напряжения"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="WAN"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="wide-area network\nглобальная сеть"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="WWW"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/custom_view_text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_marginBottom="10dp"
+                    android:text="World Wide Web\nВсемирная информационная сеть"
+                    android:textSize="16sp" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>

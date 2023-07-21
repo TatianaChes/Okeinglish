@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Настоящее совершенное время\n(The Present Perfect Tense)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tPresent Perfect употребляется для описания совершенного действия, которое совершилось или непосредвенно перед моментом речи, или в более отдаленном прошлом. При этом говорящего интересует не время совершения действия, а результат этого действия, имеющийся в данный момент.\n\tНа русский язык глагол в Present Perfect переводится обычно глаголом в прошедшем времени совершенного вида."/>
+
+        <TextView
+            style="@style/title"
+            android:text="Образование"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tНастоящее совершенное время образуется при помощи вспомогательного глагола to have + причастие прошедшего времени смыслового глагола.\n\tВ вопросах вспомогательный глагол to have ставится перед подлежащим.\n\tВ отрицательных предложениях отрицательная частица not ставится после вспомогательного глагола."/>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="wrap_content"
+          >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+            I have finished - Я закончил\n
+            He has found them - Он нашел их\n
+            Have they arrived yet? - Они еще не приехали?"
+                android:padding="10dp"
+                android:textColor="@color/custom_view_text_color"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TableLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:text="утвердительная\nформа"
+                    android:background="@drawable/border"
+                    android:padding="3dp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:text="отрицательная\nформа"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:text="вопросительная\nформа"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    android:textSize="13sp"
+                    android:gravity="left"
+                    android:text="I have played\nyou have played\nhe has played\nshe has played\nit has played\nwe have played\nthey have played"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+                <TextView
+                    android:textSize="13sp"
+                    android:gravity="left"
+                    android:text="I have not played\nyou have not played\nhe has not played\nshe has not played\nit has not played\nwe have not played\nthey have not played"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+                <TextView
+                    android:textSize="13sp"
+                    android:gravity="left"
+                    android:text="Have I played?\nHave you played?\nHas he played?\nHas she played?\nHas it played?\nHave we played?\nHave they played?"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            style="@style/title"
+            android:text="Утвердительная форма"/>
+
+        <LinearLayout
+          style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="Подле-\nжащее"
+                android:backgroundTint="@color/blue"/>
+            <TextView
+                android:padding="4dp"
+               style="@style/arithmetic"
+                android:text="+"
+               />
+            <TextView
+                style="@style/corner"
+                android:text="have/\nhas"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="+"
+              />
+
+            <TextView
+               style="@style/corner"
+                android:text="Причастие\n(ed/V3)"
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+                android:padding="4dp"
+               style="@style/arithmetic"
+                android:text="="
+               />
+
+            <TextView
+                style="@style/corner"
+                android:text="Утверждение"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+             style="@style/cardView"
+            android:layout_height="180dp"
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:text="I have bought a new car\nЯ купил новую машину"
+                        style="@style/textTable" />
+
+                    <TextView
+                        android:text="He has lied to me\nОн мне солгал"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/car"/>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/lie"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TextView
+            style="@style/title"
+            android:text="Отрицательная форма"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <LinearLayout
+         style="@style/linear"
+            >
+            <TextView
+                style="@style/corner"
+                android:text="Подлежащее"
+                android:backgroundTint="@color/blue"/>
+            <TextView
+               style="@style/arithmetic"
+                android:text="+"
+               />
+            <TextView
+                style="@style/corner"
+                android:text="have/\nhas"
+                android:backgroundTint="@color/red"
+              />
+
+            <TextView
+               style="@style/arithmetic"
+                android:text="+"
+             />
+            <TextView
+                style="@style/corner"
+                android:text="not"
+                android:backgroundTint="@color/red"
+                        />
+            <TextView
+               style="@style/arithmetic"
+                android:text="+"
+           />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            style="@style/linear"
+            >
+            <TextView
+               style="@style/corner"
+                android:text="Причастие(ed/V3)"
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+              style="@style/arithmetic"
+                android:text="="
+              />
+
+            <TextView
+             style="@style/corner"
+                android:text="Отрицание"
+                android:backgroundTint="@color/yellow"/>
+        </LinearLayout>
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="210dp"
+           >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                       style="@style/textTable"
+                        android:text="I have not been on holiday for year\nЯ не был в отпуске уже много лет"
+                       />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/holiday"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            style="@style/title"
+            android:text="Вопросительная форма"/>
+
+        <LinearLayout
+           style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="Have/\nHas"
+                android:backgroundTint="@color/red"/>
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+               />
+            <TextView
+                style="@style/corner"
+                android:text="Подлежа-\nщее"
+                android:backgroundTint="@color/blue"
+
+                />
+            <TextView
+              style="@style/arithmetic"
+                android:text="+"
+           />
+            <TextView
+                style="@style/corner"
+                android:text="Причастие\n(ed/V3)"
+                android:backgroundTint="@color/green"/>
+
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="="
+              />
+
+            <TextView
+                style="@style/corner"
+                android:text="Вопрос"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="190dp"
+           >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:text="Has the lesson started?\nУрок начался?"
+                        style="@style/textTable" />
+
+                    <TextView
+                       android:text="Have you ever been to Paris?\nТы когда-либо был в Париже?"
+                       style="@style/textTable" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/lesson"/>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/paris"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            style="@style/title"
+            android:text="Употребление"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="\t• Настоящее совершенное время употребляется, когда говорится о событиях, произошедших в прошлом, но имеющих значение в настоящем;\n\t• Если в предложении однородные сказуемые в настоящем совершенном времени, have можно не повторять;\n\t• Если действие только что произошло, употребляется наречие just;\n\t• Если действие не произошло, употребляется never. Чтобы узнать, произошло ли действие, употребляется ever;\n\t• Чтобы указать конкретное время или период времени, когда действие произошло, употребляются такие наречия времени, как recently, lately, this morning, today, this week и т.п.;\n\t• В отрицательных и вопросительных предложениях употребляется yet в значении еще не, в утвердительных - already в значении уже;\n\t• Настоящее совершенное время часто употребляется в ответе на вопрос, начинающийся с How long..? С предлогом for, когда речь идет о периоде времени, или since, когда речь идет об отправной точке."
+            />
+
+
+    </LinearLayout>
+</ScrollView>

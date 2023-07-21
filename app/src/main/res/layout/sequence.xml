@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Правило согласования имен\n(The Sequence of Tenses)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tВ сложноподчиненном преложении с придаточным дополнительным предложением существует определенное правило последовательности времен.\n\tПри наличии прошедшего времени в главном предложении в придаточном предложении настоящее и будущее время заменяются один из прошедших времен."/>
+        <TableLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+        <TextView
+            style="@style/textTable"
+            android:text="Употребление"
+            />
+            <TextView
+                style="@style/textTable"
+                android:text="Главное\nпредложение"
+                />
+            <TextView
+                style="@style/textTable"
+                android:text="Придаточное\nпредложение"
+                />
+        </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textColor="@color/empty_view"
+
+                    style="@style/textTable"
+                    android:text="Одновременность\nдействия в главном\nи придаточном пред-\nложении"
+                    />
+                <TextView
+                    android:textColor="@color/empty_view"
+                    style="@style/textTable"
+                    android:text="Past Simple\nили Past\nContinuous"
+                    />
+                <TextView
+                    android:textColor="@color/empty_view"
+
+                    style="@style/textTable"
+                    android:text="Past Simple\nили Past\nContinuous"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"/>
+
+            <TextView
+                style="@style/textTable"
+                android:text="Примеры"
+                />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border"/>
+
+            <TextView
+                style="@style/textTable"
+                android:textColor="@color/empty_view"
+                android:text="She said that Peter took Russian lessons\nОна сказала, что Питер берет уроки русского языка\nI thought that the child was sleeping\nЯ думал, что ребенок спит"
+                />
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textColor="@color/empty_view"
+
+                    style="@style/textTable"
+                    android:text="Действие в придаточ-\nном предшествует\nдействию в главном"
+                    />
+                <TextView
+                    android:textColor="@color/empty_view"
+                    style="@style/textTable"
+                    android:text="Past Simple\nили Past\nContinuous"
+                    />
+                <TextView
+                    android:textColor="@color/empty_view"
+
+                    style="@style/textTable"
+                    android:text="Past\nPerfect"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"/>
+
+            <TextView
+                style="@style/textTable"
+                android:text="Примеры"
+                />
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"/>
+
+            <TextView
+                style="@style/textTable"
+                android:textColor="@color/empty_view"
+                android:text="I thought that you had seen this film\nЯ думал, что вы смотрели этот фильм"
+                />
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textColor="@color/empty_view"
+
+                    style="@style/textTable"
+                    android:text="Действие в прида-\nточном предложении\nявляется будущим\nпо отношению к дей-\nствию в главном"
+                    />
+                <TextView
+                    android:textColor="@color/empty_view"
+                    style="@style/textTable"
+                    android:text="Past Simple\nили Past\nContinuous"
+                    />
+                <TextView
+                    android:textColor="@color/empty_view"
+
+                    style="@style/textTable"
+                    android:text="Future in the\nPast"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"/>
+
+            <TextView
+                style="@style/textTable"
+                android:text="Примеры"
+                />
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"/>
+
+            <TextView
+                style="@style/textTable"
+                android:textColor="@color/empty_view"
+                android:text="He said to me that she would go to London next week\nОн сказал мне, что она едет в Лондон на следующей недели"
+                />
+        </TableLayout>
+
+        <com.google.android.material.card.MaterialCardView
+        android:layout_marginBottom="20dp"
+            style="@style/cardView"
+            android:layout_height="180dp"
+            >
+            <TableLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shrinkColumns="0,1"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+
+                        android:text="She said that she was an editor\n= Она сказала, что она редактор"
+                        style="@style/textTable" />
+
+                    <TextView
+
+                        android:text="She said that she had been an editor\n= Она сказала, что она была редактором"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/editor"/>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+
+                        android:background="@drawable/not_editors"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+</ScrollView>

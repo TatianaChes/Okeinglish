@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Будущее продолженное время\n(The Future Continuous Tense)"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tFuture Continuous употребляется для описания незаконченного действия, которое будет совершаться в какой-то момент или отрезок времени в будущем.\n\tГлагол в форме Future Continuous переводится на русский глаголом в будущем времени несовершенного вида.\n\tБудущее продолженное время образуется с помощью will be + причастие настоящего времени смыслового глагола.\n\tВ вопросах глагол will ставится перед подлежащим.\tВ отрицательных предложениях отрицательная частица not ставится после глагола will."/>
+
+      <TextView
+          style="@style/title"
+          android:text="Употребление"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="\t• Будущее продолженное время употребляется в разговорной речи, когда говорится о действии, которое может произойти в будущем в неопределенное время.\n\t• Будущее продолженное время употребляется также, когда говорится о действии в будущем, которое будет уже происходить в определенное время."
+            />
+
+
+        <TableLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:text="утвердительная\nформа"
+                    android:background="@drawable/border"
+                    android:padding="3dp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:text="отрицательная\nформа"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:text="вопросительная\nформа"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:textSize="11sp"
+                    android:gravity="left"
+                    android:text="I will be working\nyou will be working\nhe will be working\nshe will be working\nit will be working\nwe will be working\nthey will be working"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+                <TextView
+                    android:textSize="11sp"
+                    android:gravity="left"
+                    android:text="I will not be working\nyou will not be working\nhe will not be working\nshe will not be working\nit will not be working\nwe will not be working\nthey will not be working"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+                <TextView
+                    android:textSize="11sp"
+                    android:gravity="left"
+                    android:text="Will I be working?\nWill you be working?\nWill he be working?\nWill she be working?\nWill it be working?\nWill we be working?\nWill they be working?"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            style="@style/title"
+            android:text="Утвердительная форма"/>
+
+        <LinearLayout
+        style="@style/linear"
+            >
+
+            <TextView
+
+                android:text="Подле-\nжащее"
+                style="@style/corner"
+                android:backgroundTint="@color/blue"/>
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="+"
+               />
+            <TextView
+              style="@style/corner"
+                android:text="will\nbe"
+                android:backgroundTint="#ff4b4b"
+
+                />
+            <TextView
+                android:padding="4dp"
+               style="@style/arithmetic"
+                android:text="+"
+                />
+
+            <TextView
+                style="@style/corner"
+                android:text="Причастие\n(ing)"
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="="
+              />
+
+            <TextView
+
+            android:text="Утверждение"
+            style="@style/corner"
+            android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+         style="@style/cardView"
+            android:layout_height="200dp"
+            >
+            <TableLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+
+                        android:text="I will be watching TV at four tomorrow\nЗавтра в 4 я буду смотреть телевизор"
+                        style="@style/textTable" />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/watch"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TextView
+            style="@style/title"
+            android:text="Отрицательная форма"/>
+
+        <LinearLayout
+           style="@style/linear"
+            >
+
+            <TextView
+
+                android:text="Подле-\nжащее"
+            style="@style/corner"
+                android:backgroundTint="@color/blue"/>
+
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="+"
+              />
+            <TextView
+                style="@style/corner"
+                android:text="will not be"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="+"
+                />
+
+            <TextView
+
+                android:text="Причас-\nтие(ing)"
+               style="@style/corner"
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="="
+               />
+
+            <TextView
+
+                android:text="Утвержде-\nние"
+                 style="@style/corner"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+           style="@style/cardView"
+            android:layout_height="210dp"
+          >
+            <TableLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+
+                        android:text="Не will not be working all day tomorrow\nОн не будет работать завтра целый день"
+                        style="@style/textTable" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/work_all_day"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+        <TextView
+            style="@style/title"
+            android:text="Вопросительная форма"/>
+
+        <LinearLayout
+            style="@style/linear"
+            >
+
+            <TextView
+
+                android:text="Will"
+                style="@style/corner"
+                android:backgroundTint="@color/red"/>
+
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="+"
+               />
+            <TextView
+                style="@style/corner"
+                android:text="Подлежа-\nщее"
+                android:backgroundTint="@color/blue"
+
+                />
+
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="+"
+                />
+            <TextView
+
+                android:text="be"
+                style="@style/corner"
+                android:backgroundTint="@color/red"/>
+
+            <TextView
+                android:padding="4dp"
+             style="@style/arithmetic"
+                android:text="+"
+                />
+            <TextView
+                style="@style/corner"
+                android:text="Причас-\nтие(ing)"
+
+                android:backgroundTint="@color/green"/>
+
+
+            <TextView
+                android:padding="4dp"
+              style="@style/arithmetic"
+                android:text="="
+             />
+
+            <TextView
+               style="@style/corner"
+                android:text="Вопрос"
+
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="210dp"
+            android:layout_marginBottom="20dp"
+            >
+            <TableLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+
+                        android:text="Will you be cooking tomorrow evening?\nТы будешь готовить завтра вечером?"
+                        style="@style/textTable" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+
+                        android:background="@drawable/cook"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+</ScrollView>

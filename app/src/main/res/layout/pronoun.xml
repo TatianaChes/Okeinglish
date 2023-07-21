@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Местоимение\n(The Pronoun)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tМестоимение - это часть речи, которая указывает на предмет, но не называет его."/>
+
+
+        <TextView
+            android:textColor="@color/custom_view_text_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tМестоимения употребляются:"
+      />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Вместо существительного, которое уже упоминалось, и было бы странное его повторять"/>
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="190dp"
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:text="Sam has to go to the airport. Can you give him a left?\nСэму нада в аэропорт. Сможешь его отвезти?"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/airport"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Когда хорошо известно, о ком или о чем идет речь "/>
+        <com.google.android.material.card.MaterialCardView
+        style="@style/cardView"
+        android:layout_height="200dp"
+        >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="0,1"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="I'm sorry I'm late\nПростите, я опоздал"
+                    style="@style/textTable"
+                    />
+                <TextView
+                    android:text="We'd better ring and say we're not coming\nЛучше бы нам позвонить и сказать, что мы не придем"
+                    style="@style/textTable"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="250dp"
+                    android:background="@drawable/late"/>
+
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="150dp"
+                    android:background="@drawable/phone_call"/>
+            </TableRow>
+        </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Когда имя человека или название предмета не известны"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tHe's the man who came to the house yesterday! - Он тот человек, что приходил вчера!"/>
+        <TextView
+            style="@style/title"
+            android:text="Типы местоимений"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t В зависимости от значения и употребления местоимения подразделяются на типы.\n\tЛичные местоимения выступают в предложении в роли подлежащего и дополнения.\n\tВозвратные местоимения употребляются в роли дополнения, когда действие подлежащего направлено на само подлежащее.\n\t Возвратные местоимения также употребляются для усиления:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tThe professor himself did not know the answer - Профессор и сам не знал ответа."/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Притяжательные местоимения указывают на принадлежность.\n\t Указательные местоимения указывают на предметы, которые близко или далеко от говорящего.\n\tОтносительные местоимения служат для связи придаточных оборотов и предложений с существительным и главным предложением."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI don't know what you mean - Я не знаю, что вы имеете в виду.\n\tThat's the girl who always comes early - Вот эта девушка, которая всегда приходит рано."/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tВопросительные местоимения используются, чтобы задать вопрос.\n\tНеопределенные местоимения широко используются, когда нет необходимости или возможности употребить личное местоимение."/>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="wrap_content"
+            >
+
+        <TableLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="1"
+            android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <TextView
+                android:padding="3dp"
+                android:text="личные"
+                style="@style/textTable" />
+
+            <TextView
+                android:gravity="left"
+                android:text="I - я, you - ты/вы, he - он, she - она, it - оно, we - мы, they - они"
+                android:padding="3dp"
+                android:background="@drawable/border"
+                />
+        </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:padding="3dp"
+                    android:text="притяжательные"
+                    style="@style/textTable" />
+
+                <TextView
+
+                    android:gravity="left"
+                    android:text="my/mine - мой/моя/мое/мои, your/yours - твой/твоя/твое/твои/ваш/ваша/ваше/ваши, his - его, her/hers - ее, its - его/ее, our/ours - наш/наша/наше/наши, their/theirs - их"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:padding="3dp"
+                    android:text="возвратные"
+                    style="@style/textTable" />
+
+                <TextView
+
+                    android:gravity="left"
+                    android:text="myself, yourself, himself, itself, ourselves, yourselves, themselves"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:padding="3dp"
+                    android:text="указательные"
+                    style="@style/textTable" />
+
+                <TextView
+
+                    android:gravity="left"
+                    android:text="this - этот, these - эти, that - тот, those - те"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:padding="3dp"
+                    android:text="вопросительные"
+                    style="@style/textTable" />
+
+                <TextView
+
+                    android:gravity="left"
+                    android:text="what - что, which - какой, who - кто, whom - кого/кому, whose - чей"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:padding="3dp"
+                    android:text="отрицательные"
+                    style="@style/textTable" />
+
+                <TextView
+
+                    android:gravity="left"
+                    android:text="no - никакой, nothing - ничего, nobody - никто, no one - никто, none -никто"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:padding="3dp"
+                    android:text="неопределенные"
+                    style="@style/textTable" />
+
+                <TextView
+
+                    android:gravity="left"
+                    android:text="some - некоторые, somebody - кто-то, something - что-то, someone - кто-то, any - какой-нибудь, anybody - кто-нибудь, anything - что-нибудь, anyone - любой, every - каждый, everybody -все, everyone - каждый, everything - все, each - каждый, other - другой, another - другой, much - много, many - мало,  few - мало, little - мало"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:padding="3dp"
+                    android:text="взаимные"
+                    style="@style/textTable" />
+
+                <TextView
+
+                    android:gravity="left"
+                    android:text="each other, one other (один другого, друг друга)"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:padding="3dp"
+                    android:text="относительные"
+                    style="@style/textTable" />
+
+                <TextView
+
+                    android:gravity="left"
+                    android:text="that - который/которая/которое/которые, which - который/которая/которое, who - который/которая"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+            </TableRow>
+        </TableLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+        <TextView style="@style/title"
+            android:layout_marginBottom="10dp"
+            android:text="Падежы личных местоимений"/>
+         <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="Падеж личных местоимений"
+                />
+
+            <LinearLayout
+                style="@style/linear"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    style="@style/corner"
+                    android:text="именительный"/>
+
+
+                <TextView
+                    style="@style/corner"
+                    android:text="объектный"
+                    android:layout_marginLeft="30dp"
+                    />
+            </LinearLayout>
+         </LinearLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tЛичные местомения в именительном падеже употребляются перед глаголом вместо существительного в качестве подлежащего.\n\tЛичные местоимения в объектом падеже употребляются после глаголов в качестве дополнения."></TextView>
+
+        <TableLayout
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+        <TextView
+            android:text="Именительный падеж"
+            style="@style/textTable" />
+
+        <TextView
+            style="@style/textTable"
+            android:text="Объектный падеж"
+            />
+        </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="I (я)"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="me (мне, меня)"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="you (ты, вы)"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="you (тебя, тебе)"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="he (он)"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="him (его, ему)"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="she (она)"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="her (ее, ей)"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="it (оно)"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="it (его, ее, ему, ей)"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="we (мы)"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="us (нам, вас)"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="you (вы)"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="you (вас, вам)"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="they (они)"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="them (их, им)"
+                    />
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tКогда подлежащее состоит из нескольких личных местоимений, обычно порядок такой: 3-е и 2-е лицо идет перед 1-м; 2-е - перед 3-м."/>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="200dp"
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shrinkColumns="0,1"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:text="She and I do not get on very vell\nМы с ней не очень хорошо ладим"
+                        style="@style/textTable"
+
+                        />
+                    <TextView
+
+                        android:text="You and he should buy the boat between you\nВам с ним следует купить лодку вдвоем"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/relationship"/>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/shop"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Когда два личных местоимения или имя и личное местоимение составляют подлежащее, личное местоимение употребляется в именительном падеже:"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@color/custom_view_text_color"
+      android:text="\tJerry and I are going to paint the house ourselves - Джерри и я собираемся покрасить дом сами."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Если два личных местоимения или имя и личное местоимение выступают в роли дополнения, личное местоимение употребляется в объектном падеже:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tThe decoded tp help Jane and me - Они решили помочь мне и Джейн."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Объектная форма местоимения употребляется также, если перед местоимением есть предлог:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\t Wasn't that kind of me? - Разве это было не любезно с моей стороны?"/>
+    <TextView style="@style/title"
+        android:text="Притяжательные местоимения"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tФорма 1(относительная): определяет существительное, употребляется перед ним.\n\tФорма 2(абсолютная): заменяет существительное, после него существительное не ставится."/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/custom_view_text_color"
+           android:text="\tThis is me bag - Это моя сумка.\n\tThis bag is mine - Это сумка моя."/>
+        <TableLayout
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <TextView
+                android:text="Личное\nместоимение"
+                style="@style/textTable" />
+
+            <TextView
+                style="@style/textTable"
+                android:text="Форма 1"
+                />
+            <TextView
+                style="@style/textTable"
+                android:text="Форма 2"
+                />
+        </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="I"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="my"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="mine"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="you"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="your"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="yours"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="he"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="his"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="his"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="she"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="her"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="hers"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="it"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="its"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="its"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="we"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="our"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="ours"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="you"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="your"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="yours"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="they"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="their"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="theirs"
+                    />
+            </TableRow>
+        </TableLayout>
+
+        <TextView style="@style/title"
+            android:text="Возвратные местоимения"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tАнглийским возвратным местоимениям в русском языке соотвествуют частица -ся (-сь) в возвратных глаголах и местоимение себя, себе."/>
+        <TableLayout
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <TextView
+                android:text="Личное местоимение"
+                style="@style/textTable" />
+
+            <TextView
+                style="@style/textTable"
+                android:text="Возвратное местоимение"
+                />
+        </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="I"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="myself"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="you"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="yourself"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="he"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="himself"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="she"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="herself"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="it"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="itself"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="we"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="ourselves"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="you"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="yourselves"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="they"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="themselves"
+                    />
+            </TableRow>
+
+        </TableLayout>
+        <TextView style="@style/title"
+            android:text="Особенности употребления"/>
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Местоимения this и these употребляются при указании на предмет, находящийся вблизи от говорящего. Местоимения that и those употребляются при указании на предмет, находящийся вдали от говорящего;\n\t • Считается не вежлевым употреблять указательные местоимения напрямую по отношению к людям, кроме случая представления(когда с кем-то знакомят);\n\t • Вопросительные местоимения who, whom и whose употребляются только по отношению к людям, which и what - по отношению к предметам;\n\t • Much, little, a little употребляется с неисчисляемыми существительными, many, few, a few - с исчисляемыми существительными во множественном числе;\n\t • Some, any, no употребляются с неисчисляемыми существительными и с исчисляемыми существительными во множественном числе;\n\t • С неопределенными местоимениями всегда употребляется глагол в единственном числе."/>
+    </LinearLayout>
+</ScrollView>

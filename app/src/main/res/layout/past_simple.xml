@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Прошедшее простое время\n(The Past Simple Tense)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tPast Simple употребляется для описания действия, которое однократно произошло или происходило повторно в прошлом и никак не связано с настоящим."/>
+
+
+        <TextView
+            style="@style/title"
+            android:text="Образование"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПростое прошедшее время у правильных глаголов образуется путем присоединения -ed к базовой форме глагола. У неправильных - особая форма прошедшего времени, которую надо заучивать. Глагол to be имеет разные формы для единственного и множественного числа - was и were. Прошедшее время глагола to have - had.\n\tВопросы и отрицания образуются при помощи вспомогательного глагола to be."
+            android:layout_marginBottom="20dp"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:gravity="center"
+                    android:text="утвердительная\nформа"
+                    android:background="@drawable/border"
+                    android:padding="3dp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:text="отрицательная\nформа"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:text="вопросительная\nформа"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    android:gravity="left"
+                    android:text="I waited\nyou waited\nhe waited\nshe waited\nit waited\nwe waited\nthey waited"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="I did not wait\nyou did not wait\nhe did not wait\nshe did not wait\nit did not wait\nwe did not wait\nthey did not wait"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+                <TextView
+                    android:gravity="left"
+                    android:text="Did I wait?\nDid you wait?\nDid he wait?\nDid she wait?\nDid it wait?\nDid we wait?\nDid they wait?"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            style="@style/title"
+            android:text="Утвердительная форма"/>
+
+        <LinearLayout
+         style="@style/linear"
+            >
+
+            <TextView
+               style="@style/corner"
+                android:text="Подлежащее"
+                android:backgroundTint="@color/blue"/>
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+               />
+
+            <TextView
+               style="@style/corner"
+                android:text="Глагол в\nпрош. вр."
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="="
+                />
+
+            <TextView
+              style="@style/corner"
+                android:text="Утверждение"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="180dp"
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:text="She watched TV last night\nВчера вечером она смотрела телевизор"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                       android:background="@drawable/watch_tv"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            style="@style/title"
+            android:text="Прошедшее время правильных глаголов"/>
+
+        <LinearLayout
+          style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="Глагол, оканчиваю-\nщийся на согл."
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+               />
+
+            <TextView
+               style="@style/corner"
+                android:text="ed"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+               style="@style/arithmetic"
+                android:text="="
+                />
+            <TextView
+                style="@style/corner"
+                android:text="Прошедшее\nвремя"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пример: clean + ed = cleaned"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <LinearLayout
+           style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="Глагол, оканчиваю-\nщийся на -e"
+                android:backgroundTint="@color/green"/>
+
+
+            <TextView
+               style="@style/arithmetic"
+                android:text="+"
+               />
+            <TextView
+               style="@style/corner"
+                android:text="d"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+                style="@style/arithmetic"
+                android:text="="
+               />
+            <TextView
+                style="@style/corner"
+                android:text="Прошедшее\nвремя"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пример: save + d = saved"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+
+            />
+        <LinearLayout
+           style="@style/linear"
+            >
+
+
+            <TextView
+           style="@style/corner"
+                android:text="Глагол, оканчиваю-\nщийся на согл. + y"
+                android:backgroundTint="@color/green"/>
+            <TextView
+               style="@style/arithmetic"
+                android:text="-"
+               />
+
+            <TextView
+                style="@style/corner"
+                android:text="y"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+              />
+
+            <TextView
+               style="@style/corner"
+                android:text="ied"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+               style="@style/arithmetic"
+                android:text="="
+             />
+            <TextView
+                style="@style/corner"
+                android:text="Прошедшее\nвремя"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пример: cry - y + ied = cried"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+        <LinearLayout
+           style="@style/linear"
+            >
+
+            <TextView
+               style="@style/corner"
+                android:text="Глагол, оканчиваю-\nщийся на гласн. + у"
+               android:backgroundTint="@color/green"/>
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+           />
+
+            <TextView
+              style="@style/corner"
+                android:text="ed"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+               style="@style/arithmetic"
+                android:text="="
+             />
+            <TextView
+               style="@style/corner"
+                android:text="Прошедшее\nвремя"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пример: play + ed = played"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+        <LinearLayout
+            style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="Глаг, на ударн.\nгласн. между\nдвумя согл."
+                android:backgroundTint="@color/green"/>
+            <TextView
+               style="@style/arithmetic"
+                android:text="-"
+              />
+
+            <TextView
+               style="@style/corner"
+                android:text="удвоен-\nная согл."
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+               style="@style/arithmetic"
+                android:text="+"
+                />
+
+            <TextView
+                style="@style/corner"
+                android:text="ed"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+               style="@style/arithmetic"
+                android:text="="
+               />
+            <TextView
+               style="@style/corner"
+                android:text="Прош.\nвр."
+               android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пример: drop + p + ed = dropped"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+
+        <TextView
+            style="@style/title"
+            android:text="Отрицательная форма"/>
+
+        <LinearLayout
+           style="@style/linear"
+            >
+
+            <TextView
+            style="@style/corner"
+                android:text="Подле-\nжащее"
+                android:backgroundTint="@color/blue"/>
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+              />
+            <TextView
+               style="@style/corner"
+                android:text="did not"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+               style="@style/arithmetic"
+                android:text="+"
+                />
+            <TextView
+                style="@style/corner"
+                android:text="Глагол"
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+              style="@style/arithmetic"
+                android:text="="
+                />
+
+            <TextView
+               style="@style/corner"
+                android:text="Отрицание"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="180dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:text="I did not sleep last night\nЯ не спал прошлой ночью"
+                        style="@style/textTable"
+                          />
+
+                    <TextView
+                       android:text="She did not open the window\nОна не открывала окно"
+                       style="@style/textTable"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/sleep"/>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/window"/>
+                </TableRow>
+            </TableLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TextView
+            style="@style/title"
+            android:text="Вопросительная форма"/>
+
+        <LinearLayout
+            style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="Did"
+               android:backgroundTint="@color/red"/>
+
+            <TextView
+               style="@style/arithmetic"
+                android:text="+"
+                />
+            <TextView
+                style="@style/corner"
+                android:text="Подлежащее"
+                android:backgroundTint="@color/blue"
+
+                />
+            <TextView
+               style="@style/arithmetic"
+                android:text="+"
+              />
+            <TextView
+             style="@style/corner"
+                android:text="Глагол"
+               android:backgroundTint="@color/green"/>
+
+
+            <TextView
+               style="@style/arithmetic"
+                android:text="="
+               />
+
+            <TextView
+               style="@style/corner"
+                android:text="Вопрос"
+               android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="180dp"
+          >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:text="Did they close the door?\nОни закрыли дверь?"
+                        style="@style/textTable"/>
+
+                    <TextView
+                       android:text="Did you call him or not?\nТы позвонила ему или нет?"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/door"/>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/call"/>
+                </TableRow>
+            </TableLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TextView
+            style="@style/title"
+            android:text="Употребление"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Простое прошедшее время употребляется, когда речь идет:\n  • О разовом действии в прошлом;\n\t• О привычных действиях в прошлом, часто с наречиями always, never, often;\n\t• О действиях в прошлом с указанием времени, часто с такими словами, как ago, last month и т.п.;\n\t• О действии, которое прерывает основное действие, выраженное в прошедшем продолженном времени;"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\t We were leaving the house when the phone rang - Когда мы выходили из дома, зазвонил телефон."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• С обстоятельствами времени: yesterday last night/ week / month / year / Monday..., two days / weeks / months / year ago, then, when, in 2013..."
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

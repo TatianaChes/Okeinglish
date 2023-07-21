@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Relative layout as parent layout-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lessons.collectWord.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative_layout"
+        android:layout_marginTop="16dp" >
+
+        <!-- Button for above tooltip-->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Automation"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            android:text="  It is well known that since ancient times people have tried to construct automatic toys. Those toys were put into motion by hidden mechanisms of automatic devices. The mechanical wonders of the past indicated the road for developing automatic systems later. Clocks and watches, being the first automatic systems, suggested to people an idea of producing automata in industrial manufacture. The Frenchman Vaucanson built a weaving loom replacing fifty weavers. The talented Russian mechanic Ivan Polzunov invented a float-type controller for his steam engine. Steam engine found universal application due to the invention of the centrifugal speed governor, designed by the English inventor James Watt. Soon automation spread to all technological spheres and became a moving force of technological advance.
+
+         \n\tSo, automation deals with the theory and construction of control systems which can function without man’s participation.\n\t It should be noted that modern automatic industrial process involves four independent components, each component becoming more powerful in the presence of the other. They are: transfer machining, automatic assembly, communication engineering and control engineering. These four components are linked together into a single process calledautomation. When two or more automatic machines are connected together with automatic controls, which may be mechanical, electrical or a combination of them, an automated control is formed. This system creates a self-feeding, self-initiating and self-checking process.
+
+         \n\tIt should be noted that electronics has greatly extended the range of automatic control and has made the processing of information rapid and automatic. Electronic devices are able to respond very quickly to signals and take measurements and detect faults very accurately.\n\t So, they can effectively control many processes and machines working at high speeds. Due to the above – mentioned advantages automatic control systems find wide application in many fields of technology. Automatic controls relieve man of many monotonous activities. Besides, they can perform functions which are beyond the physical abilities of man.
+
+         \n\tPeople make great use of automation in industry; it is especially effective in continuous cycle production. Various kinds of electronic devices are applied in automatic aircraft pilots, as radio aids to air and marine navigation. Owing to automation special devices make precise calculations for space vehicle movement, help to launch missiles and to direct them to the correct path. Automatic interplanetary stations and space rockets are equipped with orientation systems, photo-television apparatus, special soft landing radio systems and movement control systems of high precision. These systems ensure safe returning and safe landing."
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

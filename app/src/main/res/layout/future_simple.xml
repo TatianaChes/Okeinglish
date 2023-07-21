@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Будущее простое время\n(The Future Simple Tense)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="\tFuture Simple употребляется для обозначения будущего действия, которое может быть однократным или повторяющимся."/>
+
+        <TableLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:text="утвердительная\nформа"
+                    android:background="@drawable/border"
+                    android:padding="3dp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:text="отрицательная\nформа"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:text="вопросительная\nформа"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    android:gravity="left"
+                    android:text="I will go\nyou will go\nhe will go\nshe will go\nit will go\nwe will go\nthey will go"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+                <TextView
+                    android:gravity="left"
+                    android:text="I will not go\nyou will not go\nhe will not go\nshe will not go\nit will not go\nwe will not go\nthey will not go"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+                <TextView
+                    android:gravity="left"
+                    android:text="Will I go?\nWill you go?\nWill he go?\nWill she go?\nWill it go?\nWill we go?\nWill they go?"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+            </TableRow>
+        </TableLayout>
+        <TextView
+            style="@style/title"
+            android:text="Утвердительная форма"/>
+
+        <LinearLayout
+            style="@style/linear"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+               style="@style/corner"
+                android:text="Подлежащее"
+                android:backgroundTint="@color/blue"/>
+
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="+"
+               />
+
+
+            <TextView
+               style="@style/corner"
+                android:text="will"
+                android:backgroundTint="@color/red"
+
+                />
+
+            <TextView
+                android:padding="4dp"
+              style="@style/arithmetic"
+                android:text="+"
+                />
+
+            <TextView
+              style="@style/corner"
+                android:text="Глагол"
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+                android:padding="4dp"
+             style="@style/arithmetic"
+                android:text="="
+               />
+
+            <TextView
+                style="@style/corner"
+                android:text="Утверждение"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tГлаголы в 3-м лице единственного числа не приобретают окончание -s и -es."
+            android:layout_marginBottom="10dp"/>
+        <com.google.android.material.card.MaterialCardView
+
+            style="@style/cardView"
+            android:layout_height="180dp"
+           >
+
+            <TableLayout
+               android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:text="All our friend will be there\nВсе наши друзья будут там"
+                        style="@style/textTable" />
+
+                    <TextView
+                        android:text="She will be there\nОна будет там"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/friend"/>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/she"/>
+                </TableRow>
+            </TableLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+        <TextView
+            style="@style/title"
+            android:text="Отрицательная форма"/>
+
+        <LinearLayout
+          style="@style/linear"
+            >
+
+            <TextView
+
+               style="@style/corner"
+                android:text="Подле-\nжащее"
+                android:backgroundTint="@color/blue"/>
+
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="+"
+              />
+            <TextView
+                style="@style/corner"
+                android:text="will"
+                android:backgroundTint="@color/red"
+               />
+            <TextView
+                android:padding="4dp"
+               style="@style/arithmetic"
+                android:text="+"
+                />
+            <TextView
+               style="@style/corner"
+                android:text="not"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="+"
+               />
+            <TextView
+                style="@style/corner"
+                android:text="Глагол"
+                android:backgroundTint="@color/green"/>
+
+
+            <TextView
+                android:padding="4dp"
+                style="@style/arithmetic"
+                android:text="="
+             />
+
+            <TextView
+                style="@style/corner"
+                android:text="Отрицание"
+                android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+
+            style="@style/cardView"
+            android:layout_height="180dp"
+          >
+
+            <TableLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+
+                        android:text=" I will not do it\nЯ не сделаю это"
+                        style="@style/textTable" />
+
+                    <TextView
+
+                        android:text="You will not go there\nТы не пойдешь туда"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/repair"/>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/road"/>
+                </TableRow>
+            </TableLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TextView
+            style="@style/title"
+            android:text="Вопросительная форма"/>
+
+        <LinearLayout
+           style="@style/linear"
+            >
+
+            <TextView
+            android:text="Will"
+            style="@style/corner"
+            android:backgroundTint="@color/red"/>
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+           />
+            <TextView
+                style="@style/corner"
+                android:text="Подлежащее"
+                android:backgroundTint="@color/blue"
+
+                />
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+               />
+            <TextView
+               style="@style/corner"
+               android:text="Глагол"
+               android:backgroundTint="@color/green"/>
+
+
+            <TextView
+               style="@style/arithmetic"
+                android:text="="
+              />
+
+            <TextView
+               style="@style/corner"
+                android:text="Вопрос"
+               android:backgroundTint="@color/yellow"/>
+
+        </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="5dp"
+    android:text="Пример: Will you read? - Ты будешь читать?"/>
+
+        <LinearLayout
+            style="@style/linear"
+            >
+            <TextView
+                android:text="Вопросите-\nльное слово"
+                style="@style/corner"
+                android:backgroundTint="@color/red"/>
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+               />
+            <TextView
+
+                android:text="will"
+              style="@style/corner"
+                android:backgroundTint="@color/red"/>
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+               />
+            <TextView
+                style="@style/corner"
+                android:text="Подлежащее"
+                android:backgroundTint="@color/blue"
+              />
+
+        </LinearLayout>
+    <LinearLayout
+       style="@style/linear"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            style="@style/arithmetic"
+            android:text="+"
+          />
+        <TextView
+           style="@style/corner"
+            android:text="Глагол"
+           android:backgroundTint="@color/green"/>
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="="
+               />
+
+            <TextView
+                style="@style/corner"
+                android:text="Вопрос"
+                android:backgroundTint="@color/yellow"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пример: When will you know it? - Когда ты это узнаешь?"/>
+
+        <TextView
+            style="@style/title"
+            android:text="Употребление"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Когда речь идет о будущих действиях;\n\t• Когда что-то обещают, прогнозируют, предсказывают;\n\t• При спонтанном решении;\n\t• Для выражения намерений в отрицательных предложениях;\n\t• Для выражения мнения о будущих событиях после таких глаголов, как believe, expect, hope, know, think;\n\t• С выражениями I'm sure, I'm afraid;\n\t• С обстоятельствами времени tomorrow, the day after tomorrow, next week / month / year, tonight, soon, in a week / month / year."
+            android:layout_marginBottom="20dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

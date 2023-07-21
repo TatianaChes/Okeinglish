@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Прилагательное\n(The Adjective)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПрилагательное описывает существительное и ставится перед ним.\n\tПрилагательные в английском языке не изменяются ни по родам, ни по числам, ни по падежам."/>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+                a red car - two red cars\n
+                a young man - a young woman\n
+                - with young man"
+                android:padding="10dp"
+                android:textColor="@color/custom_view_text_color"/>
+
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПрилагательно может употреблятся без существительного после глаголов to be, to look, to smell, to sound, to fell, to taste."
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tJohn looks happy - Джон выглядит счастливым."/>
+
+
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+             <TextView
+                 style="@style/title"
+                 android:text="Классификация прилагательных"/>
+                <TextView
+                  style="@style/corner"
+                    android:text="Прилагательные"
+                 />
+
+            <LinearLayout
+               style="@style/linear"
+               android:layout_marginTop="10dp"
+                   >
+                <TextView
+                    style="@style/corner"
+                    android:text="простые"/>
+
+
+                <TextView
+                    style="@style/corner"
+                    android:text="производные"
+                    android:layout_marginLeft="30dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                   style="@style/corner"
+                    android:text="не имеют префиксов\nи суффиксов"/>
+
+
+                <TextView
+                    style="@style/corner"
+                    android:text="имеют префикс\nили суффикс"
+                    android:layout_marginLeft="30dp"
+                    />
+            </LinearLayout>
+             <LinearLayout
+                 style="@style/linear"
+                 android:layout_marginTop="10dp"
+                 >
+                 <TextView
+                     style="@style/corner"
+                     android:text="big - большой\nblack - черный"/>
+
+
+                 <TextView
+                     style="@style/corner"
+                     android:text="unnatural - неестественный"
+                     android:layout_marginLeft="30dp"
+                     />
+             </LinearLayout>
+         </LinearLayout>
+
+        <TextView
+            style="@style/title"
+            android:text="Степени сравнения прилагательных"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПрилагательные имеют две степени сравнения - сравнительную и превосходную.\n\t• Сравнительная степень + than употребляется для сравнения двух людей или предметов:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tTom is taller than Greg - Том выше Грега.\n\tThis house is larger than that - Этот дом больше, чем тот."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Превосходная степень + of/in употребляется для сравнения трех и более людей или предметов:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tChris is the tallest of all - Крис выше всех.\n\tThis country is the largest country in the world - Эта страна самая большая в мире."/>
+        <TextView
+            style="@style/title"
+            android:text="Правила образования степеней сравнения"
+            />
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="5"
+            android:rowCount="2">
+
+            <TextView
+                style="@style/corner"
+                android:text="односложные\nприлагательные"
+                android:layout_marginTop="20dp"
+                android:layout_rowSpan="2"
+                />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+
+
+            <TextView
+                style="@style/corner"
+                android:text="er"
+
+                />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="="
+                />
+
+            <TextView
+                style="@style/corner"
+                android:text="сравнительная\nстепень"
+                />
+
+
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"/>
+
+
+            <TextView
+                style="@style/corner"
+                android:text="the и est"
+
+                />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="="
+                />
+
+            <TextView
+                style="@style/corner"
+                android:text="превосходная\nстепень"
+                />
+        </GridLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:textColor="@color/custom_view_text_color"
+    android:text="Пример: small - smaller - the smallest"/>
+        <GridLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="5"
+            android:rowCount="2">
+
+            <TextView
+
+                android:text="двухсложные и\nмногосложные\nприлагательные"
+                style="@style/corner"
+                android:layout_marginTop="20dp"
+                android:layout_rowSpan="2"
+                />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+
+
+            <TextView
+                style="@style/corner"
+                android:text="more"
+
+                />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="="
+                />
+
+            <TextView
+                style="@style/corner"
+                android:text="сравнительная\nстепень"
+                />
+
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+
+
+            <TextView
+                style="@style/corner"
+                android:text="the most"
+
+                />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="="
+                />
+
+            <TextView
+                style="@style/corner"
+                android:text="превосходная\nстепень"
+                />
+        </GridLayout>
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/custom_view_text_color"
+            android:text="Пример: useful - more useful - the most useful"/>
+
+
+             <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• В односложных прилагательных, окончивающихся на гласную + согласную, конечная согласная удваивается:"
+            />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/custom_view_text_color"
+    android:text="\tПример: big - bigger - the biggest"/>
+
+             <TextView
+                 android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• В односложных прилагательных, оканчивающихся на немую букву е, буква е опускается:"          />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/custom_view_text_color"
+    android:text="\tПример: brave - braver - the bravest"/>
+
+             <TextView
+                 android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• В двухсложных прилагательных, оканчивающихся на согласную + у, -у заменяется на -i:"
+            />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/custom_view_text_color"
+    android:text="\tПример: happy - happier - the happiest"/>
+
+           <TextView
+               android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Если букве -у предшествует гласная, то -у остается без изменений:"
+            />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/custom_view_text_color"
+    android:text="\tПример: grey - greyer - the greyest"/>
+
+           <TextView
+               android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• К двусложным прилагательным, оканчивающимся на -w, присоединяется -er / -est:"
+            />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/custom_view_text_color"
+    android:text="\tПример: shallow - shallower - the shallowest"/>
+
+        <TextView
+            style="@style/title"
+            android:text="Прилагательные, образующие степени сравнения по-особому"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+          android:textColor="@color/custom_view_text_color"
+            android:text="good - better - the best\nbad - worse - the worst\nlittle - less - the least\nfar - farther/further - the farthest/the furthest "/>
+
+
+    <TextView
+        style="@style/title"
+        android:text="Употребление степеней сравнения"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\t• Чтобы сказать, что два человека, места или предмета (не) похожи, употребляется конструкция (not) as + adjective + as: "
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/custom_view_text_color"
+        android:text="\t Tom's car is not as old as Sue's car - Автомобиль Тома не такой старый, как автомобиль Сью."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Также сравнительная степень употребляется с конструкцией much + than:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\t Your house is much bigger than mine - Ваш дом намного больше моего."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• При сравнении двух людей, мест или предметов в меньшую степень употребляется конструкция less + adjective + than: "
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tThe blue shirt is less expensive than the green shirt - Голубая рубашка менее дорогая, чем зеленая."
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>

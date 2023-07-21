@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="There is / There are" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tВ русском языке оборотам there is / there are соответсвуют есть, имеется, находится.\n\tГлагол to be в этом обороте может служить в настоящем, прошедшем и будущем времени и согласуется с последующим существительным.\n\tПредложения с оборотом there is (there are) обычно переводят начиная с обстоятельства места."/>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+           There is a book on the table\n
+           - На столе книга\n
+           There are many cars in the street\n
+           - На улице много машин"
+                android:padding="10dp"
+                android:textColor="@color/custom_view_text_color"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПоскольку в таких предложениях обычно говорится о предметах, о которых собеседнику еще ничего не известно, после оборотов there is и there are не употребляются ни артикль the, ни притяжательное местоимение."/>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+           My book is on the table\n
+           The book is on the table\n
+           - Моя книга(определенная) лежит на столе\n
+           There is a book on the table\n
+           - На столе есть какая-то книга"
+                android:padding="10dp"
+                android:textColor="@color/custom_view_text_color"/>
+
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            style="@style/title"
+            android:layout_marginBottom="0dp"
+            android:text="Образование"/>
+
+        <TextView
+            style="@style/title"
+            android:layout_marginBottom="10dp"
+            android:text="Отрицательная форма"/>
+
+        <LinearLayout
+            style="@style/linear">
+
+            <TextView
+               style="@style/corner"
+                android:text="there is / there are"  />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+" />
+
+            <TextView
+               style="@style/corner"
+                android:text="no" />
+
+            <TextView
+               style="@style/arithmetic"
+                android:text="=" />
+
+            <TextView
+                style="@style/corner"
+                android:text="Отрицание" />
+        </LinearLayout>
+            <TextView
+            style="@style/title"
+            android:layout_marginBottom="10dp"
+            android:text="Вопросительная форма"/>
+
+        <LinearLayout
+            style="@style/linear">
+
+            <TextView
+              style="@style/corner"
+              android:text="is / are"/>
+
+            <TextView
+               style="@style/arithmetic"
+                android:text="+"
+                />
+
+            <TextView
+                style="@style/corner"
+                android:text="there"
+                />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="="
+               />
+
+            <TextView
+                style="@style/corner"
+                android:text="Вопрос"
+                />
+
+
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_marginBottom="20dp"
+            android:layout_height="180dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        style="@style/textTable"
+                        android:text="There is no book on the table\nНа столе нет книги"
+                        />
+
+                    <TextView
+                       android:text="Is there a book on the table?\nНа столе есть книга?"
+                       style="@style/textTable"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/book_table"/>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/no_book"/>
+                </TableRow>
+            </TableLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</ScrollView>

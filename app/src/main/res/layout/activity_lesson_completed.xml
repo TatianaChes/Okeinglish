@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_light_grey_bg"
+    android:padding="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/linear_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lesson Completed!"
+            android:textColor="#000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" +10 XP"
+            android:textSize="23sp"/>
+
+    </LinearLayout>
+
+    <com.example.myapplicationtest.customElements.CustomProgressBar
+        android:id="@+id/user_progress_bar"
+        style="@style/week_progress_bars"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_below="@+id/linear_layout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        app:background_progress_thickness="60"
+        app:foreground_progress_thickness="60" />
+
+    <include
+        android:id="@+id/week"
+        layout="@layout/week_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_progress_bar"
+        android:layout_marginTop="69dp" />
+
+    <Button
+        android:id="@+id/continue_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/gradient"
+        app:backgroundTint="@null"
+        android:text="continue"
+        android:textColor="@color/white_text"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/planet"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+
+        android:layout_above="@+id/continue_button"
+        android:layout_below="@+id/week"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/planet_smile" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/continue_button"
+        android:layout_below="@+id/week"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="60dp"
+        android:layout_toEndOf="@+id/planet"
+        android:text="Великолепно!"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp" />
+
+</RelativeLayout>

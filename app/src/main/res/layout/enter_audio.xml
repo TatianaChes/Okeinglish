@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_light_grey_bg"
+    tools:context=".lessons.pictureTranslate.PictureTranslateActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/default_light_grey_bg"
+        android:padding="16dp">
+
+        <include
+            android:id="@+id/tasks_progress_bar"
+            layout="@layout/tasks_progress_bar" />
+
+        <TextView
+            android:id="@+id/translate_this_sentence"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tasks_progress_bar"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="Enter this audio"
+            android:textColor="#303030"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/translate_this_sentence"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ic_baseline_volume_up_24" />
+
+
+        <EditText
+            android:id="@+id/user_answer"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/custom_word_border"
+            android:gravity="start"
+            android:hint="Type the English sentence" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/Check"
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:background="@color/red_check"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/checked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginBottom="5sp"
+            android:drawableStart="@drawable/ic_baseline_cancel_24"
+            android:drawablePadding="15dp"
+            android:text="Неверно"
+            android:textColor="@color/white_text"
+            android:textSize="27sp" />
+        <TextView
+            android:id="@+id/right"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Правильный ответ: "
+            android:layout_below="@id/checked"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="2dp"
+            android:visibility="gone"
+            android:textColor="@color/white_text"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/rightAnswer"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Правильный ответ: "
+            android:layout_below="@id/right"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:visibility="gone"
+            android:textColor="@color/white_text"
+            android:textSize="18sp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/check_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_task_check"
+            android:textColor="@color/button_task_check"
+            android:textSize="17sp"
+            android:layout_margin="16dp"
+            android:text="check" />
+    </RelativeLayout>
+</RelativeLayout>

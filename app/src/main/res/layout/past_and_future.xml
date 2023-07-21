@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Прошедшее и будущее совершенное продолжительное время\n(The Past and The Future Perfect Continuos Tense)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          android:text="\tЭти времена употребляются крайне редко."  />
+
+        <TextView
+        style="@style/title"
+            android:layout_marginTop="10dp"
+        android:text="Образование"/>
+
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПрошедшее совершенное время образуется при помощи had + причастие прошедшего времени глагола to be + причастие настоящего времени смыслового глагола."/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <LinearLayout
+               style="@style/linear"
+                >
+
+                <TextView
+                   style="@style/corner"
+                    android:text="Подлежащее"
+                    android:backgroundTint="@color/blue"/>
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                   />
+                <TextView
+                   style="@style/corner"
+                    android:text="had"
+                    android:backgroundTint="@color/red"
+
+                    />
+                <TextView
+                  style="@style/arithmetic"
+                    android:text="+"
+                  />
+
+                <TextView
+                   style="@style/corner"
+                    android:text="been"
+                    android:backgroundTint="@color/red"
+
+                    />
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                   style="@style/linear"
+                >
+                <TextView
+                    style="@style/corner"
+                    android:text="Причастие(ing)"
+                    android:backgroundTint="@color/green"/>
+
+                <TextView
+                  style="@style/arithmetic"
+                    android:text="="
+                 />
+
+                <TextView
+                    style="@style/corner"
+                    android:text="Прошедшее совершенное\nдлительное время "
+                    android:backgroundTint="@color/yellow"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tБудущее совершенное время образуется при помощи will have + причастие прошедшего времени глагола to be + причастие настоящего времени смыслового глагола."/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <LinearLayout
+             style="@style/linear"
+                >
+
+                <TextView
+                    style="@style/corner"
+                    android:text="Подлежащее"
+                    android:backgroundTint="@color/blue"/>
+                <TextView
+                   style="@style/arithmetic"
+                    android:text="+"
+              />
+                <TextView
+                   style="@style/corner"
+                    android:text="had"
+                    android:backgroundTint="@color/red"
+
+                    />
+                <TextView
+                  style="@style/arithmetic"
+                    android:text="+"
+                   />
+
+                <TextView
+                   style="@style/corner"
+                    android:text="have"
+                    android:backgroundTint="#ff4b4b"
+
+                    />
+                <TextView
+                   style="@style/arithmetic"
+                    android:text="+"
+                   />
+                <TextView
+                   style="@style/corner"
+                    android:text="been"
+                    android:backgroundTint="#ff4b4b"
+
+                    />
+                <TextView
+                   style="@style/arithmetic"
+                    android:text="+"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+              style="@style/linear"
+                >
+                <TextView
+                    style="@style/corner"
+                    android:text="Причастие(ing)"
+                    android:backgroundTint="@color/green"/>
+
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="="
+                    />
+
+                <TextView
+                   android:text="Будущее совершенное\nдлительное время "
+                  style="@style/corner"
+                    android:backgroundTint="@color/yellow"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПрошедшее совершенное продолженное время употребляется:\n\t• Чтобы подчеркнуть, что действие длилось какое-то время и закончилось до определенного времени в прошлом:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tShe had been playing tennis for ten years by the time she was eighteen - К тому времени, как ей исполнилось восемнадцать, она играла в теннис в течение десяти лет."/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Чтобы подчеркнуть, что действие длилось какое-то время, начавшись и закончившись до какого-то другого действия в прошлом. Это другое действие выражается в простом прошедшем времени:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tHe had been studying for seven years before he got his degree - Он учился семь лет, до того как получил степень."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Для выражения действия, которое продолжалось какое-то время в прошлом и результат которого имел значение в прошлом:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tShe was tired because she had been cleaning the house all day - Она устала, потому что целый день делала уборку в доме."/>
+
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Прошедшее совершенное продолженное время употребляется с такими наречиями и предлогами времени, как for, since, how long, before, until и др."
+            />
+
+    </LinearLayout>
+</ScrollView>

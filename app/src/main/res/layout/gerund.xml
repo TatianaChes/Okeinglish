@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Герундий\n(The Gerund)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tГерундий - неличная форма глагола, образованная прибавлением окончания -ing к первой форме глагола. Герундий не изменяется по лицам и числам."  />
+
+        <TextView
+            style="@style/title"
+            android:text="Образование"
+            />
+
+        <LinearLayout
+         style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="Основа глагола"
+                />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+
+
+            <TextView
+                style="@style/corner"
+                android:text="ing"
+
+                />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="="
+                />
+
+            <TextView
+                style="@style/corner"
+                android:text="Герундий" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/title"
+            android:text="Образование отрицательной формы"
+            />
+
+        <LinearLayout
+           style="@style/linear"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="Not"
+              />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+
+
+            <TextView
+                style="@style/corner"
+                android:text="Герундий"
+                          />
+
+            <TextView
+               style="@style/arithmetic"
+                android:text="="
+                />
+
+            <TextView
+                style="@style/corner"
+                android:text="Отрицание"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/title"
+            android:text="Употребление герундия"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• В качестве существительного:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tCycling keeps you fit - Велосипед помогает поддерживать физическую форму."/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• После предлогов:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tShe thanked me for giving her a lift - Она поблагодарила меня, за то что я ее подвез."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Для выражения общего предпочтения после глаголов love, hate, enjoy, prefer, like, dislake:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI enjoy travelling on my own - Я люблю путешествовать сам по себе."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• После определенных глаголов, таких как consider, avoid, look forward to, confess to, fancy, mention, risk, admit, suggest, imagine:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tLucy fancies going out for dinner - Люси хочет пообедать в ресторане."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• После глагола to go в значении заниматься физическими упражнениями:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tWe always go skiing in winter - Мы всегда катаемся зимой на лыжах."/>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• После выражений it's no use, it's (not) worth, it's no good, be busy, what's the use of..?, there's no point in, can't help, can't stand, be/get used to, have difficulty (in):"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI  can't help laughing when I see John. He's so funny! - Не мог удержаться от смеха, гляда на Джона. Он такой чудной!"/>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• После go в значении заниматься физическими упражнениями:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tThey go skiing every winter - Они катаются на лыжах каждую зиму."/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• После выражений spend/ waste time:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tHe wasted his time playing video game - Он тратил время, играя в видеоигры."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• После предлогов after, before, besides, by, despite, in spite of, instead of, on, without:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tHe entered the room without knocking - Он вошел в комнату не постучав."/>
+
+        <TextView
+            style="@style/title"
+            android:layout_marginBottom="10dp"
+            android:text="Функции герундия в предложении"
+            />
+
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+        >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shrinkColumns="1"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:textColor="@color/empty_view"
+                        android:text="Подлежащее"
+                        style="@style/textTable" />
+
+                    <TextView
+                        android:gravity="left"
+                        android:textColor="@color/empty_view"
+                        android:text="Running long distances requires much training\nБег на длинные дистанции требует хорошей тренировки"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:textColor="@color/empty_view"
+                        android:text="Часть\nсказуемого"
+                        style="@style/textTable"
+                         />
+
+                    <TextView
+                        android:gravity="left"
+                        android:text="My favorite form of rest is reading\nМой любимый вид отдыха - чтение"
+                        style="@style/textTable"
+                        android:textColor="@color/empty_view"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:textColor="@color/empty_view"
+                        android:text="Прямое\nдополнение"
+                        style="@style/textTable"
+                        />
+
+                    <TextView
+                        android:gravity="left"
+                        android:text="We like dancing\nЯ люблю танцевать"
+                        style="@style/textTable"
+                        android:textColor="@color/empty_view"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                       style="@style/textTable"
+                        android:text="Предложное\nдополнение"
+                        android:textColor="@color/empty_view"
+                       />
+
+                    <TextView
+                        android:gravity="left"
+                        android:text="i heard of his being sent to the South\nЯ слышал о том, что его посылают на юг"
+                        android:textColor="@color/empty_view"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:textColor="@color/empty_view"
+                        style="@style/textTable"
+                        android:text="Определение"
+                        />
+
+                    <TextView
+                        android:gravity="left"
+                        android:text="I like her method of teaching\nМне нравится ее метод преподавания"
+                        style="@style/textTable"
+                        android:textColor="@color/empty_view"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:textColor="@color/empty_view"
+                        android:text="Обстоятельство"
+                        style="@style/textTable"
+                       />
+
+                    <TextView
+                        android:gravity="left"
+                        android:text="On coming home I got to bed\nВернувшись домой, я лег в постель"
+                       android:textColor="@color/empty_view"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+            </TableLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

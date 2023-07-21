@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Вопросительные предложения\n(Interrogative sentences)"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+         style="@style/title"
+            android:text="1. Общий вопрос"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tОбщий вопрос - вопрос, на который можно ответить «да» или «нет». Вопрос задается ко всему предложению."/>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <LinearLayout
+                style="@style/linear"
+                >
+
+                <TextView
+                    style="@style/corner"
+                    android:text="Вспомогательный\nглагол"
+                    android:backgroundTint="@color/red"
+
+                    />
+                <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+                <TextView
+                    style="@style/corner"
+                    android:text="Подлежащее"
+                    android:backgroundTint="@color/blue"/>
+
+
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+            android:layout_marginTop="10dp"
+            style="@style/linear"
+            >
+
+
+                <TextView
+                    style="@style/corner"
+                    android:text="Смысловой\nглагол"
+                    android:backgroundTint="@color/green"/>
+
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="="
+                    />
+
+                <TextView
+                    style="@style/corner"
+                    android:text="Общий вопрос"
+                    android:backgroundTint="@color/yellow"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пример: Did he go to London last week? - Он ездил в Лондон на прошлой неделе?"/>
+
+        <TextView
+            style="@style/title"
+            android:text="2. Вопрос к подлежащему"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tВопрос к подлежащему уточняет, кто выполняет действие.\n\tЭто единственный тип вопроса, где сохраняется прямой поряд слов.\n\tТакие вопросы обычно начинаются со слов who или what. В вопросах к подлежащему глагол употребляется в утвердительной форме."/>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <LinearLayout
+                style="@style/linear"
+                >
+
+                <TextView
+                    style="@style/corner"
+                    android:text="Who/\nWhat"
+                    android:backgroundTint="@color/red"
+
+                    />
+
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                    />
+                <TextView
+                    style="@style/corner"
+                    android:text="Смысловой\nглагол"
+                    android:backgroundTint="@color/green"/>
+
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="="
+                    />
+
+                <TextView
+                    style="@style/corner"
+                    android:text="Вопрос к\nподлежащему"
+                    android:backgroundTint="@color/yellow"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пример: Who went to London last week? - Кто ездил в Лондон на прошлой неделе?\nWhat frightened him? - Что его напугало?"/>
+        <TextView
+            style="@style/title"
+            android:text="3. Разделительный вопрос"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Разделительный вопрос выражает предположение «не так ли?», «не правда ли?»\n\tВопрос строится с помощью вспомогательного глагола и соответствующего личного местоимения."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tA tiger has got stripes, hasn't it? - У тигра есть полоски не так ли?"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tЕсли глагол в предложении стоит в простом настоящем времени, вопрос строится с помощью вспомогательного глагола do/does и личного местоимения. Если глагол стоит в простом прошедшем времени, вопрос строится с помощью вспомогательного глагола did и личного местоимения."/>
+        <com.google.android.material.card.MaterialCardView
+
+            style="@style/cardView"
+            android:layout_height="180dp"
+            >
+
+            <TableLayout
+                android:shrinkColumns="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        style="@style/textTable"
+                        android:text="She was at home, wasn't she?\nОна ведь была дома, да?"
+                        />
+
+                    <TextView
+                        android:text="He lives in a flat, doesn't he?\nОн живет в отдельной квартире, разве нет?"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/girl_home"/>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/apartment"/>
+                </TableRow>
+            </TableLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tЕсли высказывание отрицательное, то вопрос, как правило, утвердительный."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tShe won't come to the party, will she? -Она ведь не придет на вечеринку, да?"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tЕсли высказывание содержит слово с отрицательным значением, например, never, hardly, seldom, rarely, то вопрос утвердительный."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tHe is never late, is he? - Он ведь никогда не опаздывает, так?"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <LinearLayout
+                style="@style/linear"
+                >
+                <TextView
+                    style="@style/corner"
+                    android:text="Подлежащее"
+                    android:backgroundTint="@color/blue"/>
+
+
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                    />
+                <TextView
+                    style="@style/corner"
+                    android:text="Смысловой\nглагол"
+                    android:backgroundTint="@color/green"/>
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                    />
+                <TextView
+                    style="@style/corner"
+                    android:text="Вспомогате-\nльный глагол\n+ not"
+                    android:backgroundTint="@color/red"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                style="@style/linear"
+                >
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                    />
+                <TextView
+                    style="@style/corner"
+                    android:text="Подлежащее"
+                    android:backgroundTint="@color/blue"/>
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="="
+                    />
+
+                <TextView
+                    style="@style/corner"
+                    android:text="Разделительный\nвопрос"
+                    android:backgroundTint="@color/yellow"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пример: He went to London last week, didnt he? - Он ездил в Лондон на прошлой недели, не так ли?"/>
+
+        <TextView
+            style="@style/title"
+            android:text="4. Альтернативный вопрос"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tАльтернативный вопрос предлагает выбор из двух или нескольких вариантов."/>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <LinearLayout
+                style="@style/linear"
+                >
+
+                <TextView
+                    style="@style/corner"
+                    android:text="Вспомогате-\nльный глагол"
+                    android:backgroundTint="@color/red"
+
+                    />
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                    />
+                <TextView
+                    style="@style/corner"
+                    android:text="Подлежащее"
+                    android:backgroundTint="@color/blue"/>
+
+
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                    />
+
+                <TextView
+                    style="@style/corner"
+                    android:text="Смысловой\nглагол"
+                    android:backgroundTint="@color/green"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                style="@style/linear"
+                >
+
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                    />
+                <TextView
+                    style="@style/corner"
+                    android:text="Дополнение/\nобстоятельство"
+                    />
+
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                    />
+                <TextView
+                    style="@style/corner"
+                    android:text="or"
+                    android:backgroundTint="@color/red"
+                    />
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                    />
+                <TextView
+                    style="@style/corner"
+                    android:text="Дополнение/\nобстоятельство"
+                    />
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="="
+                    />
+            </LinearLayout>
+            <LinearLayout
+               style="@style/linear"
+                android:layout_marginTop="10dp">                <TextView
+                    style="@style/corner"
+                    android:text="Альтернативный вопрос"
+                    android:backgroundTint="@color/yellow"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПример: Did he go to London or to Paris last week? - Он ездил в Лондон или в Париж на прошлой неделе?"/>
+        <TextView
+            style="@style/title"
+            android:text="5. Специальный вопрос"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tСпециальный вопрос задается с помощью вопросительных слов для выяснения чего-то конкретного."/>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <LinearLayout
+                style="@style/linear"
+                >
+                <TextView
+                    style="@style/corner"
+                    android:text="Вопросите-\nльное слово"
+                    android:backgroundTint="@color/red"
+
+                    />
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                    />
+                <TextView
+                    style="@style/corner"
+                    android:text="Вспомогате-\nльный глагол"
+                    android:backgroundTint="@color/red"
+
+                    />
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                    />
+                <TextView
+                    style="@style/corner"
+                    android:text="Подлежащее"
+                    android:backgroundTint="@color/blue"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                style="@style/linear"
+                >
+
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                    />
+                <TextView
+                    style="@style/corner"
+                    android:text="Смысловой\nглагол"
+                    android:backgroundTint="@color/green"/>
+
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="="
+                    />
+
+                <TextView
+                    style="@style/corner"
+                    android:text="Специальный\nвопрос"
+                    android:backgroundTint="@color/yellow"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пример: When did he go to London? - Когда он ездил в Лондон?"/>
+    </LinearLayout>
+</ScrollView>

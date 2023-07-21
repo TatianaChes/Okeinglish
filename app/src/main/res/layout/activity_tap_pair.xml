@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/default_light_grey_bg"
+>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/default_light_grey_bg"
+        android:padding="16dp">
+
+        <include layout="@layout/tasks_progress_bar" />
+
+        <TextView
+            android:id="@+id/translate_this_sentence"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/layout_progress_bar"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="Tap the pairs"
+            android:textColor="#303030"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_weight="1"
+            android:layout_below="@+id/translate_this_sentence">
+
+            <com.nex3z.flowlayout.FlowLayout
+                android:id="@+id/flow_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+            </com.nex3z.flowlayout.FlowLayout>
+
+        </FrameLayout>
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/Check"
+        android:layout_width="wrap_content"
+        android:layout_height="155dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/green_answer"
+        android:visibility="gone">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Отлично!"
+            android:layout_margin="20sp"
+            android:drawablePadding="15dp"
+            android:textColor="@color/white_text"
+            android:drawableStart="@drawable/ic_baseline_check_circle_24"
+            android:textSize="27sp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/check_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_task_check"
+            android:text="check"
+            android:textColor="@color/button_task_check"
+            android:textSize="17sp" />
+    </RelativeLayout>
+</RelativeLayout>

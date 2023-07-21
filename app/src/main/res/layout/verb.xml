@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Глагол\n(The Verb)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tГлагол - это часть речи, обозначающая действие или состояние и отвечающая на вопрос что делать? что сделать?"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПри помощи глаголов описывают действие, процесс, умственное или физическое состояние."
+            />
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+           This basket holds quite a lot - В эту корзину много помещается\n
+           Jahn was reading Katherine's essay - Джон читал сочинение Кэтрин\n
+           I forgot that it was your birthday - Я забыл про твой день рождения\n
+           Paul owned several old motobikes - У Пола было несколько старых мотоциклов"
+                android:padding="10dp"
+                android:textColor="@color/custom_view_text_color"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПо способу образвания глаголы бывают простые, производные и составные."/>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Простые глаголы не имеют приставок и суффиксов:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\t to go - идти, to give - давать, to get - получать, to talk - разговаривать, to love - любить"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Производные имеют приставку или суффикс:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\t to forget - забывать, to understand - понимать, to disagree- не соглашаться, to realize - осознавать "/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Составные или сложные состоят из нескольких слов:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\t to babysit - быть няней, to water-ski - кататься на водных лыжах, to soundproof - быть звукопроницаемым"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПо способу образования форм глаголы делятся на правильные и неправильные.\n\tПравильные глаголы образуют формы прошедшего времени и причастия прошедшего времени при помощи присоединения -ed.\n\tДля неправильных глаголов существует специальная таблица."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Самые большие группы, на которые можно разделить глаголы по способу употребления - это смысловые и вспомогательные глаголы.\n\tСмысловые глаголы делятся на глаголы действия и глаголы состояния, на правильные и неправильные, на переходные и непереходные.\n\t Глаголы состояния включают:"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\t• глаголы чувств, например feel - чувствовать, hear - слышать, see - видеть, smell - пахнуть, taste - иметь вкус\n\t • глаголы, выражающие эмоции, например adore - обожать, fear - бояться, hate - ненавидеть, love - любить, want - хотеть\n\t• глаголы, относящиеся к умственной деятельности, например agree - соглашаться, believe - верить, expect - ожидать, forget - забывать, mean - иметь в виду\n\t• глаголы, выражающие принадлежность, например belong - принадлежать, own - владеть, posses - владеть "
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Вспомогательные глаголы употребляются вместе со смысловыми. \n\tBe и have - основные вспомогательные глаголы. Они служат для образования сложных времен.\n\tDo - тоже вспомогательный глагол. Он служит для образования вопросов, отрицаний в простых временах."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Глагол to be"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:textColor="@color/custom_view_text_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="в настоящем времени: am/is/are;\nв прошедшем времени: was/were\nв будущем времени: shall be/will be"
+            />
+        <TextView
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:text="Глагол to have"
+            />
+        <TextView
+            android:textColor="@color/custom_view_text_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="в настоящем времени: have/has;\nв прошедшем времени: had\nв будущем времени: shall have/will have"
+            />
+
+        <TextView
+
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:text="Вопросы с глаголами to be и to have"
+            />
+        <TextView
+            android:textColor="@color/custom_view_text_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Общие - Is Mike at home? Has he a computer?\n2. Альтернативные - Is Mike at home or at school? Has he a bicycle or a computer?\n3. Специальные - Where is Mike? What has he?\n4. Разделительные - Mike is at home, isn't he? Mike has no computer, has he?"
+            />
+
+        <TextView
+
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:text="Повелительное наклонение"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t1. Повеление для 2-го лица:"
+            />
+        <TextView
+            android:textColor="@color/custom_view_text_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Open the window - открой(те) окно; Come in! - входи(те)"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t2. Повеление для 1-го и 3-го лиц:"/>
+            />
+        <TextView
+            android:textColor="@color/custom_view_text_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Let us have a break - Давай(те) сделаем перерыв\n\t Let Kate make some sandwiches - Пусть Катя приготовит бутерброды\n\t Let them come in - Пусть они войдут "/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t3. Отрицательная форма повелительного наклонения:"/>
+        />
+        <TextView
+            android:textColor="@color/custom_view_text_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tDon't be late! - Не опаздывай(те)!\n\tDon't let him smoke here! - Пусть он здесь не курит!"/>
+        <TextView
+            style="@style/title"
+            android:text="Модальные глаголы"
+
+            />
+
+        <TextView
+            android:textColor="@color/custom_view_text_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Модальные глаголы не изменяются;\n\t• Для образования отрицания и вопросов вспомогательного глагола не требуется;\n\t• За модальными глаголами следует неопределенная форма основного глагола без частицы to (кроме ought to, have to);\n\t• В основном модальные глаголы имеют формы настоящего или прошедшего времени;\n\t• Модальные глаголы употребляются, чтобы придать основному глаголу дополнительное значение."/>
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="CAN (COULD)"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Глагол can(could) - to be able to - выражает: \n\t - физическую или умственную способность совершить действие;\n\t - удивление, сомнение (в отрицательных и вопросительных предложениях)." />
+
+        <TableLayout
+            android:shrinkColumns="0,1"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/textTable"
+                android:text="I can speak English"
+
+               />
+
+            <TextView
+                style="@style/textTable"
+                android:text="Я умею говорить по-английски"
+                />
+     </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Can he speak English?"
+                  />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Может ли он говорить по-английски?"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="He can not  speak English"
+                  />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Он не может говорить по-английски"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="He couldn't speak English"
+               />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Он не мог говорить по-английски"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="He will not be able to speak English"
+                 />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Он не сумеет говорить по-английски"
+                    />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="10dp"
+            android:text="MUST - HAVE TO / BE TO"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Глагол must - have to / be to - выражает: \n\t - необходимость совершения действия; \n\t - признание, совет;\n\t - предположение."/>
+
+
+        <TableLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="0,1"
+
+            android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/textTable"
+                android:text="He must go there tomorrow"
+            />
+
+            <TextView
+                style="@style/textTable"
+                android:text="Он должен пойти туда завтра"
+                />
+        </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="I had to go there"
+                  />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Мне пришлось сходить туда"
+                  />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="He will have to do it"
+             />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Он должен будет сделать это"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Must I go there?"
+                   />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Надо ли мне идти туда?"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="You don't have to go there"
+                   />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Тебе не нужно ходить туда"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="He must know her address"
+               />
+
+                <TextView
+                    style="@style/textTable"
+                   android:text="Он должно быть знает ее адрес"
+                    />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            style="@style/title"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorPrimary"
+            android:text="MAY (MIGHT)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Глагол may(might) - to be allowed to - выражает: \n\t - разрешение; \n\t - предположение."/>
+
+
+        <TableLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="0,1"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="May I come in? - Yes, you may"
+                     />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Можно войти? - Да, можно "
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="She will not be allowes to go out, she is still ill"
+                    />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Она не сможет выходить, она все еще больна"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="He may know her address"
+                    style="@style/textTable"
+                />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Он может быть знает ее адрес"
+                    />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+          android:layout_marginBottom="10dp"
+            android:text="NEED"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Глагол need выражает необходимость совершить действие и употребляетя только в вопросительных и отрицательных предложениях."/>
+
+
+        <TableLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="0,1"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Need he come so early?"
+                   />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Нужно ли ему приходить сюда?"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="You needn't come so early"
+                   />
+
+                <TextView
+                    android:text="Вам не нужно приходить так рано"
+                    style="@style/textTable"
+                    />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:text="SHOULD, OUGHT (TO)"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Глаголы should, ought(to) выражают моральный долг или совет."/>
+
+
+        <TableLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="0,1"
+            android:layout_marginBottom="20dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="He should/ ought to/ help them"
+                    />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Он должен(ему следует) помочь им"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="You ought to have helped him"
+                    />
+
+                <TextView
+                    android:text="Вам следовало бы ему помочь"
+                    style="@style/textTable"
+                    />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

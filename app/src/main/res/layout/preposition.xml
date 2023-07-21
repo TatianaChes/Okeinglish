@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Предлог\n(The Preposition)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПредлоги - это служебные слова, которые показывают отношение существительного (или местоимения) к другим словам в предложении. Так как в современном английском языке падежные окончания отсутствуют, предлоги играют исключительно важную роль, выражая разнообразные - пространственные, временные, причинные и пр. - отношения.\n\t Ряд английских предлогов соотвествуют в русском языке падежам: "  />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            style="@style/corner"
+            android:text="of - родительскому, to - дательному, with - творительному"
+           />
+
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:text="Предлог in"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Предлог in употребляется для обозначения места со значением в (внутри): in the room - в комнате; и для обозначения времени:\n\t а) со значением в:  in October - в октябре;\n\t б) со значением через:  in 20 minutes - через 20 минут."/>
+
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="Предлог on"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Предлог on употребляется для обозначения места со значением на (поверхности): on the table - на столе и для обозначения времени перед названиями дней и датами: on Sunday - в вокресенье; on the first of May - первого мая."/>
+
+
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="Предлог at"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Предлог at употребляется для обозначения места:\n\tа) со значением у, возле, около: at the window - у окна;\n\tб) со значением в, на: at the theatre - в театре, а также для обозначения времени: at 5 o'clock - в 5 часов."/>
+
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="Предлог for"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Предлог for употребляется\n\tа) со значением для: for you - для вас;\n\tб) со значением за: pay for the book - заплати за книгу;\n\tв) со значением в течение: for a week - в течение недели;\n\tг) со значением так как, ибо (в качестве союза): Pay for the book, please, for I haven't got money about me - заплати, пожалуйста, за книгу, так как у меня нет с собой денег. "/>
+
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="Предлог to"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Предлог to употребляется:\n\tа) для выражения направления действия в сторону какого-нибудь предмета или лица (на вопрос куда?); а также в сочетании с существительным (или местоимением) предлог to соответствует в русском языке дательному падежу (кому?)"/>
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="Предлог into"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Предлог into употребляется для обозначения направления со значением от, из, у (откуда? от кого?): from Moscow - из Москвы; и со значением от, с (для указания времени): from 3 to 5 o'clock - с 3 до 5 часов."/>
+
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="Предлог out of"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Предлог out of - из употребляется для обозначения направления действия изнутри, из чего-либо и соотвествует в русском языке глаголам с приставкой вы."/>
+
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="Предлоги between, among"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Предлоги between, among употребляются со значением между.\n\tBetween относится к двум лицам или предметам, among (между, среди) относится к трем или более лицам или предметам."/>
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="190dp"
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shrinkColumns="0,1"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:text="He is sitting between two girls\nОн сидит между двумя девочками"
+                        style="@style/textTable" />
+
+                    <TextView
+                       android:text="Divide the cake among all the people\nРазделите торт между всеми людьми"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/boy_between"/>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                       android:background="@drawable/cake_divide"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:text="Предлоги expect, besides"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Предлоги expect, besides соответствуют русскому предлогу кроме. При этом expect употребляется со значением кроме (за исключением), а besides употребляется со значением кроме (в дополнение, сверх)."/>
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="Предлоги above, below"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Предлоги above, below противоположны по значению.\n\tAbove употребляется со значением: над, выше; больше чем, свыше; выше, наверху."/>
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="190dp"
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shrinkColumns="0,1"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:text="The temperature is below zero\nТемпература нижу нуля"
+                        style="@style/textTable"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:text="I hear a noise from somewhere above\nЯ слышу шум откуда-то сверху"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/temperature"/>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/noise"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:text="Предлоги over, under"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Предлоги over, under противоположны по значению.\n\tOver употребляется со значением над: over the table - над столом; свыше, сверх: over a hundred people - свыше сотни людей; на протяжении, за (с обозначением времени): over the past two years - за последние два года; через (с глаголами движения, которые соответствуют в русском языке глаголам с приставкой пере- ): to climb over the wall - перелезать через стену.\n\tUnder употребляется со значением под для обозначения места: under the table - по столом; меньше - He is under 40 - Ему меньше сорока."/>
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="Предлог about"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Предлог about употребляется со значение о, об, относительно; вокруг, кругом, по; приблизительно."/>
+
+        <com.google.android.material.card.MaterialCardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/cardView"
+            android:layout_height="210dp"
+            >
+            <TableLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:gravity="center"
+                        android:text="It is about 7 o'clock now. Let's walk about the park\nСейчас приблизительно 7 часов. Давай прогуляемся по парку"
+                        style="@style/textTable"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/park_walk"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:text="Предлог after"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Предлог after употребляется для обозначения времени со значением после; для обозначения места со значением за, вслед за; в качестве наречия со значением после, потом, в последствии и в качестве союза со значением после того как."/>
+
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="Предлог before"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Предлог before употребляется для обозначения времени со значением до, перед; в качестве наречия со значением раньше, прежде и в качестве союза со значением прежде чем."/>
+
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="Предлоги till и until"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Предлоги till и until употребляются для обозначения времени со значением до, вплоть до и в качестве союзов (до тех пор) пока... не"/>
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="Предлог by"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Предлог by употребляется для обозначения действующего лица или действующей силы после глагола в страдательном залоге (в этом случае он соответствует творительному падежу); для обозначения места со значением у, возле, около; при обозначении средства или способа совершения действия (путем, с помощью, посредством); а также для обозначения срока, к которому совершается действие."/>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="210dp"
+            >
+            <TableLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:text="She was sitting by the window reading the novel written by Tolstoi\nОна сидела у окна, читая роман, написанный Толстым"
+                        style="@style/textTable"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                       android:background="@drawable/read_about"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:text="Предлог with"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Предлог with употребляется со значением с, а также для обозначения предмета, при помощи которого совершается действие. (With как и by в сочетании с существительным соответствует в русском языке творительному падежу). Следует отметить, что by употребляется для выражения действующего лица или действующей силы после глагола в страдательном залоге, а with употребляется для обозначения предмета, при помощи которого совершается действие."/>
+
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="Предлоги up и down"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Предлоги up и down употребляются со значением вверх по/вниз по после глаголов движения; вверх, наверх/вниз, внизу  в качестве наречия, а также в сочетании с глаголами движения для обозначения приближения к кому-либо или чему-либо. В этом случае сочетания глаголов с up соответствует в русском языке глаголам с приставкой под: to come (go, walk) up - подходить, to run up - подбегать, to swim up/to sail up - подплывать и др.; а сочетания глаголов с down соответствуют в русском языке глаголам с приставкой с- (движение сверху вниз): to come (go, get, walk) down - сходить, спускаться, to run down - сбегать, to jump down - спрыгивать, to throw down - сбрасывать."/>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="190dp"
+            >
+            <TableLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:text="I looked down and saw the steamer sailing up the river \nЯ опустил голову и увидел теплоход, плывущий вверх по реке"
+                        style="@style/textTable"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/sailing"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:text="Предлог through"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t Предлог through употребляется со значением через, сквозь; из-за, вследствие."/>
+
+        <TextView
+            android:text=" Предлог since"
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Предлог since употребляется:\n\tа) со значением 'с', при указании на начальный момент действия, начавшегося в прошлом и продолжающегося в момент речи. При наличии since глагол стоит в Present Perfect или Present Continuous;\n\tб) со значением с тех пор в качестве наречия;\n\tв) со значением с тех пор как, поскольку, так как в качестве союза."
+           />
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="200dp"
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shrinkColumns="0,1"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:text="I haven't seen him since he left our town\nЯ не видел его с тех пор, как он уехал из нашего города"
+                        style="@style/textTable" />
+
+                    <TextView
+                       android:text="Since the girl is ill, we'll send for the doctor\nПоскольку девочка больна, мы вызовем врача"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/left_home"/>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/doctor"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            style="@style/title"
+            android:text="Составные предлоги"
+            android:layout_marginBottom="10dp"
+            />
+     <!--   <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+           >-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+           according to - согласно\n
+           as far as - до\n
+           as to (as for) - что касается\n
+           because of - из-за\n
+           by means of - посредством, при помощи\n
+           but for - если бы не\n
+           due to - из-за, благодаря\n
+           except for - за исключением\n
+           in accordance with - в соотвествии\n
+           in addition to - в дополнение к\n
+           in case of - в случае\n
+           in front of - перед, напротив\n
+           in spite of - несмотря на\n
+           instead of - вместо\n
+           on account of - из-за, вследствие\n
+           irrespective of - независимо\n
+           owing to - из-за, благодаря\n
+           thanks to - благодаря"
+                android:padding="10dp"
+                android:textColor="@color/custom_view_text_color"/>
+
+
+    </LinearLayout>
+</ScrollView>

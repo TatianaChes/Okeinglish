@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Будущее совершенное время\n(The Future Perfect Tense)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tFuture Perfect употребляется для описания будущего действия, которое совершится до определенного момента в будущем."/>
+
+        <TextView
+            style="@style/title"
+            android:text="Образование"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tБудущее совершенное время образуется при помощи will have + причастие прошедшего времени основного глагола.\n\tВ вопросах глагол will ставится перед подлежащим, в отрицательных предложениях отрицательная частица not идет непосредственно за глаголом will."/>
+
+
+        <TableLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:text="утвердительная\nформа"
+                    android:background="@drawable/border"
+                    android:padding="3dp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:text="отрицательная\nформа"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:text="вопросительная\nформа"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    android:textSize="11sp"
+                    android:gravity="left"
+                    android:text="I will have written\nyou will have written\nhe will have written\nshe will have written\nit will have written\nwe will have written\nthey will have written"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+                <TextView
+                    android:textSize="11sp"
+                    android:gravity="left"
+                    android:text="I will not have written\nyou will not have written\nhe will not have written\nshe will not have written\nit will not have written\nwe will not have written\nthey will not have written"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+                <TextView
+                    android:textSize="11sp"
+                    android:gravity="left"
+                    android:text="Will I have written?\nWill you have written?\nWill he have written?\nWill she have written?\nWill it have written?\nWill we have written?\nWill they have written?"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            style="@style/title"
+            android:text="Утвердительная форма"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <LinearLayout
+       style="@style/linear"
+            >
+
+            <TextView
+              style="@style/corner"
+                android:text="Подлежащее"
+                android:backgroundTint="@color/blue"/>
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+            <TextView
+               style="@style/corner"
+                android:text="will"
+                android:backgroundTint="#ff4b4b"
+                />
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+               />
+
+            <TextView
+               style="@style/corner"
+                android:text="have"
+                android:backgroundTint="#ff4b4b"
+              />
+            <TextView
+               style="@style/arithmetic"
+                android:text="+"
+              />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            style="@style/linear"
+            >
+            <TextView
+
+                android:text="Причастие(ed/V3)"
+                style="@style/corner"
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+               style="@style/arithmetic"
+                android:text="="
+               />
+
+            <TextView
+            style="@style/corner"
+                android:text="Утверждение"
+                android:backgroundTint="@color/yellow"/>
+        </LinearLayout>
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="200dp"
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+
+                        android:text="Mary will have married Bob by then\nК тому времени Мэри выйдет замуж за Боба"
+                        style="@style/textTable" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/marry"/>
+
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TextView
+            style="@style/title"
+            android:text="Отрицательная форма"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <LinearLayout
+               style="@style/linear"
+                >
+            <TextView
+
+                android:text="Подлежащее"
+               style="@style/corner"
+                android:backgroundTint="@color/blue"/>
+            <TextView
+               style="@style/arithmetic"
+                android:text="+"
+               />
+            <TextView
+                style="@style/corner"
+                android:text="will"
+                android:backgroundTint="@color/red"
+            />
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+               />
+            <TextView
+                style="@style/corner"
+                android:text="not"
+                android:backgroundTint="@color/red"
+
+                />
+            <TextView
+                style="@style/arithmetic"
+                android:text="+"
+              />
+            <TextView
+                style="@style/corner"
+                android:text="have"
+                android:backgroundTint="@color/red"
+
+                />
+           <TextView
+                style="@style/arithmetic"
+                android:text="+"
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+               style="@style/linear"
+                >
+            <TextView
+
+                android:text="Причастие(ed/V3)"
+                style="@style/corner"
+                android:backgroundTint="@color/green"/>
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="="
+               />
+
+            <TextView
+                style="@style/corner"
+                android:text="Отрицание"
+                android:backgroundTint="@color/yellow"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+
+            style="@style/cardView"
+            android:layout_height="190dp"
+            >
+            <TableLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:text="She won’t have visited England by December this year\nОна не посетит Англию к декабрю этого года"
+                        style="@style/textTable" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/england"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            style="@style/title"
+            android:text="Вопросительная форма"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/linear">
+
+                <TextView
+
+                    android:backgroundTint="@color/red"
+                  style="@style/corner"
+                    android:text="Will"
+                 />
+
+                <TextView
+                 style="@style/arithmetic"
+                    android:text="+"
+                   />
+
+                <TextView
+
+                    android:backgroundTint="@color/blue"
+                 style="@style/corner"
+                    android:text="Подлежащее"
+                   />
+
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+               />
+
+                <TextView
+
+                    android:backgroundTint="@color/red"
+                 style="@style/corner"
+                    android:text="have"
+                />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                    />
+
+                <TextView
+
+                    android:backgroundTint="@color/green"
+                    style="@style/corner"
+                    android:text="Причастие\n(ed/V3)"
+                />
+
+
+                <TextView
+                   style="@style/arithmetic"
+                    android:text="="
+                 />
+
+                <TextView
+                    android:backgroundTint="@color/yellow"
+                    style="@style/corner"
+                    android:text="Вопрос"
+                  />
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView
+
+            style="@style/cardView"
+            android:layout_height="190dp"
+          >
+            <TableLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        style="@style/textTable"
+                       android:text="Where will you have left?\nКуда вы уедете?"
+                       />
+                    <TextView
+                        style="@style/textTable"
+                        android:text="Will you have written?\nТы напишешь?"
+                       />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/left"/>
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/letter"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            style="@style/title"
+            android:text="Употребление"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="\tБудущее совершенное время употребляется, когда говорится о действии, которое будет выполнено к определенному моменту в будущем. Это время часто употребляется с глаголами, обозначающими окончание или выполнение действия."
+            />
+
+
+    </LinearLayout>
+</ScrollView>

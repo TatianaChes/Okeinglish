@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Наклонение\n(The mood)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tВ анлийском языке три наклонения: изъявительное, повелительное и сослагательное.\n\tИзъявительное наклонение употребляется для высказываний, утверждений, простых вопросов. Действие в этих предложениях рассматривается как реальный факт, который может относиться к настоящему, прошедшему и будущему."/>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+        I am hungry - Я хочу есть\n
+        She wants to go to the film festival - Она хочет пойти на кинофестиваль\n
+        The weather was bad - Погода была плохая\n
+        They will come tomorrow - Они придут завтра"
+                android:padding="10dp"
+                android:textColor="@color/custom_view_text_color"/>
+
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПовелительное наклонение выражает побуждение к действию. Это может быть приказ, команда, требование, просьба, совет."
+            android:layout_marginTop="20dp"/>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textColor="@color/custom_view_text_color"
+       android:text="\tDon't worry. I've already cooked dinner for us - Не беспокойся. Я уже приготовил для нас ужин.\n\tOpen your bag, please - Откройте вашу сумку, пожалуйста.\n\tBe quite! - Тише!"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tСослагательное наклонение служит для выражения нереального действия или нереального условия."
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tIf I had a lot of money, I would buy a sailing boat - Если бы у меня было много денег, я бы купил парусную лодку.\n\tIf I were you, I would ask for help - На вашем месте я бы обратился за помощью."/>
+  <TextView
+      style="@style/title"
+      android:text="Образование повелительного наклонения"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tПовелительное наклонение (императив) образуется при помощи основного глагола без частицы to и без подлежащего:"/>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/custom_view_text_color"
+          android:text="\tto sleep(спать) - to = sleep!(спи!)"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tФорма императива одинакова для единственного и множественного числа."/>
+
+        <TextView
+            style="@style/title"
+            android:text="Отрицательная форма"/>
+
+        <LinearLayout
+            style="@style/linear">
+
+            <TextView
+                android:backgroundTint="@color/red"
+                style="@style/corner"
+                android:text="Don't"  />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="+" />
+
+            <TextView
+                android:backgroundTint="@color/green"
+                style="@style/corner"
+                android:text="Инфинитив без\nчастицы to" />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="=" />
+
+            <TextView
+                android:backgroundTint="@color/yellow"
+                style="@style/corner"
+                android:text="Отрицательная\nформа" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Пример: Don't sleep! - Не спи!"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="\tВ качестве побудительной конструкции употребляется оборот let us(let's) + инфинитив:"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+              android:textColor="@color/custom_view_text_color"
+                android:text="\tLet's go to the theatre - Давай пойдем в театр."/>
+
+        <TextView
+            style="@style/corner"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Сослагательное наклонениe"
+            />
+
+        <LinearLayout
+            style="@style/linear"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                style="@style/corner"
+                android:text="сослагательное\nнаклонение I\n(Subjective I)"/>
+
+
+            <TextView
+                style="@style/corner"
+                android:text="сослагательное\nнаклонение II\n(Subjective II)"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/linear"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                style="@style/corner"
+                android:text="нереальное условие:\nдействия, которые\nвряд ли произойдут"/>
+
+            <TextView
+                style="@style/corner"
+                android:text="нереальное условие:\nдействия, предпологаемые\nв прошлом, но которые\nтак и не произошли"
+            android:layout_marginLeft="30dp"
+            />
+        </LinearLayout>
+        <TextView style="@style/title"
+            android:text="Образование сослогательного наклонения I"/>
+     <GridLayout
+          android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:columnCount="5"
+         android:rowCount="2">
+
+            <TextView
+
+                style="@style/corner"
+                android:text="if +\nPast Simple"  />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="..." />
+
+            <TextView
+                style="@style/corner"
+                android:text="would +\nсмысловой\nглагол" />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="=" />
+
+            <TextView
+                style="@style/corner"
+                android:text="сослагательно\nнаклонение I" />
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+               android:text="|______________|\nпридаточное\nпредложение" />
+            <TextView
+                android:layout_column="2"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="|_____________|\nглавное\nпредложение"/>
+     </GridLayout>
+
+        <TextView style="@style/title"
+            android:text="Образование сослогательного наклонения II"/>
+        <GridLayout
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="5"
+            android:rowCount="2">
+
+            <TextView
+
+                style="@style/corner"
+                android:text="if +\nPast Perfect"  />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="..." />
+
+            <TextView
+                style="@style/corner"
+                android:text="would have\n+ Participle II" />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="=" />
+
+            <TextView
+                style="@style/corner"
+                android:text="сослагательно\nнаклонение II" />
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="|______________|\nпридаточное\nпредложение" />
+            <TextView
+                android:layout_column="2"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="|_____________|\nглавное\nпредложение"/>
+        </GridLayout>
+        </LinearLayout>
+</ScrollView>

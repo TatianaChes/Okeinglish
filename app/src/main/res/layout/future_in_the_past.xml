@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Будущее в прошедшем\n(Future in the Past)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="\tFuture in the Past употребляется для описания будущего действия, рассматриваемого не с точки зрения настоящего момента, а с точки зрения прошедшего времени."/>
+        <TextView
+           style="@style/corner"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="will -> would"/>
+
+        <TableLayout
+        android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <TextView
+                style="@style/textTable"
+                android:text="группа"
+                />
+            <TextView
+                style="@style/textTable"
+                android:text="будущее"
+                />
+        <TextView
+            style="@style/textTable"
+            android:text="будущее в прошедшем"
+          />
+        </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Simple"
+                    />
+                <TextView
+                    android:gravity="left"
+                    style="@style/textTable"
+                    android:text="I will speak\nYou will speak\nHe will speak\nShe will speak\nIt will speak\nWe will speak\nThey will speak"
+                    />
+                <TextView
+                    android:gravity="left"
+                    style="@style/textTable"
+                    android:text="I would speak\nYou would speak\nHe would speak\nShe would speak\nIt would speak\nWe would speak\nThey would speak"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Continuous"
+                    />
+                <TextView
+                    android:gravity="left"
+                    style="@style/textTable"
+                    android:text="I will be speaking\nYou will be speaking\nHe will be speaking\nShe will be speaking\nIt will be speaking\nWe will be speaking\nThey will be speaking"
+                    />
+                <TextView
+                    android:gravity="left"
+                    style="@style/textTable"
+                    android:text="I would be speaking\nYou would be speaking\nHe would be speaking\nShe would be speaking\nIt would be speaking\nWe would be speaking\nThey would be speaking"
+                    />
+            </TableRow>
+        </TableLayout>
+        <com.google.android.material.card.MaterialCardView
+
+            style="@style/cardView"
+            android:layout_height="210dp"
+            >
+            <TableLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shrinkColumns="0,1"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:text="I thought the would come\nЯ думал, что он придет"
+                        style="@style/textTable" />
+
+                    <TextView
+
+                        android:text="He told me that he would meet us at the station\nОн сказал, что встретит нас на вокзале"
+                        style="@style/textTable"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:background="@drawable/waiting"/>
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+
+                        android:background="@drawable/station"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

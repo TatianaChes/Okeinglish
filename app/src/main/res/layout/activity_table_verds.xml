@@ -1,0 +1,2442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical" >
+    <TextView
+       style="@style/title"
+        android:text="Таблица неправильных глаголов"
+     />
+    <TableLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:gravity="center"
+                android:text="Infinitive\n (Что делать?) "
+                android:background="@drawable/border"
+                android:padding="3dp"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:text="Past Simple\n (Что делал?) "
+                android:padding="3dp"
+                android:background="@drawable/border"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:gravity="center"
+                android:text="Past Participle\n (Какой?) "
+                android:padding="3dp"
+                android:background="@drawable/border"
+                android:textSize="16sp"
+                 />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="arise - возникать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="arose"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="arisen"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="awake - просыпаться"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="awoke"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="awoken"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="be - быть"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="was, were"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="been"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="become - становиться"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="became"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="become"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="begin - начинать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="began"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="begun"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="bind - связывать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="bound"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="bound"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="bite - кусать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="bit"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="bitten"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="blow - дуть"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="blew"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="blown"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="break - разбивать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="broke"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="broken"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="bring - приносить"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="brought"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="brought"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="build - строить"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="built"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="built"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="burn - гореть, жечь"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="burnt"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="burnt"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="buy - покупать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="bought"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="bought"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="catch - ловить"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="caught"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="caught"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="choose - выбирать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="chose"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="chosen"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="come - приходить"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="came"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="come"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="cost - стоить"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="cost"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="cost"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="cut - резать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="cut"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="cut"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="deal - иметь дело"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="dealt"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="dealt"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="dig - копать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="dug"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="dug"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="do - делать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="did"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="done"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="draw - рисовать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="drew"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="drawn"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="dream - мечтать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="dreamt"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="dreamt"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="drink - пить"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="drank"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="drunk"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="drive - ехать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="drove"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="driven"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="eat - кушать"
+
+                />
+
+            <TextView
+               style="@style/table_verbs"
+                android:text="ate"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="eaten"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="fall - падать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="fell"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="fallen"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="feed - кормить"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="fed"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="fed"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="feel - чувствовать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="felt"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="felt"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="fight - бороться"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="fought"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="fought"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="find - находить"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="found"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="found"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="fly - летать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="flew"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="flown"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="forget - забывать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="forgot"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="forgotten"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="freeze - замерзать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="froze"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="frozen"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="get - получать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="got"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="got"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="give - давать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="gave"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="given"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+
+                android:text="go - идти"
+                style="@style/table_verbs"
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="went"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="gone"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="grow - расти"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="grew"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="grown"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="hang - висеть"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="hung"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="hung"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="have - иметь"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="had"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="had"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="hear - слышать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="heard"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="heard"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="hide - прятать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="hid"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="hid(hidden)"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="hit - ударять"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="hit"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="hit"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="hold - держать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="held"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="held"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="hurt - ушибить"
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="hurt"
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="hurt"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="keep - держать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="kept"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="kept"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="know - знать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="knew"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="known"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="lay - класть"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="laid"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="laid"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="lead - вести"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="led"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="led"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="learn - учиться"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="learnt, learned"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="learnt, learned"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="leave - уезжать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="left"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="left"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="let - позволять"
+
+                />
+
+            <TextView
+
+                android:text="let"
+                style="@style/table_verbs"
+                />
+            <TextView
+
+                android:text="let"
+                style="@style/table_verbs"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="lie - лежать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="lay"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="lain"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="light - освещать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="lit, lighted"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="lit, lighted"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="lose - терять"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="lost"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="lost"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="make - делать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="made"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="made"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="mean - значить"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="meant"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="meant"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="meet - встречать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="met"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="met"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="pay - платить"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="paid"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="paid"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="put - класть"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="put"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="put"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="read - читать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="read"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="read"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="ride - ездить верхом"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="rode"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="rode"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="ring - звонить"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="rang"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="rung"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="rise - подниматься"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="rose"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="risen"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="run - бегать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="ran"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="run"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="say - сказать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="said"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="said"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="see - видеть"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="saw"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="seen"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="sell - продавать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="sold"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="sold"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="send - посылать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="sent"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="sent"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="shake - трясти"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="shook"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="shaken"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="shave - бриться"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="shaved"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="shaven"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="shine - светить"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="shone"
+
+                />
+            <TextView
+
+                android:text="shone"
+                style="@style/table_verbs"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="shoot - стрелять"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="shot"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="shot"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="show - показывать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="showed"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="shown"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="shut - закрывать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="shut"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="shut"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="sing - петь"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="sang"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="sung"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="sit - сидеть"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="sat"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="sat"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="sleep - спать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="slept"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="slept"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="smell - пахнуть"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="smelt"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="smelt"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="speak - разговаривать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="spoke"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="spoken"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="spend - тратить"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="spent"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="spent"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+
+                android:text="spread - распространять"
+                style="@style/table_verbs"
+                />
+
+            <TextView
+
+                android:text="spread"
+                style="@style/table_verbs"
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="spread"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="spring - прыгать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="sprang"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="sprung"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="stand - стоять"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="stood"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="stood"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+
+                android:text="steal - красть"
+                style="@style/table_verbs"
+                />
+
+            <TextView
+
+                android:text="stole"
+                style="@style/table_verbs"
+                />
+            <TextView
+
+                android:text="stolen"
+                style="@style/table_verbs"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+
+                android:text="strike - ударять"
+                style="@style/table_verbs"
+                />
+
+            <TextView
+
+                android:text="struck"
+                style="@style/table_verbs"
+                />
+            <TextView
+
+                android:text="struck"
+                style="@style/table_verbs"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+
+                android:text="strive - стремиться"
+                style="@style/table_verbs"
+                />
+
+            <TextView
+
+                android:text="strove"
+                style="@style/table_verbs"
+                />
+            <TextView
+
+                android:text="striven"
+                style="@style/table_verbs"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="sweep - мести"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="swept"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="swept"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="swim - плавать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="swam"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="swum"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="take - брать, взять"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="took"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="taken"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="teach - обучать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="taught"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="taught"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="tear - рвать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="tore"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="torn"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="tell - рассказать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="told"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="told"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="think - думать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="thought"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="thought"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="throw - бросать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="threw"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="thrown"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="understand - понимать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="understood"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="understood"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="wear - носить"
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="wore"
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="worn"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="weep - плакать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="wept"
+
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="wept"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="win - выигрывать"
+
+                />
+
+            <TextView
+                style="@style/table_verbs"
+                android:text="won"
+
+                />
+            <TextView
+                android:text="won"
+                style="@style/table_verbs"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:text="write - писать"
+                style="@style/table_verbs"
+                />
+
+            <TextView
+               android:text="wrote"
+               style="@style/table_verbs"
+                />
+            <TextView
+                style="@style/table_verbs"
+                android:text="written"
+             />
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+</ScrollView>

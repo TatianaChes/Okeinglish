@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Настоящее совершенное продолжительное время\n(The Present Perfect Continuos Tense)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tPresent Perfect Continuous выражает длительное действие, начавшееся до какого-то определенного момента и еще продолжающееся в этот момент."  />
+
+        <TextView
+            style="@style/title"
+            android:text="Образование"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tНастоящее совершенное продолжительнное время образуется при помощи вспомогательного глагола to have + причастие прошедшего времени глагола to be + причастие настоящего времени смыслового глагола.\n\tВ вопросах вспомогательный глагол to have ставится перед подлежащим.\n\tВ отрицательных предложениях отрицательная частица not ставится после вспомогательного глагола to have."/>
+
+        <com.google.android.material.card.MaterialCardView
+          style="@style/cardView"
+            android:layout_height="wrap_content"
+          >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+            I have been waiting - Я ждал\n
+            She has been waiting - Она ждала\n
+            Have I been snoring - Я храпел?\n
+            He hasn't been waiting - Он не ждал"
+                android:padding="10dp"
+                android:textColor="@color/custom_view_text_color"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TableLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:text="утвердительная\nформа"
+                    android:background="@drawable/border"
+                    android:padding="3dp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:text="отрицательная\nформа"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:text="вопросительная\nформа"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+
+                <TextView
+                    android:textSize="9sp"
+                    android:gravity="left"
+                    android:text="I have been working\nyou have been working\nhe has been working\nshe has been working\nit has been working\nwe have been working\nthey have been working"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+                <TextView
+                    android:textSize="9sp"
+                    android:gravity="left"
+                    android:text="I have not been working\nyou have not been working\nhe has not been working\nshe has not been working\nit has not been working\nwe have not been working\nthey have not been working"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+                <TextView
+                    android:textSize="9sp"
+                    android:gravity="left"
+                    android:text="Have I been working?\nHave you been working?\nHas he been working?\nHas she been working?\nHas it been working?\nHave we been working?\nHave they been working?"
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    />
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            style="@style/title"
+            android:text="Утвердительная форма"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <LinearLayout
+                style="@style/linear"
+                >
+                <TextView
+                    style="@style/corner"
+                    android:text="Подлежащее"
+                    android:backgroundTint="@color/blue"/>
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                 />
+                <TextView
+                   style="@style/corner"
+                    android:text="have/\nhas"
+                    android:backgroundTint="@color/red"
+
+                    />
+                <TextView
+                   style="@style/arithmetic"
+                    android:text="+"
+                  />
+
+
+
+                <TextView
+                   style="@style/corner"
+                    android:text="been"
+                    android:backgroundTint="@color/red"
+
+                    />
+                <TextView
+                   style="@style/arithmetic"
+                    android:text="+"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+               style="@style/linear"
+                >
+                <TextView
+                    style="@style/corner"
+                    android:text="Причастие(ing)"
+                    android:backgroundTint="@color/green"/>
+
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="="
+                   />
+
+                <TextView
+                   style="@style/corner"
+                   android:text="Утверждение"
+                   android:backgroundTint="@color/yellow"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/cardView"
+            android:layout_height="210dp"
+         >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shrinkColumns="0"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="I have been reading this book since ten in the morning, and I haven't finished yet\nЯ читала эту книгу с десяти утра, и еще не закончила"
+                        style="@style/textTable" />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/reading_book" />
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TextView
+            style="@style/title"
+            android:text="Отрицательная форма"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <LinearLayout
+                style="@style/linear"
+                >
+                <TextView
+                    style="@style/corner"
+                    android:text="Подлежащее"
+                     android:backgroundTint="@color/blue"/>
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                  />
+                <TextView
+                   style="@style/corner"
+                    android:text="have/\nhas"
+                    android:backgroundTint="#ff4b4b"
+                    />
+
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                   />
+                <TextView
+                   style="@style/corner"
+                    android:text="not"
+                    android:backgroundTint="#ff4b4b"
+                    />
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                   />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+              style="@style/linear"
+                >
+
+                <TextView
+                    style="@style/corner"
+                    android:text="been"
+                    android:backgroundTint="#ff4b4b"
+                   />
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                   />
+                <TextView
+                    style="@style/corner"
+                    android:text="Причастие(ing)"
+                    android:backgroundTint="@color/green"/>
+
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="="
+                   />
+
+                <TextView
+                     style="@style/corner"
+                     android:text="Отрицание"
+                     android:backgroundTint="@color/yellow"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            style="@style/title"
+            android:text="Вопросительная форма"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <LinearLayout
+              style="@style/linear"
+                >
+
+                <TextView
+                    style="@style/corner"
+                    android:text="Have/\nHas"
+                    android:backgroundTint="#ff4b4b"
+                       />
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                    />
+                <TextView
+                   style="@style/corner"
+                    android:text="Подлежащее"
+                    android:backgroundTint="@color/blue"/>
+                <TextView
+                    style="@style/arithmetic"
+                    android:text="+"
+                  />
+                <TextView
+                  style="@style/corner"
+                    android:text="been"
+                    android:backgroundTint="#ff4b4b"
+                 />
+                <TextView
+                  style="@style/arithmetic"
+                    android:text="+"
+                   />
+
+          </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                style="@style/linear">
+
+                <TextView
+                    style="@style/corner"
+                    android:text="Причастие(ing)"
+                    android:backgroundTint="@color/green"/>
+
+                <TextView
+                   style="@style/arithmetic"
+                    android:text="="
+                 />
+
+                <TextView
+                   style="@style/corner"
+                    android:text="Вопрос"
+                    android:backgroundTint="@color/yellow"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            style="@style/title"
+            android:text="Употребление"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tНастоящее совершенное продолженное время употребляется:\n\t• Когда говорится о действии или состоянии, которые начинаются в прошлом и еще продолжаются в момент речи:"
+            />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/custom_view_text_color"
+    android:text="\tI have been holding this ladder for ages. When are you going to come down? - Я держу эту лестницу целую вечность. Когда ты собираешься слезть с нее?"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Когда говорится о действии или состоянии, которые начались в прошлом и только что закончились:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tThank goodness you're here! I've been waiting for hours - Слава богу, ты здесь! Я ждал целую вечность."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Когда говорится о повторяющихся действиях:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI've been getting this magazine every week for a year - Я получал этот журнал каждую неделю в течение года."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Чтобы показать раздражение, гнев:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tWho has been using my computer? - Кто это пользовался моим компьютером? "/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Когда речь идет о действиях, протянутых во времени, между настоящим совершенным временем и настоящим совершенным продолженным временем разницы практически нет:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI have been working here / I have worked here for three years - Я работаю / работал здесь три года."/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Продолжительнное время предпочтительнее, когда говорится о временном действии, а настоящее совершенное - когда говорится о постоянном действии."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI have been living in London since I left school - Я живу в Лондоне, с тех пор как окончил школу."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI have lived in London since I was born - Я живу в Лондоне с рождения."/>
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Такие глаголы, как to know, to like в настоящем совершенном продолжительном времени не употребляются, так как они не употребляются в продолженных временах. "
+            />
+    </LinearLayout>
+</ScrollView>

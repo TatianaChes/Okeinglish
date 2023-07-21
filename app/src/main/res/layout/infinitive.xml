@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            style="@style/title"
+            android:text="Инфинитив\n(The Infinitive)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="\tИнфинитив - неличная форма глагола, которая называет действие, не указывая ни лица, ни числа, отвечает на вопросы: что делать? что сделать?\n\tИнфинитив употребляется с частицей to или без нее. Инфинитив без частицы to называется простым или базовой формой глагола."  />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+
+                <TextView
+                  style="@style/corner"
+                    android:text="Инфинитив"
+                 />
+
+            <LinearLayout
+               style="@style/linear"
+               android:layout_marginTop="10dp"
+                   >
+                <TextView
+                    style="@style/corner"
+                    android:text="с частицей to"/>
+
+
+                <TextView
+                    style="@style/corner"
+                    android:text="без частицы to"
+                    android:layout_marginLeft="10dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                   style="@style/corner"
+                    android:text="I am glad to see you\nРад видеть тебя"/>
+
+
+                <TextView
+                    style="@style/corner"
+                    android:text="You must pay for it\nВы должны заплатить за это"
+                    android:layout_marginLeft="10dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            style="@style/title"
+            android:text="Употребление инфинитива\nс частицей to"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• После прилагательных, обозначающих качество, например, small, tall, agreeable, pleasant, funny c too или (not) + adjective + enough:"
+            />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/custom_view_text_color"
+    android:text="\tThe child was too small to reach the switch - Ребенок был слишком маленьким, чтобы дотянуться до выключателя."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tThe knife was too blunt to cut the string - Нож был слишком тупой, чтобы перерезать веревку."/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• После прилагательных, обозначающих эмоции, таких как angry, happy, glad, sad, sorry, surprise:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI'm glad to see you - Рад вас видеть."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI'm sorry to hear your news - Мне жаль, что у вас такая новость."/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• После прилагательных, описывающих поведение, таких как good, kind, nice, silly, wrong:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI was good of you to come, and kind of Jane to have sent those flowers - Хорошо, что вы пришли и очень любезно было со стороны Джейн прислать цветы."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI was silly to go off like that - Глупо было уходить вот так."/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• После слов how, what, where, whether, which, who, whom:"
+            />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/custom_view_text_color"
+        android:text="\tWe have no idea what to get for Tim's birthday - Мы понятия не имеем, что подарить Тиму на день рождения."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI don't know where to go. - Не знаю, куда идти."/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• После словосочетаний a good idea, a good thing, a mistake:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tIt was a mistake for Jim to buy that motorbike - Зря Джим купил этот мотоцикл."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tIt was a good idea to stop here - Было хорошей идеей остановиться здесь."/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• После прилагательных easy, difficult, hard, impossible + for + существительное:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tIt has never been easy for David to sit exams - Для Дэвида всегда было не просто сдавать экзамены."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• После глагола с предлогом for, например, ask, wait + for + дополнение:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tThey are waiting for us to decide. - Они ждали, чтобы мы решили."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Для выражения цели или необходимости; после глагола, за которым следует существительное или местоимение:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI brought it to read on the train - Я взял ее, чтобы почитать в поезде."/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tThere is work to do! - Есть работа, которую надо сделать!."/>
+
+
+        <TextView
+            style="@style/title"
+            android:textColor="@color/colorPrimary"
+            android:text="Употребление инфинитива\nбез частицы to"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• После модальных глаголов:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tYou must stop at the kerd before you cross - Нужно остановиться на краю тротуара, перед тем как перейти дорогу."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tHe should think before he speaks - Ему следует думать, перед тем как говорить."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• После let's, let и make:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tLet the cat go! - Отпусти кота!"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tMake him stop! - Заставь его прекратить!"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• После feel, hear, see, watch + дополнение:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI heard him run downstairs - Я слышал, как он сбежал вниз по лестнице."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tLater we saw them leave the house - Позже мы видели, как они вышли из дома."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• После инфинитива с частицей to, с союзом and:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI want you to sit and listen - Я хочу чтобы ты сидел и слушал."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tJust wait and see - Просто подожди и ты увидишь."/>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• После would ruther и had better:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tI would ruther go out, but I think we had better stay home and finish the painting - Я бы предпочел уйти, но нам лучше остаться дома и закончить красить."/>
+
+
+        <TextView
+            style="@style/title"
+            android:text="Функции инфинитива в предложении"
+            />
+
+
+        <com.google.android.material.card.MaterialCardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:strokeWidth="3dp"
+            app:strokeColor="@color/colorPrimary"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp">
+
+            <TableLayout
+                android:id="@+id/table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:gravity="center"
+                        android:text="Подлежащее"
+                        android:textSize="13dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:padding="3dp" />
+
+                    <TextView
+                        android:textSize="13dp"
+                        android:gravity="left"
+                        android:text="To speak English is not diffucult\nГоворить по-английски совсем не сложно"
+                        android:padding="3dp"
+                        android:background="@drawable/border"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:textSize="13dp"
+                        android:text="Часть\nсказуемого"
+                        android:background="@drawable/border"
+                       android:padding="3dp" />
+
+                    <TextView
+                        android:textSize="13dp"
+                        android:gravity="left"
+                        android:text="You can do it\nВы можете сделать это"
+                        android:padding="3dp"
+                        android:background="@drawable/border"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:textSize="13dp"
+                        android:text="Прямое\nдополнение"
+                        android:background="@drawable/border"
+                        android:padding="3dp" />
+
+                    <TextView
+                        android:textSize="13dp"
+                        android:gravity="left"
+                        android:text="We like to play tennis\nМы любим играть в теннис"
+                        android:padding="3dp"
+                        android:background="@drawable/border"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="13dp"
+                        android:text="Определение"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:padding="3dp" />
+
+                    <TextView
+                        android:textSize="13dp"
+                        android:gravity="left"
+                        android:text="This is a good place to work in\nЭто хорошее место для работы"
+                        android:padding="3dp"
+                        android:background="@drawable/border"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="13dp"
+                        android:layout_height="match_parent"
+                        android:text="Обстоятельс-\nтво цели"
+                        android:background="@drawable/border"
+                        android:padding="3dp" />
+
+                    <TextView
+                        android:gravity="left"
+                        android:textSize="13dp"
+                        android:text="He went home to rest\nОн пошел домой отдохнуть"
+                        android:padding="3dp"
+                        android:background="@drawable/border"
+                        />
+                </TableRow>
+            </TableLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+           android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="Инфинитив имеет формы времени и залога"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                style="@style/corner"
+                android:text="to be"
+              />
+
+            <TextView
+              style="@style/arithmetic"
+                android:text="+"
+               />
+
+
+            <TextView
+
+                style="@style/corner"
+                android:text="Причастие(ed)"
+
+                />
+
+            <TextView
+                style="@style/arithmetic"
+                android:text="="
+              />
+
+            <TextView
+
+                android:text="Инфинитив\nстрадательного\nзалога"
+                style="@style/corner"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\tto do - делать(действительный залог) -> to be done - быть сделанным(страдательный залог)"
+            />
+
+
+        <TableLayout
+            android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="время\nглагола"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="Активный залог\n(Active)"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="Страдательный загол\n(Passive)"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="Simple"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="to ask"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="to be asked"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+                <TextView
+                    android:text="Continuous"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="to be asking"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="-"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="Perfect"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="to have asked"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="to have been asked"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:text="Perfect\nContinuous"
+                    style="@style/textTable" />
+
+                <TextView
+                    style="@style/textTable"
+                    android:text="to have  been asking"
+                    />
+                <TextView
+                    style="@style/textTable"
+                    android:text="-"
+                    />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Present Infinitive употребляется в отношении настоящего времени и будущего:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tShe wants to watch a film now - Она хочет сейчас посмотреть фильм.\n\tShe wants to go to the cinema tomorrow - Она хочет пойти завтра в кино."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Present Continuous Infinitive описывает действие, которое происходит сейчас:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tHe is thought to be living on his own - Некоторые думают, что он живет один."
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Perfect Infinitive употребляется в отношении прошедшего времени и показывает, что действие, выраженное инфинитивом, произошло до действия, выраженного сказуемым. Он употребляется с такими глаголами, как see, appear, believe, claim, expect и модальными глаголами:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\tHe claims to have met Pamela Anderson - Он заявляет, что видел Памелу Андресон."/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t• Perfect Continuous Infinitive употребляется в отношении прошедшего времени и делает акцент на протяженности во времени действия, выраженного инфинитивом, которое началось до действия, выраженного сказуемым:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/custom_view_text_color"
+            android:text="\t He needs a holiday. He claims to have been studying hard for his exams - Ему нужен отдых. Он заявляет, что упорно занимался, готовясь к экзаменам."
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+
+
+</ScrollView>
